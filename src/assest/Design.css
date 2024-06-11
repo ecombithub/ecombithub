@@ -1,0 +1,1523 @@
+.website--section-build {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.perfrom-first {
+    background-image: url(../images/flo.png);
+    background-repeat: no-repeat;
+}
+
+.laye-first {
+    display: flex;
+    gap: 5px;
+
+}
+
+.laye-first .laye2-right h5 {
+    margin-top: 6px;
+    font-size: 16px;
+    font-family: Work Sans;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.website--section-perfrom .website--section-perfrom-element p {
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.website--section-perfrom .website--section-perfrom-element h1 {
+    margin-top: 0;
+    max-width: 55%;
+    margin-bottom: 10px;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* .website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to {
+    height: 40px;
+    width: 210px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    font-weight: 500;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to {
+    background-image: linear-gradient(to right, #fc5569, #fc5569, #4f7513, #ade94e);
+
+} */
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to {
+    height: 40px;
+    width: 210px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    background-color: #fc5569;
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover .rotate-text:nth-child(10) {
+    animation: rotateLetter 0.8s ease 1s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover .rotate-text:nth-child(11) {
+    animation: rotateLetter 0.8s ease 1.2s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover .rotate-text:nth-child(12) {
+    animation: rotateLetter 0.8s ease 1.3s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover .rotate-text:nth-child(13) {
+    animation: rotateLetter 0.8s ease 1.4s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover .rotate-text:nth-child(14) {
+    animation: rotateLetter 0.8s ease 1.5s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover .rotate-text:nth-child(15) {
+    animation: rotateLetter 0.8s ease 1.6s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover .rotate-text:nth-child(16) {
+    animation: rotateLetter 0.8s ease 1.7s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover .rotate-text:nth-child(17) {
+    animation: rotateLetter 0.8s ease 1.8s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:before,
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #77af1e;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:before {
+  left: 0;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:after {
+  right: 0;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover {
+  color: #f8f8f8;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover:before {
+  width: 50%;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to:hover:after {
+  width: 50%;
+}
+
+
+
+
+/* .website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side {
+    height: 40px;
+    width: 210px;
+    font-family: Anuphan;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FFEBED;
+    cursor: pointer;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+    color: white;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side {
+    background-image: linear-gradient(to right, #ffebed, #ffebed, #4f7513, #ade94e);
+} */
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side {
+    height: 40px;
+    width: 210px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #ffebed ;
+
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover .rotate-text:nth-child(10) {
+    animation: rotateLetter 0.8s ease 1s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover .rotate-text:nth-child(11) {
+    animation: rotateLetter 0.8s ease 1.2s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover .rotate-text:nth-child(12) {
+    animation: rotateLetter 0.8s ease 1.3s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover .rotate-text:nth-child(13) {
+    animation: rotateLetter 0.8s ease 1.4s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover .rotate-text:nth-child(14) {
+    animation: rotateLetter 0.8s ease 1.5s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover .rotate-text:nth-child(15) {
+    animation: rotateLetter 0.8s ease 1.6s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover .rotate-text:nth-child(16) {
+    animation: rotateLetter 0.8s ease 1.7s forwards;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover .rotate-text:nth-child(17) {
+    animation: rotateLetter 0.8s ease 1.8s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:before,
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #77af1e;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:before {
+  left: 0;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:after {
+  right: 0;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover {
+  color: #f8f8f8;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover:before {
+  width: 50%;
+}
+
+.website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side:hover:after {
+  width: 50%;
+}
+
+
+
+.website--section-perfrom .website--section-perfrom-flex {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 0 0 auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.website--section-perfrom .website--section-perfrom-image img {
+    width: 100%;
+}
+
+.back-side {
+    position: absolute;
+    left: 65%;
+    bottom: 43%;
+
+}
+
+
+.website--section-build .website--section-perfrom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.website--section-perfrom .website--section-perfrom-image {
+    padding-top: 40px;
+    width: 50%;
+}
+
+.laye-first .laye2-right h4 {
+    margin-top: 1px;
+    font-size: 19px;
+    font-family: Work Sans;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.design--section-perform .figma-bg-to .figma-right .more-figma {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 8px;
+
+}
+
+
+.design--section-perform .figma-bg-to {
+    display: flex;
+}
+
+.figma-left img {
+    width: 100%;
+}
+
+.design--section-perform .figma-bg-to .figma-right h2 {
+    margin: 0;
+}
+
+.optimaztion--section-perfrom {
+    border-top: 1px solid rgb(209, 209, 209);
+    background-color: #fff7f8;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.optimaztion--section-perfrom .laye-first {
+    justify-content: center;
+}
+
+.optimaztion--section-perfrom .optimaztion--section-perfrom-first h2 {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.optimaztion--section-perfrom .optimaztion--section-perfrom-image {
+    text-align: center;
+}
+
+.optimaztion--section-perfrom .optimaztion--section-perfrom-image img {
+    width: 100%;
+    max-width: 75%;
+}
+
+.design--section-perform {
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    background-image: url(../images/ly.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.design--section-perform .figma-bg-to .figma-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.design--section-perform .design--section-mobile h2 {
+    margin: auto;
+    max-width: 52%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.design--section-perform .design--section-mobile-image img {
+    width: 100%;
+}
+
+.slider--section {
+    width: 100%;
+    background-image: url(../images/am1.png);
+    background-size: cover;
+
+}
+
+.slider--section .slider--section-first {
+    display: flex;
+    width: 46%;
+}
+
+
+.slider--section-first .slider--section-first-sides {
+    width: 30% !important;
+    outline: none !important;
+}
+
+.slider--section-first-sides .slick-prev {
+    display: none !important;
+
+}
+
+.slider--section-first-sides .slick-next {
+    display: none !important;
+}
+
+.slider--section-first-sides .slick-track {
+    top: 25px;
+}
+
+.slider--section-first-sides .slick-vertical .slick-slide {
+    height: 506px !important;
+}
+
+.slider--section-first-sides .slick-list {
+    height: 973px !important;
+}
+
+.slider--section-second-sides .slick-prev {
+    display: none !important;
+
+}
+
+.slider--section-second-sides .slick-next {
+    display: none !important;
+}
+
+.slider--section-second-sides .slick-list {
+    height: 973px !important;
+}
+
+.slider--section-first .slider--section-second-sides {
+    width: 30% !important;
+}
+
+.slider--section-second-sides .slick-track {
+    top: -25px;
+}
+
+.slider--section-first .slider--section-third-sides {
+    width: 30% !important;
+}
+
+.slider--section-third-sides .slick-prev {
+    display: none !important;
+
+}
+
+.slider--section-third-sides .slick-next {
+    display: none !important;
+}
+
+.slider--section-third-sides .slick-track {
+    top: 25px;
+}
+
+.slider--section-third-sides .slick-vertical .slick-slide {
+    height: 506px !important;
+}
+
+.slider--section-third-sides .slick-list {
+    height: 973px !important;
+}
+
+.slider--section-slidess {
+    background-image: url(../images/Shape\ 504.png);
+    background-repeat: no-repeat;
+    background-position: bottom 40% left 0%;
+}
+
+
+.slider--section .slider--section-after {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.slider--section .slider--section-after .slider--section-before-images {
+    display: flex;
+    align-items: center;
+    width: 52%;
+}
+
+.slider--section .slider--section-after .slider--section-before-images img {
+    width: 100%;
+}
+
+
+
+.work--section-elementor .work--section-elementor-perfrom h2 {
+    margin: 0;
+}
+
+.work--section-elementor .work--section-elementor-perfrom {
+    padding-top: 70px;
+    text-align: center;
+    color: white;
+}
+
+.work--section-elementor .laye-first {
+    justify-content: center;
+    color: white;
+}
+
+.work--section-perfrom-share-your .work--section-perfrom-share-first .first-bg {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 20px;
+    border: 7px solid #3d3d3d;
+    background-color: #4e4e4e;
+    margin: auto;
+}
+
+.work--section-perfrom-share-your .work--section-perfrom-share-first .first-bg:hover {
+    background-color: white;
+    border: 7px solid #fc8694;
+}
+
+.work--section-perfrom-share-your .work--section-perfrom-share-second .first-bgg:hover {
+    background-color: white;
+    border: 7px solid #fc8694;
+}
+
+
+.work--section-perfrom-share-your .work--section-perfrom-share-third .first-bggg:hover {
+    background-color: white;
+    border: 7px solid #fc8694;
+}
+
+
+.work--section-perfrom-share-your .work--section-perfrom-share-first h3 {
+    font-family: Work Sans;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 50px;
+
+}
+
+.work--section-perfrom-share-your .work--section-perfrom-share-second h3 {
+    font-family: Work Sans;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 50px;
+
+}
+
+.work--section-perfrom-share-your .work--section-perfrom-share-third h3 {
+    font-family: Work Sans;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 50px;
+
+}
+
+
+.work--section-perfrom-share-your .work--section-perfrom-share-first p {
+    margin-top: 8px;
+    margin-bottom: 0;
+
+}
+
+.work--section-perfrom-share-your .work--section-perfrom-share-first {
+    border: 0px solid black;
+    padding: 40px;
+    width: 100%;
+    max-width: 24%;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+
+}
+
+.work--section-perfrom-share-your .work--section-perfrom-share-second {
+    border: 0px solid black;
+    padding: 40px;
+    width: 100%;
+    max-width: 45%;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+
+}
+
+.work--section-perfrom-share-your .work--section-perfrom-share-second:hover {
+    background-color: #fc5569;
+    z-index: 2;
+}
+
+.work--section-perfrom-share-your .work--section-perfrom-share-third:hover {
+    background-color: #fc5569;
+    z-index: 2;
+}
+
+.shre-to {
+    width: 100%;
+    display: flex;
+
+
+}
+
+.work--section-perfrom-show {
+    position: relative;
+}
+
+.work--section-perfrom-show hr {
+
+    width: 76%;
+    position: absolute;
+    top: 54%;
+    border: 0.1px solid #904951;
+}
+
+.work--section-perfrom-share-your .work--section-perfrom-share-second .first-bgg {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 20px;
+    border: 7px solid #3d3d3d;
+    background-color: #4e4e4e;
+    margin: auto;
+}
+
+.work--section-perfrom-share-your .work--section-perfrom-share-third {
+    border: 0px solid black;
+    padding: 40px;
+    width: 100%;
+    max-width: 45%;
+    text-align: center;
+    border-radius: 15px;
+    color: white;
+
+}
+
+.work--section-perfrom-share-your .work--section-perfrom-share-third .first-bggg {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 20px;
+    border: 7px solid #3d3d3d;
+    background-color: #4e4e4e;
+    margin: auto;
+}
+
+.space-to {
+    border: 0px solid black;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.get-sec {
+    border: 0px solid black;
+    padding: 40px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.get-sec:hover {
+    background-color: #fc5569;
+}
+
+.work--section-perfrom-share-your .work--section-perfrom-share-first:hover {
+    background-color: #fc5569;
+    border: 0px solid #fc5569;
+    color: white;
+    z-index: 2;
+}
+
+
+.share-second .gat-first .gat-free {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 20px;
+    border: 7px solid #3d3d3d;
+    background-color: #4e4e4e;
+    margin: auto;
+
+
+}
+
+.mock-to {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.mock-to h3 {
+    margin-bottom: 0;
+}
+
+.mock-to p {
+    margin-top: 8px;
+}
+
+
+.share-second .gat-first .gat-free:hover {
+    background-color: white;
+    border: 7px solid #fc8694;
+}
+
+.share-second .gat-first .gat-free-to:hover {
+    background-color: white;
+    border: 7px solid #fc8694;
+}
+
+.share-second .gat-first .gat-free-to {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 20px;
+    border: 7px solid #3d3d3d;
+    background-color: #4e4e4e;
+    margin: auto;
+
+}
+
+.perfectt-to {
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+
+.work--section-perfrom-share-your .work--section-perfrom-fast-bg .talk-to {
+    height: 40px;
+    width: 170px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    background-color: white;
+    cursor: pointer;
+}
+
+.work--section-perfrom-share-your .work--section-perfrom-fast-bg .talk-to:hover {
+    background-color: #fc5569;
+    color: white;
+}
+
+.space-to:hover {
+    background-color: #fc5569;
+}
+
+.work--section-elementor .work--section-perfrom-share-your {
+    width: 100%;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
+.gow-share {
+    width: 60%;
+
+}
+
+.work--section-perfrom-fast {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share-second .gat-first {
+    display: flex;
+    justify-content: space-around;
+    border: 0px solid black;
+
+
+}
+
+
+.share-second .mock-up {
+    display: flex;
+    text-align: center;
+}
+
+.work--section-elementor {
+    background-image: url(../images/back7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-bottom: 90px;
+    margin-bottom: 160px;
+}
+
+.work--section-perfrom-fast .work--section-perfrom-fast-bg {
+    text-align: center;
+    margin-top: -75px;
+    margin-left: -38px;
+}
+
+.work--section-perfrom-fast .work--section-perfrom-fast-bg h3 {
+    max-width: 54%;
+    margin: auto;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.share-second .mock-up h3 {
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.share-second .mock-up p {
+    margin-top: 15px;
+    max-width: 76%;
+    text-align: center;
+    margin: auto;
+    color: rgb(163, 163, 163);
+}
+
+.tagging {
+    background-image: url(../images/back.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 570px;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width:2000px) {
+    /* .website--section-perfrom .website--section-perfrom-flex {
+        width: 40%;
+        max-width: 40%;
+    }
+    .website--section-perfrom .website--section-perfrom-image {
+        width: 60%;
+    }
+    .back-side img {
+        width: 164px;
+    }
+    .back-side {
+        left: 70%;
+        bottom: 47%;
+    }   
+    .optimaztion--section-perfrom .optimaztion--section-perfrom-image img {
+        max-width: 85%;
+    }  */
+
+    .slider--section .slider--section-after {
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .slider--section .slider--section-first {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .work--section-perfrom-show hr {
+        top: 50%;
+    }
+
+}
+
+@media screen and (max-width: 1355px) {
+    .work--section-perfrom-fast .work--section-perfrom-fast-bg h3 {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width:1300px) {
+    .back-side img {
+        width: 100%;
+        max-width: 70%;
+    }
+
+    .website--section-perfrom .website--section-perfrom-flex {
+        max-width: 650px;
+    }
+
+}
+
+@media screen and (max-width: 1217px) {
+
+    .share-second .mock-up p {
+        max-width: 100%;
+    }
+
+    .work--section-perfrom-share-your .share-first {
+        padding: 25px;
+    }
+
+    .work--section-perfrom-share-your .work--section-perfrom-share-second {
+        padding: 25px;
+    }
+
+    .work--section-perfrom-share-your .work--section-perfrom-share-third {
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .website--section-perfrom .website--section-perfrom-image {
+        width: 80%;
+    }
+
+    .website--section-perfrom .website--section-perfrom-element h1 {
+        max-width: 66%;
+    }
+
+    .website--section-perfrom .website--section-perfrom-flex {
+        max-width: 600px;
+    }
+
+    .design--section-perform .design--section-mobile h2 {
+        max-width: 62%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .website--section-perfrom .website--section-perfrom-element h1 {
+        font-size: 45px;
+    }
+
+    .back-side img {
+        width: 100%;
+        max-width: 55%;
+    }
+
+    .back-side {
+        left: 70%;
+        bottom: 49%;
+    }
+
+    .website--section-perfrom .website--section-perfrom-flex {
+        max-width: 480px;
+    }
+
+    .slider--section-slidess {
+        background-position: bottom 78% left 0% !important;
+    }
+
+    .slider--section .slider--section-after {
+        display: block;
+    }
+
+    .slider--section .slider--section-after .slider--section-before-images {
+        width: 100%;
+        justify-content: center;
+        padding: 80px 0 20px 0;
+    }
+
+    .slider--section .slider--section-first {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .work--section-perfrom-show hr {
+        top: 47%;
+    }
+}
+
+@media screen and (max-width: 1096px) {
+    .design--section-perform .figma-bg-to .figma-right h2 {
+        font-size: 33px;
+    }
+}
+
+@media screen and (max-width:1010px) {
+    .design--section-perform .design--section-mobile h2 {
+        max-width: 76%;
+    }
+
+    .website--section-perfrom .website--section-perfrom-flex {
+        max-width: 422px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .website--section-build .website--section-perfrom {
+        display: block;
+    }
+
+    .website--section-perfrom .website--section-perfrom-flex {
+        max-width: 100%;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .website--section-perfrom-element .laye-first {
+        justify-content: center;
+        gap: 0;
+    }
+
+    .website--section-perfrom .website--section-perfrom-element p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn {
+        justify-content: center;
+    }
+
+    .website--section-perfrom .website--section-perfrom-image {
+        width: 100%;
+
+    }
+
+    .website--section-build {
+        margin-bottom: 30px;
+    }
+
+    .website--section-perfrom-element .laye-first .laye2-right h5 {
+        font-size: 19px;
+        margin-top: 4px;
+    }
+
+    .website--section-perfrom .website--section-perfrom-element h1 {
+        max-width: 100%;
+        font-size: 55px;
+    }
+
+    .design--section-perform .figma-bg-to {
+        display: block;
+    }
+
+    .design--section-perform .figma-bg-to .figma-right h2 {
+        font-size: 40px !important;
+    }
+
+    .design--section-perform .figma-bg-to .figma-right {
+        width: 100%;
+    }
+
+    .optimaztion--section-perfrom .optimaztion--section-perfrom-image img {
+        max-width: 100%;
+    }
+
+    .back-side {
+        display: none;
+    }
+
+    .work--section-perfrom-share-your .work--section-perfrom-share-first {
+        margin: auto;
+        max-width: 38%;
+    }
+
+    .work--section-elementor .work--section-perfrom-share-your {
+        display: block;
+    }
+
+    .work--section-perfrom-share-your .share-first {
+        max-width: 38%;
+        padding-top: 34px;
+        margin: auto;
+    }
+
+    .work--section-perfrom-share-your .work--section-perfrom-share-second {
+        max-width: 38%;
+        padding-top: 34px;
+
+    }
+
+    .work--section-perfrom-share-your .work--section-perfrom-share-third {
+        max-width: 38%;
+        padding-top: 34px;
+
+    }
+
+    .gow-share {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .work--section-perfrom-fast {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .work--section-perfrom-fast .work--section-perfrom-fast-bg {
+        margin-top: 0;
+        margin-left: 0;
+
+    }
+
+    .work--section-perfrom-share-your .work--section-perfrom-share-first p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .work--section-elementor .work--section-elementor-perfrom h2 {
+        margin: 0;
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .work--section-elementor .work--section-perfrom-share-your {
+        padding-top: 70px;
+    }
+
+    .work--section-perfrom-show hr {
+        display: none;
+    }
+
+    .shre-to {
+        justify-content: space-around;
+    }
+
+    .work--section-perfrom-fast .work--section-perfrom-fast-bg h3 {
+        max-width: 46%;
+    }
+
+    .work--section-perfrom-share-second p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .work--section-perfrom-share-your .work--section-perfrom-share-third p {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .work--section-perfrom-show hr {
+        top: 63%;
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .slider--section .slider--section-first {
+        display: block;
+    }
+
+    .slider--section-first-sides .slick-list {
+        height: 573px !important;
+    }
+
+    .slider--section-first .slider--section-first-sides {
+        width: 100% !important;
+    }
+
+    .slider--section-first .slider--section-second-sides {
+        width: 100% !important;
+    }
+
+    .slider--section-first .slider--section-third-sides {
+        width: 100% !important;
+    }
+
+    .slider--section-second-sides .slick-list {
+        height: 480px !important;
+    }
+
+    .slider--section-third-sides .slick-list {
+        height: 540px !important;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .design--section-perform .design--section-mobile h2 {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .work--section-perfrom-share-your .work--section-perfrom-share-first {
+        max-width: 44% !important;
+    }
+
+    .design--section-perform {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+
+    .optimaztion--section-perfrom {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .work--section-perfrom-share-your .work--section-perfrom-share-second {
+        max-width: 44% !important;
+
+    }
+
+    .work--section-perfrom-share-your .work--section-perfrom-share-third {
+        max-width: 44% !important;
+
+    }
+
+    .tagging {
+        height: 625px;
+    }
+
+    .tagging {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .design--section-perform .design--section-mobile h2 {
+        max-width: 74% !important;
+    }
+
+    .work--section-elementor .work--section-elementor-perfrom {
+        padding-top: 50px;
+    }
+
+    .work--section-elementor {
+        padding-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width:720px) {
+    .work--section-perfrom-show hr {
+        top: 59%;
+    }
+}
+
+
+@media screen and (max-width:640px) {
+
+    .design--section-perform .design--section-mobile h2 {
+        max-width: 100%;
+    }
+
+    .website--section-perfrom .website--section-perfrom-element h1 {
+        font-size: 45px;
+        line-height: 53px;
+    }
+
+    .website--section-perfrom .website--section-perfrom-element p {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .optimaztion--section-perfrom .optimaztion--section-perfrom-first h2 {
+        font-size: 35px;
+    }
+
+    .design--section-perform .design--section-mobile h2 {
+        font-size: 35px;
+    }
+
+    .work--section-elementor .work--section-elementor-perfrom h2 {
+        font-size: 35px;
+    }
+
+    .work--section-perfrom-share-your .work--section-perfrom-share-first {
+        max-width: 53% !important;
+    }
+
+    .shre-to {
+        display: block;
+    }
+
+    .work--section-perfrom-share-your .work--section-perfrom-share-second {
+        max-width: 53% !important;
+        margin: auto;
+    }
+
+    .work--section-perfrom-share-your .work--section-perfrom-share-third {
+        max-width: 53% !important;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 558px) {
+    .share-second .mock-up {
+        display: block;
+    }
+
+    .work--section-elementor .work--section-elementor-perfrom {
+        padding-top: 45px;
+    }
+
+    .share-second .gat-first {
+        display: block;
+    }
+
+    .shre-to hr {
+        top: 48% !important;
+
+    }
+
+    .shre-to {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 540px) {
+
+    .design--section-perform .design--section-mobile h2 {
+        font-size: 35px;
+        max-width: 100% !important;
+
+    }
+
+    .work--section-perfrom-share-your .work--section-perfrom-share-first {
+        max-width: 64% !important;
+    }
+
+    .work--section-perfrom-share-your .work--section-perfrom-share-second {
+        max-width: 64% !important;
+
+    }
+
+    .work--section-perfrom-share-your .work--section-perfrom-share-third {
+        max-width: 64% !important;
+    }
+
+    .back-side {
+        left: 71%;
+        bottom: 59%;
+    }
+
+    .website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-to {
+        height: 37px;
+        width: 146px;
+        font-size: 13px;
+    }
+
+    .website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn .view-side {
+        height: 37px;
+        width: 146px;
+        font-size: 13px;
+    }
+
+    .design--section-perform .figma-bg-to .figma-right h2 {
+        font-size: 35px !important;
+    }
+
+    .work--section-elementor .work--section-elementor-perfrom h2 {
+        font-size: 35px;
+    }
+
+    .optimaztion--section-perfrom .optimaztion--section-perfrom-first h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .website--section-perfrom .website--section-perfrom-element h1 {
+        font-size: 40px;
+        line-height: 47px;
+    }
+
+    .design--section-perform .design--section-mobile h2 {
+        font-size: 34px;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .back-side img {
+        max-width: 88%;
+    }
+
+    .back-side {
+        left: 79%;
+        bottom: 64%;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .website--section-perfrom .website--section-perfrom-element h1 {
+        max-width: 100%;
+    }
+
+    .back-side {
+        display: none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .work--section-perfrom-show hr {
+        top: 57%;
+
+    }
+}
+
+@media screen and (max-width:380px) {
+    .work--section-perfrom-share-your .work--section-perfrom-share-first {
+        max-width: 100% !important;
+    }
+
+    .work--section-perfrom-share-your .work--section-perfrom-share-second {
+        max-width: 100% !important;
+
+    }
+
+    .work--section-perfrom-share-your .work--section-perfrom-share-third {
+        max-width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width: 352px) {
+    .website--section-perfrom .website--section-perfrom-element .website--section-perfrom-btn {
+        display: grid;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+.optimaztion--section-perfrom {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.optimaztion--section-perfrom.in-view {
+    opacity: 1;
+}
+
+
+

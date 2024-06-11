@@ -1,0 +1,41 @@
+.app_count {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: Work Sans;
+
+}
+
+.app_count input {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid;
+    font-family: Work Sans;
+}
+
+.app_count textarea {
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    outline: none;
+    font-family: Work Sans;
+}
+
+.app_count .sub_to {
+    height: 40px;
+    width: 130px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: Work Sans;
+}

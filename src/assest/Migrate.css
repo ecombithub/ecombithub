@@ -1,0 +1,2093 @@
+.migrate--section-perfrom {
+    display: inline-block;
+    width: 100%;
+
+}
+
+.ceo .ceo2 h4 {
+    color: black !important;
+}
+
+.ceo .ceo2 h3 {
+    color: black !important;
+}
+
+.laye-first .laye2-right-1 h5 {
+    margin-top: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    font-weight: 400;
+    margin-bottom: 8px;
+
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess h1 {
+    margin-top: 0;
+    max-width: 83%;
+    margin-bottom: 10px;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess p {
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to {
+    height: 40px;
+    width: 210px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    font-weight: 500;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to {
+    background-image: linear-gradient(to right, #fc5569, #fc5569, #4f7513, #ade94e);
+
+} */
+
+
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to {
+    height: 40px;
+    width: 210px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    background-color: #fc5569;
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover .rotate-text:nth-child(10) {
+    animation: rotateLetter 0.8s ease 1s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover .rotate-text:nth-child(11) {
+    animation: rotateLetter 0.8s ease 1.2s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover .rotate-text:nth-child(12) {
+    animation: rotateLetter 0.8s ease 1.3s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover .rotate-text:nth-child(13) {
+    animation: rotateLetter 0.8s ease 1.4s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover .rotate-text:nth-child(14) {
+    animation: rotateLetter 0.8s ease 1.5s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover .rotate-text:nth-child(15) {
+    animation: rotateLetter 0.8s ease 1.6s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover .rotate-text:nth-child(16) {
+    animation: rotateLetter 0.8s ease 1.7s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover .rotate-text:nth-child(17) {
+    animation: rotateLetter 0.8s ease 1.8s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:before,
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #77af1e;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:before {
+  left: 0;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:after {
+  right: 0;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover {
+  color: #f8f8f8;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover:before {
+  width: 50%;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to:hover:after {
+  width: 50%;
+}
+
+
+
+/* .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side {
+    position: relative;
+    height: 40px;
+    width: 210px;
+    font-family: Anuphan;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FFEBED;
+    cursor: pointer;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+    color: white;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side {
+    background-image: linear-gradient(to right, #ffebed, #ffebed, #4f7513, #ade94e);
+} */
+
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side {
+    height: 40px;
+    width: 210px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #ffebed;
+
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover .rotate-text:nth-child(10) {
+    animation: rotateLetter 0.8s ease 1s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover .rotate-text:nth-child(11) {
+    animation: rotateLetter 0.8s ease 1.2s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover .rotate-text:nth-child(12) {
+    animation: rotateLetter 0.8s ease 1.3s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover .rotate-text:nth-child(13) {
+    animation: rotateLetter 0.8s ease 1.4s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover .rotate-text:nth-child(14) {
+    animation: rotateLetter 0.8s ease 1.5s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover .rotate-text:nth-child(15) {
+    animation: rotateLetter 0.8s ease 1.6s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover .rotate-text:nth-child(16) {
+    animation: rotateLetter 0.8s ease 1.7s forwards;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover .rotate-text:nth-child(17) {
+    animation: rotateLetter 0.8s ease 1.8s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:before,
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #77af1e;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:before {
+  left: 0;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:after {
+  right: 0;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover {
+  color: #f8f8f8;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover:before {
+  width: 50%;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side:hover:after {
+  width: 50%;
+}
+
+
+
+.migrate--section-perfrom .migrate--section-perfrom-elements {
+    display: flex;
+    width: 100%;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 0 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-image img {
+    width: 100%;
+}
+
+.migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-image {
+    padding-top: 50px;
+    width: 50%;
+}
+
+.big-start {
+    background-image: url(../images/flo.png);
+    background-repeat: no-repeat;
+}
+
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma:before,
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #77af1e;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma:before {
+  left: 0;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma:after {
+  right: 0;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma:hover {
+  color: #f8f8f8;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma:hover:before {
+  width: 50%;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma:hover:after {
+  width: 50%;
+}
+
+/* .magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 8px;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+    color: white;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma {
+    background-image: linear-gradient(to right, #fc5569, #fc5569, #4f7513, #ade94e);
+} */
+
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team {
+    display: flex;
+    justify-content: space-around;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team-left img {
+    width: 100%;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team-right h2 {
+    margin-top: 5px;
+    max-width: 42%;
+    margin-bottom: 5px;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-team-right p {
+    max-width: 75%;
+}
+
+.magento--section-perfrom-element {
+    border: 1px solid rgb(232, 232, 232);
+    padding-top: 140px;
+    padding-bottom: 100px;
+    margin-bottom: 40px;
+}
+
+.magento--section-perfrom-element .magento--section-perfrom-element-custom {
+    background-image: url(../images/bg1.png);
+    background-repeat: no-repeat;
+    background-position: bottom 50px right 100px;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma:before,
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #77af1e;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma:before {
+  left: 0;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma:after {
+  right: 0;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma:hover {
+  color: #f8f8f8;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma:hover:before {
+  width: 50%;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma:hover:after {
+  width: 50%;
+}
+
+
+/* .woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 8px;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+    color: white;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma {
+    background-image: linear-gradient(to right, #fc5569, #fc5569, #4f7513, #ade94e);
+} */
+
+
+.woocommece--section-perfrom-left .group-para {
+    border: 1px solid rgb(245, 245, 245);
+    padding: 30px;
+    width: 100%;
+    max-width: 85%;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 5px 0px #e9e9e9;
+}
+
+.woocommece--section-perfrom-left .group-para .woo-section-group p {
+    max-width: 544px;
+}
+
+.group-para p {
+    margin: 0;
+    max-width: 99%;
+}
+
+.grup-3 p {
+    margin: 0;
+    max-width: 100%;
+}
+
+.group-para .grup-1 {
+    display: flex;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.group-para .grup-1 h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-grow {
+    display: flex;
+    width: 100%;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 0 0 auto;
+    padding-top: 35px;
+}
+
+.woocommece--section-perfrom-right {
+    width: 50%;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-right img {
+    width: 100%;
+}
+
+.woocommece--section-perfrom {
+    background-image: url(../images/bg3.png);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.woocommece--section-perfrom .woocommece--section-perfrom-left h2 {
+    margin-top: 5px;
+    max-width: 68%;
+    margin-bottom: 5px;
+}
+
+.prestashop--section-perfrom {
+    background-image: url(../images/bg4.png);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.prestashop--section-perfrom .prestashop--section-perfrom-image img {
+    width: 100%;
+}
+
+.prestashop--section-perfrom .prestashop--section-perfrom-start {
+    display: flex;
+    width: 100%;
+}
+
+.prestashop--section-perfrom .prestashop--section-perfrom-element h2 {
+    margin-top: 5px;
+    max-width: 50%;
+    margin-bottom: 18px;
+}
+
+.prestashop--section-perfrom-start .prestashop--section-perfrom-element {
+    width: 40%;
+}
+
+.prestashop--section-perfrom-element .play-to {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.prestashop--section-perfrom-element .play-to p {
+    margin-top: -4px;
+    max-width: 67%;
+}
+
+.prestashop--section-perfrom-element .mon-to {
+    border: 0px solid black;
+    box-shadow: 1px 1px 5px 0px #e9e9e9;
+    border-radius: 10px;
+    padding: 30px;
+    padding-left: 40px;
+    background-color: white;
+    width: 100%;
+    max-width: 75%;
+    margin-bottom: 25px;
+}
+
+.prestashop--section-perfrom-element .mon-to h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.prestashop--section-perfrom-element .mon-to .sche-to {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.sche-to .sche-1 {
+    border: 0px solid rgb(255, 255, 255);
+    width: 100%;
+    max-width: 45%;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 8px;
+    background-color: #F3F5F8;
+}
+
+.sche-to .sche-1 h4 {
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 650;
+}
+
+.sche-to .sche-1 p {
+    margin: 0;
+    font-size: 17px;
+}
+
+.sche-to .sche-2 {
+    border: 0px solid black;
+    width: 100%;
+    max-width: 50%;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background-color: #F3F5F8;
+}
+
+.sche-to .sche-2 h4 {
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 650;
+}
+
+.sche-to .sche-2 p {
+    margin: 0;
+    font-size: 17px;
+}
+
+.sche-to-1 {
+    display: flex;
+    gap: 10px;
+
+}
+
+.sche-to-1 .sche-3 {
+    display: flex;
+    gap: 10px;
+    border: 0px solid rgb(255, 255, 255);
+    width: 100%;
+    max-width: 45%;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 8px;
+    background-color: #F3F5F8;
+    text-align: center;
+}
+
+.sche-to-1 .sche-3 p {
+    margin-top: -3px;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.sche-4 p {
+    margin: 0;
+    font-size: 17px;
+}
+
+.sche-4 {
+    border: 0px solid black;
+    width: 100%;
+    max-width: 50%;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background-color: #F3F5F8;
+}
+
+.prestashop--section-perfrom-element .more-figma {
+    height: 40px;
+    width: 160px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.prestashop--section-perfrom-element .more-figma:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.prestashop--section-perfrom-element .more-figma:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.prestashop--section-perfrom-element .more-figma:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.prestashop--section-perfrom-element .more-figma:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.prestashop--section-perfrom-element .more-figma:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.prestashop--section-perfrom-element .more-figma:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.prestashop--section-perfrom-element .more-figma:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.prestashop--section-perfrom-element .more-figma:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.prestashop--section-perfrom-element .more-figma:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.prestashop--section-perfrom-element .more-figma:before,
+.prestashop--section-perfrom-element .more-figma:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #77af1e;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.prestashop--section-perfrom-element .more-figma:before {
+  left: 0;
+}
+
+.prestashop--section-perfrom-element .more-figma:after {
+  right: 0;
+}
+
+.prestashop--section-perfrom-element .more-figma:hover {
+  color: #f8f8f8;
+}
+
+.prestashop--section-perfrom-element .more-figma:hover:before {
+  width: 50%;
+}
+
+.prestashop--section-perfrom-element .more-figma:hover:after {
+  width: 50%;
+}
+
+
+
+/* .prestashop--section-perfrom-element .more-figma {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 8px;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+.prestashop--section-perfrom-element .more-figma:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+    color: white;
+}
+
+.prestashop--section-perfrom-element .more-figma {
+    background-image: linear-gradient(to right, #fc5569, #fc5569, #4f7513, #ade94e);
+} */
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start {
+    display: flex;
+    width: 100%;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world {
+
+    width: 100%;
+    max-width: 700px;
+    margin: 0 0 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-image img {
+    width: 100%;
+}
+
+.wordpress--section-perfrom-image {
+    width: 50%;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world h2 {
+    margin-top: 5px;
+    max-width: 80%;
+    margin-bottom: 5px;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world p {
+    max-width: 97%;
+
+}
+
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma {
+    height: 40px;
+    width: 160px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma:before,
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #77af1e;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma:before {
+  left: 0;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma:after {
+  right: 0;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma:hover {
+  color: #f8f8f8;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma:hover:before {
+  width: 50%;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma:hover:after {
+  width: 50%;
+}
+
+
+/* .wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 8px;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+    color: white;
+}
+
+.wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .more-figma {
+    background-image: linear-gradient(to right, #fc5569, #fc5569, #4f7513, #ade94e);
+} */
+
+.wordpress--section-perfrom {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.wordpress--section-perfrom {
+    margin-bottom: 100px;
+}
+
+@media screen and (min-width:2000px) {
+    .wrapper {
+        width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .logo-to {
+        max-width: 1400px;
+    }
+
+    /* .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left {
+        width: 40%;
+        max-width: 40%;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-image {
+        width: 60%;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 1400px;
+    }
+
+    .magento--section-perfrom-element-team-left {
+        width: 60%;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team-right {
+        width: 40%;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team-right h2 {
+        max-width: 80%;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team-right p {
+        max-width: 100%;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left {
+        width: 40%;
+        max-width: 40%;
+    }
+
+    .woocommece--section-perfrom-right {
+        width: 60%;
+    }
+
+    .prestashop--section-perfrom-image {
+        width: 60%;
+    }
+
+    .prestashop--section-perfrom-element .mon-to {
+        max-width: 100%;
+    }
+
+    .wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world {
+        width: 40%;
+        max-width: 40%;
+    }
+
+    .wordpress--section-perfrom-image {
+        width: 60%;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team {
+        gap: 40px;
+    } */
+
+}
+
+
+@media screen and (max-width:1400px) {
+    .magento--section-perfrom-element .magento--section-perfrom-element-team-right h2 {
+        max-width: 70%;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team-right p {
+        max-width: 100%;
+    }
+
+    .prestashop--section-perfrom .prestashop--section-perfrom-element h2 {
+        max-width: 100%;
+    }
+
+    .prestashop--section-perfrom-element .play-to p {
+        max-width: 100%;
+    }
+
+    .prestashop--section-perfrom-element .mon-to {
+        max-width: 100%;
+    }
+
+    .sche-to .sche-2 p {
+        font-size: 13px;
+    }
+
+    .sche-to .sche-2 h4 {
+        font-size: 20px;
+    }
+
+    .sche-to .sche-1 p {
+        font-size: 13px;
+    }
+
+    .sche-to .sche-1 h4 {
+        font-size: 20px;
+    }
+
+    .sche-to-1 .sche-3 p {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    .sche-4 p {
+        font-size: 13px;
+    }
+
+    .prestashop--section-perfrom-element .mon-to {
+        padding-left: 30px;
+    }
+
+}
+
+@media screen and (max-width:1350px) {
+    .magento--section-perfrom-element .magento--section-perfrom-element-team-right p {
+        max-width: 100%;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team-right h2 {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width:1300px) {
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left {
+        max-width: 550px;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left {
+        max-width: 550px;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left h2 {
+        max-width: 100%;
+    }
+
+    .prestashop--section-perfrom-start .prestashop--section-perfrom-element {
+        width: 50%;
+    }
+
+    .wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world {
+        max-width: 550px;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-image {
+        width: 60%;
+    }
+
+    .woocommece--section-perfrom-right {
+        width: 60%;
+    }
+
+    .wordpress--section-perfrom-image {
+        width: 80%;
+    }
+
+    .woocommece--section-perfrom-left .group-para .woo-section-group p {
+        max-width: 408px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess h1 {
+        max-width: 100%;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left {
+        max-width: 450px;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left {
+        max-width: 450px;
+    }
+
+    .wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world h2 {
+        max-width: 100%;
+    }
+
+    .wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world {
+        max-width: 450px;
+    }
+
+    .woocommece--section-perfrom-right {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width:1150px) {
+
+    .prestashop--section-perfrom-start .prestashop--section-perfrom-element {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .woocommece--section-perfrom .woocommece--section-perfrom-left {
+        max-width: 350px;
+    }
+
+    .prestashop--section-perfrom-start .prestashop--section-perfrom-element {
+        width: 100%;
+    }
+
+    .wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world {
+        max-width: 400px;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-image {
+        width: 65%;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left {
+        max-width: 400px;
+    }
+
+}
+
+@media screen and (max-width:1050px) {
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left {
+        max-width: 400px;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-grow {
+        display: block;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left {
+        max-width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .woocommece--section-perfrom {
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+
+    .wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world {
+        max-width: 360px;
+    }
+
+    .wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world p {
+        max-width: 100%;
+    }
+
+    .woocommece--section-perfrom-right {
+        width: 100%;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left {
+
+        text-align: center;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left .laye-first {
+        justify-content: center;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left h4 {
+        margin: 4px 0 10px 0;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left h2 {
+        font-size: 45px;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left p {
+        font-size: 18px;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left .group-para p {
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left .group-para {
+        padding: 40px;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left .group-para {
+        padding: 40px;
+        max-width: 70%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:1024px) {
+    .woocommece--section-perfrom-left .group-para .woo-section-group p {
+        max-width: 576px;
+    }
+
+    .prestashop--section-perfrom {
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    .prestashop--section-perfrom .prestashop--section-perfrom-start {
+        display: grid;
+    }
+
+    .prestashop--section-perfrom-image {
+        order: 2;
+        font-size: 0;
+        margin-top: 21px;
+    }
+
+    .prestashop--section-perfrom-element .laye-first {
+        justify-content: center;
+        margin: 0 0 10px 0;
+    }
+
+    .prestashop--section-perfrom .prestashop--section-perfrom-element h2 {
+        max-width: 100%;
+        font-size: 45px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .prestashop--section-perfrom-start .prestashop--section-perfrom-element {
+        text-align: center;
+    }
+
+    .prestashop--section-perfrom-element .play-to {
+        text-align: left;
+        max-width: 77%;
+        margin: auto;
+    }
+
+    .prestashop--section-perfrom-element .play-to p {
+        font-size: 17px;
+    }
+
+    .prestashop--section-perfrom-element .mon-to {
+        text-align: left;
+        max-width: 76%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 25px;
+    }
+
+    .magento--section-perfrom-element {
+        margin-bottom: 20px;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess h1 {
+        font-size: 40px;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to {
+        width: 169px;
+        font-size: 14px;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side {
+        font-size: 14px;
+        width: 169px;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team {
+        gap: 40px;
+    }
+
+    .magento--section-perfrom-element-team-left {
+        width: 47%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess h1 {
+        font-size: 55px;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to {
+        width: 210px;
+        font-size: 16px;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side {
+        font-size: 16px;
+        width: 210px;
+    }
+
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements {
+        display: block;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left {
+        width: 100%;
+        max-width: 100%;
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .migrate--section-perfrom-element-left-sidess .laye-first {
+        justify-content: center;
+    }
+
+    .migrate--section-perfrom-element-left-sidess .laye-first .laye2-right-1 h5 {
+        font-size: 18px;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn {
+        justify-content: center;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team {
+        display: grid;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .magento--section-perfrom-element-team-left {
+        order: 2;
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team-right h2 {
+        font-size: 45px;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team-right .laye-first {
+        justify-content: center;
+    }
+
+    .magento--section-perfrom-element {
+        padding-top: 70px;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+
+    .wordpress--section-perfrom .wordpress--section-perfrom-start {
+        display: block;
+    }
+
+    .wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world {
+        max-width: 100%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world .laye-first {
+        justify-content: center;
+    }
+
+    .wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world h2 {
+        font-size: 45px;
+    }
+
+    .wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world p {
+        font-size: 18px;
+    }
+
+    .wordpress--section-perfrom {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-image {
+        width: 100%;
+    }
+
+    .wordpress--section-perfrom-image {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team-right p {
+        max-width: 100%;
+        font-size: 18px;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team-right p {
+        font-size: 18px;
+    }
+
+    .sche-to .sche-1 p {
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .sche-to .sche-2 p {
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .sche-to-1 .sche-3 p {
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .sche-4 p {
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .sche-to .sche-1 h4 {
+        font-size: 22px;
+    }
+
+    .sche-to .sche-2 h4 {
+        font-size: 22px;
+    }
+
+    .sche-to-1 .sche-3 p {
+        text-align: left !important;
+    }
+
+    .custum-lefter .mover-2 {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .magento--section-perfrom-element {
+        padding-top: 40px;
+        margin-bottom: 0;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team-right h2 {
+        max-width: 93% !important;
+        margin: auto;
+    }
+
+    .magento--section-perfrom-element-team-left {
+        padding-top: 10px;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team {
+        gap: 20px;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left {
+        padding: 0;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left p {
+        font-size: 18px;
+        max-width: 76%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left .group-para p {
+
+        margin: 0;
+    }
+
+    .woocommece--section-perfrom-left .group-para .woo-section-group p {
+        max-width: 564px;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left .group-para {
+        max-width: 85%;
+    }
+
+    .woocommece--section-perfrom-right {
+        margin-top: 40px;
+    }
+
+    .woocommece--section-perfrom {
+        padding-bottom: 5px;
+    }
+
+    .wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world p {
+        max-width: 76%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (max-width:640px) {
+    .prestashop--section-perfrom-element .mon-to {
+        max-width: 85%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .sche-to .sche-2 p {
+        font-size: 13px;
+    }
+
+    .sche-to .sche-2 h4 {
+        font-size: 20px;
+    }
+
+    .sche-to .sche-1 p {
+        font-size: 13px;
+    }
+
+    .sche-to .sche-1 h4 {
+        font-size: 20px;
+    }
+
+    .sche-to-1 .sche-3 p {
+        font-size: 13px;
+    }
+
+    .sche-4 p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .woocommece--section-perfrom-left .group-para .woo-section-group p {
+        max-width: 472px;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess h1 {
+        font-size: 45px;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left {
+        padding-top: 20px;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-image {
+        padding-top: 30px;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team-right h2 {
+        font-size: 40px;
+    }
+
+    .magento--section-perfrom-element {
+        padding-top: 45px;
+        padding-bottom: 15px;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-grow {
+        padding-top: 30px;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left h2 {
+        font-size: 40px;
+    }
+
+    .woocommece--section-perfrom {
+        padding-top: 0;
+    }
+
+    .prestashop--section-perfrom .prestashop--section-perfrom-element h2 {
+        font-size: 40px;
+    }
+
+    .wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world h2 {
+        font-size: 40px;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left p {
+        max-width: 86%;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left .group-para {
+        max-width: 100%;
+        padding: 25px;
+    }
+
+    .prestashop--section-perfrom-element .play-to {
+        max-width: 100%;
+    }
+
+    .prestashop--section-perfrom-element .play-to p {
+        font-size: 15px;
+    }
+
+    .prestashop--section-perfrom-element .mon-to {
+        max-width: 100%;
+    }
+
+    .prestashop--section-perfrom-element .mon-to h3 {
+        font-size: 19px;
+    }
+
+    .wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world p {
+        max-width: 100%;
+    }
+
+    .wordpress--section-perfrom-image {
+        margin-top: 15px;
+    }
+
+    .wordpress--section-perfrom {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess h1 {
+        font-size: 40px;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess p {
+        max-width: 94%;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team-right h2 {
+        max-width: 100% !important;
+        margin: auto;
+    }
+
+    .magento--section-perfrom-element .magento--section-perfrom-element-team-right h2 {
+        font-size: 35px;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left h2 {
+        font-size: 35px;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left p {
+        max-width: 101%;
+    }
+
+    .woocommece--section-perfrom .woocommece--section-perfrom-left .group-para p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .prestashop--section-perfrom .prestashop--section-perfrom-element h2 {
+        font-size: 35px;
+    }
+
+    .wordpress--section-perfrom .wordpress--section-perfrom-start .wordpress--section-perfrom-world h2 {
+        font-size: 35px;
+    }
+
+    .sche-to .sche-1 p {
+        font-size: 13px;
+    }
+
+    .sche-to .sche-2 p {
+        font-size: 13px;
+    }
+
+    .sche-to-1 .sche-3 p {
+        font-size: 13px;
+    }
+
+    .sche-4 p {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width:475px) {
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn {
+        display: grid;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-to {
+        height: 35px;
+        width: 170px;
+        font-size: 14px;
+    }
+
+    .migrate--section-perfrom .migrate--section-perfrom-elements .migrate--section-perfrom-element-left-sidess .migrate--section-perfrom-element-btn .view-side {
+        height: 35px;
+        width: 170px;
+        font-size: 14px;
+    }
+
+    .sche-to .sche-2 p {
+        line-height: 15px;
+    }
+
+    .sche-to-1 .sche-3 p {
+        line-height: 15px;
+    }
+
+    .sche-4 p {
+        line-height: 15px;
+    }
+
+    .sche-to .sche-1 p {
+        line-height: 15px;
+    }
+
+    .prestashop--section-perfrom-element .mon-to .sche-to {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .woocommece--section-perfrom-left .group-para .woo-section-group p {
+        max-width: 340px;
+    }
+
+    .sche-to .sche-1 p {
+        line-height: 12px;
+        font-size: 11px;
+    }
+
+    .sche-to .sche-2 p {
+        line-height: 12px;
+        font-size: 11px;
+    }
+
+    .sche-to .sche-1 {
+        padding-left: 10px;
+    }
+
+    .sche-to .sche-2 {
+        padding-left: 10px;
+    }
+
+    .sche-to-1 .sche-3 {
+        padding-left: 10px;
+        gap: 5px;
+    }
+
+    .sche-to-1 .sche-3 p {
+        text-align: left;
+        font-size: 10px;
+        line-height: 12px;
+        padding-top: 8px;
+    }
+
+    .sche-4 p {
+        line-height: 12px;
+        font-size: 11px;
+        padding-top: 8px;
+    }
+
+    .prestashop--section-perfrom-element .mon-to {
+        padding: 20px;
+    }
+
+    .prestashop--section-perfrom-element .mon-to h3 {
+        font-size: 18px;
+    }
+}
+
+
+
+
+.magento--section-perfrom-element {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.magento--section-perfrom-element.in-view {
+    opacity: 1;
+}
+
+.woocommece--section-perfrom {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.woocommece--section-perfrom.in-view {
+    opacity: 1;
+}
+
+.prestashop--section-perfrom {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.prestashop--section-perfrom.in-view {
+    opacity: 1;
+}
+
+.wordpress--section-perfrom {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.wordpress--section-perfrom.in-view {
+    opacity: 1;
+}
+
+@media screen and (max-width:320px) {
+    .woocommece--section-perfrom-left .group-para .woo-section-group p {
+        max-width: 253px;
+    }
+}

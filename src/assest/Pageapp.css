@@ -1,0 +1,1522 @@
+.connect--section-perfrom {
+    display: inline-block;
+    width: 100%;
+}
+
+.connect--section-perfrom-sides {
+    background-image: url(../images/flo.png);
+    background-repeat: no-repeat;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start {
+    display: flex;
+    width: 100%;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 0 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-image {
+    width: 50%;
+    padding-top: 50px;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-image img {
+    width: 100%;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left h1 {
+    margin-top: 0;
+    max-width: 80%;
+    margin-bottom: 10px;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left p {
+
+    line-height: 22px;
+}
+
+/* .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to {
+    height: 40px;
+    width: 210px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    font-weight: 500;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+    color: white;
+}
+
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to {
+    background-image: linear-gradient(to right, #fc5569, #fc5569, #4f7513, #ade94e);
+} */
+
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to {
+    height: 40px;
+    width: 210px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    background-color: #fc5569;
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover .rotate-text:nth-child(10) {
+    animation: rotateLetter 0.8s ease 1s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover .rotate-text:nth-child(11) {
+    animation: rotateLetter 0.8s ease 1.2s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover .rotate-text:nth-child(12) {
+    animation: rotateLetter 0.8s ease 1.3s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover .rotate-text:nth-child(13) {
+    animation: rotateLetter 0.8s ease 1.4s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover .rotate-text:nth-child(14) {
+    animation: rotateLetter 0.8s ease 1.5s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover .rotate-text:nth-child(15) {
+    animation: rotateLetter 0.8s ease 1.6s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover .rotate-text:nth-child(16) {
+    animation: rotateLetter 0.8s ease 1.7s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover .rotate-text:nth-child(17) {
+    animation: rotateLetter 0.8s ease 1.8s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:before,
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #77af1e;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:before {
+  left: 0;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:after {
+  right: 0;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover {
+  color: #f8f8f8;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover:before {
+  width: 50%;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to:hover:after {
+  width: 50%;
+}
+
+
+
+/* .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side {
+    height: 40px;
+    width: 210px;
+    font-family: Anuphan;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FFEBED;
+    cursor: pointer;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+    color: white;
+}
+
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side {
+    background-image: linear-gradient(to right, #FFEBED, #FFEBED, #4f7513, #ade94e);
+} */
+
+
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side {
+    height: 40px;
+    width: 210px;
+    font-family: Anuphan;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #ffebed;
+
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover .rotate-text:nth-child(10) {
+    animation: rotateLetter 0.8s ease 1s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover .rotate-text:nth-child(11) {
+    animation: rotateLetter 0.8s ease 1.2s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover .rotate-text:nth-child(12) {
+    animation: rotateLetter 0.8s ease 1.3s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover .rotate-text:nth-child(13) {
+    animation: rotateLetter 0.8s ease 1.4s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover .rotate-text:nth-child(14) {
+    animation: rotateLetter 0.8s ease 1.5s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover .rotate-text:nth-child(15) {
+    animation: rotateLetter 0.8s ease 1.6s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover .rotate-text:nth-child(16) {
+    animation: rotateLetter 0.8s ease 1.7s forwards;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover .rotate-text:nth-child(17) {
+    animation: rotateLetter 0.8s ease 1.8s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:before,
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #77af1e;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:before {
+  left: 0;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:after {
+  right: 0;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover {
+  color: #f8f8f8;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover:before {
+  width: 50%;
+}
+
+.connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side:hover:after {
+  width: 50%;
+}
+
+
+
+.explore--section-perfrom-store {
+    border: 1px solid rgb(232, 232, 232);
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-left-side img {
+    width: 100%;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma {
+    height: 40px;
+    width: 160px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma:before,
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #77af1e;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma:before {
+  left: 0;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma:after {
+  right: 0;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma:hover {
+  color: #f8f8f8;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma:hover:before {
+  width: 50%;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma:hover:after {
+  width: 50%;
+}
+
+
+
+/* .explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 12px;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+    color: white;
+}
+
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right .more-figma {
+    background-image: linear-gradient(to right, #fc5569, #fc5569, #4f7513, #ade94e);
+} */
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right h2 {
+    margin-top: 5px;
+    max-width: 70%;
+    margin-bottom: 5px;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right p {
+    max-width: 75%;
+}
+
+.explore--section-perfrom-store .explore--section-perfrom-title {
+    background-image: url(../images/bg1.png);
+    background-repeat: no-repeat;
+    background-position: bottom 50px right 100px;
+}
+
+.checkout--section-perfrom-flex .group-para {
+    border: 1px solid rgb(245, 245, 245);
+    padding: 30px;
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 5px 0px #e9e9e9;
+}
+
+.checkout--section-perfrom-flex .more-figma {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.checkout--section-perfrom-flex .more-figma:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.checkout--section-perfrom-flex .more-figma:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.checkout--section-perfrom-flex .more-figma:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.checkout--section-perfrom-flex .more-figma:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.checkout--section-perfrom-flex .more-figma:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.checkout--section-perfrom-flex .more-figma:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.checkout--section-perfrom-flex .more-figma:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.checkout--section-perfrom-flex .more-figma:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.checkout--section-perfrom-flex .more-figma:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.checkout--section-perfrom-flex .more-figma:before,
+.checkout--section-perfrom-flex .more-figma:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #77af1e;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.checkout--section-perfrom-flex .more-figma:before {
+  left: 0;
+}
+
+.checkout--section-perfrom-flex .more-figma:after {
+  right: 0;
+}
+
+.checkout--section-perfrom-flex .more-figma:hover {
+  color: #f8f8f8;
+}
+
+.checkout--section-perfrom-flex .more-figma:hover:before {
+  width: 50%;
+}
+
+.checkout--section-perfrom-flex .more-figma:hover:after {
+  width: 50%;
+}
+
+
+
+/* .checkout--section-perfrom-flex .more-figma {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 8px;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+.checkout--section-perfrom-flex .more-figma:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+    color: white;
+}
+
+
+.checkout--section-perfrom-flex .more-figma {
+    background-image: linear-gradient(to right, #fc5569, #fc5569, #4f7513, #ade94e);
+} */
+
+.checkout--section-perfrom {
+    background-image: url(../images/bg3.png);
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.checkout--section-perfrom .checkout--section-perfrom-start {
+    display: flex;
+    width: 100%;
+}
+
+.checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-image img {
+    width: 100%;
+}
+
+.checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-image {
+    width: 50%;
+}
+.checkout--section-perfrom .checkout--section-perfrom-flex-short{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 0 0 auto;
+
+}
+.checkout--section-perfrom-flex .group-para .checkout-section-group p {
+    max-width: 679px;
+}
+.checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-flex {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 0 0 auto;
+
+}
+
+.checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-flex h2 {
+    margin-top: 5px;
+    max-width: 70%;
+    margin-bottom: 5px;
+}
+
+.custom--section-perfrom-dolor {
+    background-image: url(../images/bg4.png);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-bottom: 150px;
+}
+
+.custom--section-perfrom-dolor .custom--section-perfrom-cust h2 {
+    margin-top: 8px;
+    max-width: 46%;
+    text-align: center;
+    margin: auto;
+}
+
+.custom--section-perfrom-dolor .laye-first {
+    justify-content: center;
+}
+
+.custom--section-perfrom-custom-elements .tail-start {
+    border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 64%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 0px #e9e9e9;
+    margin-bottom: 30px;
+
+    background-color: white;
+}
+
+.custom--section-perfrom-custom-elements .tail-start h3 {
+    margin-top: 5px;
+    font-weight: 800;
+    margin-bottom: 0;
+    font-size: 18px !important;
+}
+
+.custom--section-perfrom-dolor .custom--section-perfrom-custom-elements .tail-start p {
+    margin-top: 5px;
+    max-width: 91% !important;
+    margin-bottom: 0;
+}
+
+.custom--section-perfrom-custom-elements .tail-start1 {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.custom--section-perfrom-custom-elements .tail-start1 h3 {
+    margin-top: 5px;
+    font-weight: 800;
+    margin-bottom: 0;
+    font-size: 18px !important;
+}
+
+.custom--section-perfrom-dolor .custom--section-perfrom-custom-high {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.custom--section-perfrom-dolor .custom--section-perfrom-custom-high .custom--section-perfrom-custom-image img {
+    width: 100%;
+}
+
+.custom--section-perfrom-dolor .custom--section-perfrom-custom-high .custom--section-perfrom-custom-elements {
+    width: 40%;
+    display: flex;
+    align-items: center;
+
+}
+
+.custom--section-perfrom-dolor .custom--section-perfrom-custom-high .custom--section-perfrom-custom-elements h3 {
+    font-size: 34px;
+    margin: 0;
+}
+
+.custom--section-perfrom-dolor .custom--section-perfrom-custom-high .custom--section-perfrom-custom-elements p {
+    margin-top: 7px;
+    max-width: 59%;
+    font-weight: 500;
+}
+
+.scale .scale-first h3 {
+    font-size: 34px;
+    margin: 0;
+}
+
+.scale .scale-first p {
+    margin-top: 7px;
+    max-width: 73%;
+    font-weight: 500;
+}
+
+.scale-first .tail-startt {
+    border: 1px solid rgb(255, 254, 254);
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 76%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 0px #e9e9e9;
+    margin-bottom: 30px;
+
+    background-color: white;
+}
+
+.scale-first .tail-startt1 h3 {
+    margin-top: 5px;
+    font-weight: 800;
+    margin-bottom: 0;
+    font-size: 18px !important;
+}
+
+.scale-first .tail-secondd h3 {
+    font-size: 18px !important;
+    margin: 0;
+}
+
+.scale-first .tail-secondd p {
+    max-width: 93%;
+}
+
+.scale-first .tail-startt1 {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 5px;
+    padding-left: 20px;
+}
+
+.custom--section-perfrom-dolor .scale {
+    display: flex;
+    width: 100%;
+
+}
+
+.scale .scale-second img {
+    width: 100%;
+}
+
+.scale .scale-first {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 0 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+/* 
+@media screen and (min-width:2000px) {
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left {
+        width: 40%;
+        max-width: 40%;
+    }
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-image {
+        width: 60%;
+    }
+    .explore-left-side {
+        width: 60%;
+    }
+    .explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right {
+        width: 40%;
+    }
+    .explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right h2 {
+        max-width: 100%;
+    }
+    .explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right p {
+        max-width: 100%;
+    }
+    .checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-flex {
+        width: 40%;
+        max-width: 40%;
+    }
+    .checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-image {
+        width: 60%;
+    }
+    .custom--section-perfrom-custom-elements .tail-start {
+        max-width: 100%;
+    }
+    .scale .scale-first {
+        width: 40%;
+        max-width: 40%;
+    }
+    .scale-second {
+        width: 60%;
+    }
+} */
+
+
+@media screen and (max-width:1400px) {
+    .explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right h2 {
+        max-width: 100%;
+    }
+
+    .explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right p {
+        max-width: 100%;
+    }
+
+    .custom--section-perfrom-dolor .custom--section-perfrom-cust h2 {
+        max-width: 80%;
+    }
+
+    .custom--section-perfrom-dolor .custom--section-perfrom-custom-high .custom--section-perfrom-custom-elements p {
+        max-width: 100%;
+    }
+
+    .custom--section-perfrom-custom-elements .tail-start {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left {
+        max-width: 650px;
+    }
+
+    .checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-flex {
+        max-width: 600px;
+    }
+
+    .checkout--section-perfrom-flex .group-para {
+        padding: 15px;
+    }
+
+    .checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-flex h2 {
+        max-width: 100%;
+    }
+    .checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left {
+        max-width: 600px;
+    }
+
+    .checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-flex {
+        max-width: 500px;
+    }
+
+    .checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-image {
+        width: 100%;
+    }
+
+    .scale .scale-first {
+        max-width: 500px;
+    }
+
+    .scale-first .tail-startt {
+        max-width: 100%;
+    }
+
+    .scale .scale-first p {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left {
+        max-width: 550px;
+    }
+
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left h1 {
+        max-width: 100%;
+    }
+
+    .checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-flex {
+        max-width: 450px;
+    }
+
+    .scale .scale-first {
+        max-width: 400px;
+    }
+
+    .custom--section-perfrom-dolor .custom--section-perfrom-custom-high .custom--section-perfrom-custom-elements {
+        width: 50%;
+    }
+
+    .custom--section-perfrom-dolor .custom--section-perfrom-cust h2 {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .checkout--section-perfrom .checkout--section-perfrom-flex-short {
+        max-width: 100%;
+    }
+    .explore--section-perfrom-store{
+        margin-bottom: 40px;
+    }
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left {
+        max-width: 500px;
+    }
+
+    .explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start {
+        display: grid;
+    }
+
+    .explore--section-perfrom-store {
+        padding-top: 0;
+        padding-bottom: 0px;
+    }
+
+    .explore-left-side {
+        width: 100%;
+        order: 2;
+        font-size: 0;
+    }
+
+    .explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right {
+        width: 100%;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .checkout--section-perfrom .checkout--section-perfrom-start {
+        display: block;
+    }
+
+    .checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-flex {
+        max-width: 100%;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .checkout--section-perfrom {
+        padding: 0;
+    }
+
+    .explore-right-side .laye-first {
+        justify-content: center;
+    }
+
+    .explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right h2 {
+        max-width: 100%;
+        font-size: 45px;
+    }
+
+    .explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right p {
+        font-size: 17px;
+    }
+
+    .checkout--section-perfrom-first .laye-first {
+        justify-content: center;
+    }
+
+    .checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-flex h2 {
+        max-width: 100%;
+        font-size: 45px;
+    }
+
+    .checkout--section-perfrom-flex .group-para {
+        padding: 15px;
+        max-width: 70%;
+        margin: auto;
+        text-align: left;
+        padding: 30px;
+        margin-bottom: 25px;
+    }
+
+    .checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-flex p {
+        font-size: 17px;
+    }
+
+    .checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-flex .group-para p {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start {
+        display: block;
+    }
+
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left {
+        max-width: 100%;
+        padding-top: 40px;
+    }
+
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-image {
+        width: 100%;
+    }
+
+    .custom--section-perfrom-dolor .scale {
+        display: grid;
+    }
+
+    .scale .scale-first {
+        max-width: 100%;
+        display: block;
+        order: 2;
+        text-align: center;
+    }
+
+    .custom--section-perfrom-dolor .custom--section-perfrom-custom-high {
+        display: block;
+    }
+
+    .custom--section-perfrom-dolor .custom--section-perfrom-custom-high .custom--section-perfrom-custom-elements {
+        width: 100%;
+        padding-bottom: 20px;
+        text-align: center;
+        display: block;
+    }
+
+    .expand-left .laye-first {
+        justify-content: center;
+    }
+
+    .expand-left {
+        text-align: center;
+    }
+
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn {
+        justify-content: center;
+    }
+
+    .expand-left .laye-first .laye2-right-1 h5 {
+        font-size: 18px;
+        margin-top: 2px;
+    }
+
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left p {
+        font-size: 18px;
+    }
+
+    .custom--section-perfrom-dolor .custom--section-perfrom-custom-high .custom--section-perfrom-custom-elements h3 {
+        font-size: 40px;
+        margin: 5px 0 10px 0;
+        font-weight: 600;
+    }
+
+    .custom--section-perfrom-dolor .custom--section-perfrom-custom-high .custom--section-perfrom-custom-elements p {
+        max-width: 73%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .custom--section-perfrom-custom-elements .tail-start {
+        max-width: 62%;
+        text-align: left;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .custom--section-perfrom-custom-elements .tail-start p {
+        margin: 0 !important;
+    }
+
+    .custom--section-perfrom-custom-elements .tail-start h3 {
+        font-size: 20px !important;
+        margin: 0 !important;
+        margin-bottom: 5px !important;
+    }
+
+    .custom--section-perfrom-dolor {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .custom--section-perfrom-dolor .custom--section-perfrom-cust h2 {
+        font-size: 45px;
+    }
+
+    .custom--section-perfrom-dolor .custom--section-perfrom-custom-high {
+        padding-top: 30px;
+    }
+
+    .custom--section-perfrom-custom-elements .tail-start1 {
+
+        justify-content: center;
+        max-width: 83%;
+    }
+
+    .custom--section-perfrom-custom-elements .tail-start1 h3 {
+        font-size: 20px !important;
+    }
+
+    .scale-second {
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .scale .scale-first h3 {
+        font-size: 40px;
+        margin: 0;
+        font-weight: 600;
+    }
+
+    .scale .scale-first p {
+        max-width: 84%;
+        font-size: 18px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .scale-first .tail-startt {
+        max-width: 62%;
+        text-align: left;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    .scale-first .tail-startt p {
+        margin: 0;
+        margin-top: 8px;
+    }
+
+    .scale-first .tail-startt1 {
+        justify-content: center;
+        max-width: 81%;
+    }
+
+    .scale-first .tail-startt h3 {
+        font-size: 20px !important;
+    }
+
+    .scale-first .tail-startt1 h3 {
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .custom--section-perfrom-custom-elements .tail-start1 {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left h1 {
+        max-width: 66%;
+        margin: auto;
+    }
+
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left p {
+        font-size: 18px;
+        max-width: 85%;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    .checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-flex p {
+        font-size: 17px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .checkout--section-perfrom-flex .group-para p {
+        margin: 0 !important;
+    }
+
+    .checkout--section-perfrom-flex .group-para .checkout-section-group p {
+        max-width: 600px;
+    }
+    .checkout--section-perfrom-flex .group-para {
+        max-width: 80%;
+    }
+
+    .checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-flex .group-para p {
+        font-size: 16px;
+    }
+
+    .custom--section-perfrom-dolor .custom--section-perfrom-custom-high .custom--section-perfrom-custom-elements p {
+        max-width: 61%;
+    }
+
+    .scale .scale-first p {
+        max-width: 65%;
+    }
+
+    .scale-first .tail-startt p {
+        max-width: 93% !important;
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width:640px) {
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left h1 {
+        max-width: 91%;
+    }
+
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left p {
+        max-width: 91%;
+    }
+
+
+    .custom--section-perfrom-custom-elements .tail-start {
+        max-width: 81%;
+    }
+
+    .custom--section-perfrom-custom-elements .tail-start1 {
+        max-width: 86%;
+    }
+
+    .scale .scale-first p {
+        max-width: 90%;
+    }
+
+    .scale-first .tail-startt {
+        max-width: 90%;
+    }
+
+    .scale-first .tail-startt1 {
+        max-width: 75%;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left h1 {
+        font-size: 40px;
+    }
+
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left {
+        padding-top: 20px;
+    }
+
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-image {
+        padding-top: 20px;
+    }
+
+    .explore--section-perfrom-store {
+        padding-bottom: 15px;
+        margin-bottom: 35px;
+    }
+
+    .explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right h2 {
+        font-size: 35px;
+    }
+
+    .checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-flex h2 {
+        font-size: 35px;
+    }
+
+    .custom--section-perfrom-dolor {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .custom--section-perfrom-dolor .custom--section-perfrom-cust h2 {
+        font-size: 35px;
+    }
+
+    .custom--section-perfrom-dolor .custom--section-perfrom-custom-high .custom--section-perfrom-custom-elements h3 {
+        font-size: 35px;
+    }
+
+    .scale .scale-first h3 {
+        font-size: 35px;
+    }
+
+    .explore--section-perfrom-store .explore--section-perfrom-title .explore--section-perfrom-start .explore-right {
+        padding-top: 30px;
+    }
+
+    /* .checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-flex p {
+        max-width: 100%;
+    } */
+    .checkout--section-perfrom-flex .group-para .checkout-section-group p {
+        max-width: 451px;
+    }
+
+    .checkout--section-perfrom-flex .group-para {
+        max-width: 100%;
+    }
+
+    .checkout--section-perfrom .checkout--section-perfrom-start .checkout--section-perfrom-flex .group-para p {
+        font-size: 14px;
+    }
+
+    .custom--section-perfrom-dolor .custom--section-perfrom-custom-high .custom--section-perfrom-custom-elements p {
+        max-width: 100%;
+    }
+
+    .custom--section-perfrom-custom-elements .tail-start {
+        max-width: 100%;
+    }
+
+    .custom--section-perfrom-custom-elements .tail-start1 {
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .scale .scale-first p {
+        max-width: 100%;
+        font-size: 16px;
+    }
+
+    .scale-first .tail-startt {
+        max-width: 100%;
+    }
+
+    .scale-first .tail-startt1 {
+        max-width: 100%;
+        text-align: left;
+    }
+
+    button#call-ui {
+        width: 138px;
+        height: 30px;
+    }
+
+    button#work {
+        width: 161px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn {
+        margin-top: 25px;
+
+    }
+
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-to {
+        font-size: 15px;
+        width: 160px;
+    }
+
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn .view-side {
+        font-size: 15px;
+        width: 160px;
+    }
+
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left h1 {
+        max-width: 100%;
+    }
+
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-start .connect--section-perfrom-left p {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .explore--section-perfrom-store {
+        padding-bottom: 30px;
+    }
+
+    .connect--section-perfrom .connect--section-perfrom-sides .connect--section-perfrom-btn {
+        display: grid;
+    }
+
+    .custom--section-perfrom-dolor .custom--section-perfrom-custom-high .custom--section-perfrom-custom-elements h3 {
+        font-size: 35px;
+        margin: 0;
+
+    }
+
+    .scale-first .tail-startt1 h3 {
+        font-size: 19px !important;
+        text-align: left;
+    }
+    .checkout--section-perfrom-flex .group-para .checkout-section-group p {
+        max-width: 361px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.explore--section-perfrom-store {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.explore--section-perfrom-store.in-view {
+    opacity: 1;
+}
+
+.checkout--section-perfrom {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.checkout--section-perfrom.in-view {
+    opacity: 1;
+}
+
+.custom--section-perfrom-dolor {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.custom--section-perfrom-dolor {
+    opacity: 1;
+}

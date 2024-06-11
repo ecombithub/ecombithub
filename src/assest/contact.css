@@ -1,0 +1,730 @@
+.today-section-contact {
+    display: inline-block;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-image: url(../images/backg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.today-section-contact-track-flex .today-section-contact-track-first h2 {
+    margin: 0;
+}
+
+.today-section-contact-track-flex .today-section-contact-track-first p {
+    max-width: 75%;
+    margin-top: 1px;
+    margin-bottom: 13px;
+    line-height: 17px;
+    font-size: 16px;
+}
+
+.today-section-contact-track-first .today-section-contact-track-first-side .today-section-contact-track-know label {
+    font-size: 15px;
+    font-family: Work Sans;
+    font-weight: 500;
+    line-height: 25px;
+}
+
+.today-section-contact-track-first-side .today-section-contact-track-know {
+    display: flex;
+    gap: 30px;
+}
+
+.today-section-contact-track-flex .today-section-contact-right-side img {
+    width: 100%;
+}
+
+.today-section-contact-track-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.today-section-contact-track-flex .today-section-contact-track-first {
+    width: 50%;
+}
+
+.today-section-contact-track-flex .today-section-contact-right-side {
+    width: 45%;
+}
+
+.today-section-contact-track-first-side .today-section-contact-track-know input {
+    width: 231px;
+    height: 30px;
+    margin-bottom: 15px;
+    outline: none;
+    border-radius: 4px;
+    padding: 17px;
+    border: 1px solid rgb(227, 227, 227);
+}
+
+.today-section-contact-track-first-side .today-section-contact-message input {
+    width: 490px;
+    max-width: 100%;
+    height: 75px;
+    margin-bottom: 15px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid rgb(227, 227, 227);
+}
+
+.today-section-contact-track-first-side .today-section-contact-message label {
+    font-size: 15px;
+    font-family: Work Sans;
+    font-weight: 500;
+    line-height: 25px;
+
+}
+
+.today-section-contact-track-first-side .sub-bg {
+    border: 0px solid rgb(227, 227, 227);
+    border-radius: 4px;
+    background-color: #fc5569;
+    color: white;
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
+    font-family: Work Sans;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.today-section-contact-track-first-side .sub-bg:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.today-section-contact-track-first-side .sub-bg:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.today-section-contact-track-first-side .sub-bg:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.today-section-contact-track-first-side .sub-bg:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.today-section-contact-track-first-side .sub-bg:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.today-section-contact-track-first-side .sub-bg:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.today-section-contact-track-first-side .sub-bg:before,
+.today-section-contact-track-first-side .sub-bg:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+  background-color: #77af1e;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.today-section-contact-track-first-side .sub-bg:before {
+  left: 0;
+}
+
+.today-section-contact-track-first-side .sub-bg:after {
+  right: 0;
+}
+
+.today-section-contact-track-first-side .sub-bg:hover {
+  color: #f8f8f8;
+}
+
+.today-section-contact-track-first-side .sub-bg:hover:before {
+  width: 50%;
+}
+
+.today-section-contact-track-first-side .sub-bg:hover:after {
+  width: 50%;
+}
+
+/* .today-section-contact-track-first-side .sub-bg {
+    border: 0px solid rgb(227, 227, 227);
+    border-radius: 4px;
+    background-color: #fc5569;
+    color: white;
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
+    font-family: Work Sans;
+    font-weight: 600;
+    cursor: pointer;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+
+.today-section-contact-track-first-side .sub-bg:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+    color: white;
+}
+
+
+.today-section-contact-track-first-side .sub-bg {
+    background-image: linear-gradient(to right, #fc5569, #fc5569, #4f7513, #ade94e);
+} */
+
+.today-section-slider {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.today-section-slider .slick-next {
+    display: none !important;
+}
+
+.today-section-slider .slick-prev {
+    display: none !important;
+}
+
+
+.today-section-map .today-section-map-create-flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F3F5F8;
+    width: 100%;
+    margin-bottom: 40px;
+
+    border-radius: 8px;
+}
+
+.today-section-map-create-map iframe {
+    border-radius: 0 8px 8px 0;
+}
+
+.today-section-map-create-flex .today-section-map-create-map {
+    font-size: 0;
+    width: 60%;
+}
+
+.today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-loaction {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-left: 30px;
+}
+
+.today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-loaction .location-first img {
+    width: 40px;
+}
+
+.today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-loaction .location-second p {
+    margin: 0;
+    max-width: 80%;
+    font-family: Work Sans;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 15px;
+
+}
+
+.today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-address {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-left: 30px;
+}
+
+.today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-address .address-first img {
+    width: 40px;
+}
+
+.today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-address .address-second p {
+    margin: 0;
+    max-width: 77%;
+    font-family: Work Sans;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 15px;
+
+}
+
+.today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-message {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-left: 30px;
+}
+
+.today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-message .message-first img {
+    width: 40px;
+}
+
+.today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-message .message-second p {
+    margin: 0;
+    max-width: 80%;
+    font-family: Work Sans;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 15px;
+
+}
+
+.today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-call {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-left: 30px;
+}
+
+.today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-call .call-first img {
+    width: 40px;
+}
+
+.today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-call .call-second p {
+    margin: 0;
+
+    font-family: Work Sans;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 15px;
+    margin-bottom: 4px;
+
+}
+
+.today-section-map-create-flex .today-section-map-create-flex-start {
+    padding-top: 50px;
+    width: 40%;
+
+}
+
+.today-section-map {
+    margin-bottom: 150px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .today-section-map-create-flex .today-section-map-create-flex-start {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width:1041px) {
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-address .address-second p {
+        max-width: 100%;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-loaction .location-second p {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width:991px) {
+    .today-section-contact-track-flex .today-section-contact-track-first h2 {
+        font-size: 30px;
+    }
+
+    .today-section-contact-track-flex .today-section-contact-track-first p {
+        max-width: 100%;
+    }
+
+    .today-section-contact-track-first-side .today-section-contact-track-know input {
+        width: 200px;
+    }
+
+    .today-section-contact-track-first-side .today-section-contact-message input {
+        width: 427px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .today-section-map-create-flex .today-section-map-create-flex-start {
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width:847px) {
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-loaction .location-first img {
+        width: 30px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-address .address-first img {
+        width: 30px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-message .message-first img {
+        width: 30px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-call .call-first img {
+        width: 30px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-loaction .location-second p {
+        font-size: 13px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-address .address-second p {
+        font-size: 13px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-message .message-second p {
+        font-size: 13px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-call .call-second p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:840px) {
+
+    .today-section-contact-track-first-side .today-section-contact-track-know input {
+        width: 150px;
+    }
+
+    .today-section-contact-track-first-side .today-section-contact-message input {
+        width: 330px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .today-section-contact {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .today-section-contact-track-flex .today-section-contact-track-first h2 {
+        font-size: 45px;
+        margin-bottom: 5px;
+        font-weight: 600;
+    }
+
+    .today-section-contact-track-flex .today-section-contact-track-first p {
+        font-size: 17px;
+        max-width: 75%;
+        line-height: 22px;
+    }
+
+    .today-section-contact-track-flex {
+        display: block;
+    }
+
+    .today-section-contact-track-flex .today-section-contact-track-first {
+        width: 100%;
+        margin-bottom: 65px;
+    }
+
+    .today-section-contact-track-flex .today-section-contact-right-side {
+        width: 100%;
+    }
+
+    .today-section-contact-track-need {
+        width: 50%;
+        margin-right: 0px;
+    }
+
+    .today-section-contact-track-down {
+        width: 50%;
+        margin-right: 0px;
+    }
+
+    .today-section-contact-track-first-side .today-section-contact-message input {
+        width: 99%;
+    }
+
+    .today-section-contact-track-first .today-section-contact-track-first-side .today-section-contact-track-know label {
+        font-size: 15px;
+    }
+
+    .today-section-contact-track-first-side .today-section-contact-message label {
+        font-size: 15px;
+    }
+
+    .today-section-contact-track-first-side .today-section-contact-track-know input {
+        padding: 22px;
+    }
+
+    .today-section-contact-track-first-side .today-section-contact-track-know {
+        gap: 30px;
+    }
+
+    .today-section-contact-track-first-side {
+        margin-top: 25px;
+    }
+
+    .today-section-contact-track-first-side .today-section-contact-track-know input {
+        margin-bottom: 30px !important;
+    }
+
+    .today-section-contact-track-first-side .today-section-contact-message input {
+        margin-bottom: 15px !important;
+        padding: 54px;
+    }
+
+    .today-section-contact-track-first-side .sub-bg {
+        height: 40px;
+        width: 164px;
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-loaction {
+        margin-bottom: 60px;
+        padding-left: 40px;
+        gap: 30px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-address {
+        margin-bottom: 60px;
+        padding-left: 40px;
+        gap: 30px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-message {
+        margin-bottom: 60px;
+        padding-left: 40px;
+        gap: 30px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-call {
+        margin-bottom: 50px;
+        padding-left: 40px;
+        gap: 30px;
+    }
+
+
+    .today-section-contact-track-first-side .today-section-contact-track-know input {
+        width: 100%;
+    }
+
+    .today-section-contact-track-first-side .today-section-contact-message input {
+        width: 100%;
+    }
+
+    .today-section-map .today-section-map-create-flex {
+        display: block;
+    }
+
+    .today-section-map-create-map iframe {
+        width: 100%;
+        height: 550px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-loaction .location-first img {
+        width: 45px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-address .address-first img {
+        width: 45px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-message .message-first img {
+        width: 45px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-call .call-first img {
+        width: 45px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-loaction .location-second p {
+        font-size: 18px;
+        max-width: 80%;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-address .address-second p {
+        font-size: 18px;
+        max-width: 74%;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-message .message-second p {
+        font-size: 18px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-call .call-second p {
+        font-size: 18px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start {
+        margin-bottom: 40px;
+        padding-top: 45px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start {
+        width: 100%;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-map {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:540px) {
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-address .address-second p {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .today-section-contact-track-flex .today-section-contact-track-first h2 {
+        font-size: 35px;
+    }
+
+    .today-section-contact-track-flex .today-section-contact-track-first p {
+        font-size: 17px;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .today-section-contact {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .today-section-contact-track-first-side .today-section-contact-track-know input {
+        padding: 16px;
+    }
+
+    .today-section-contact-track-first-side .today-section-contact-track-know input {
+        margin-bottom: 15px !important;
+    }
+
+    .today-section-contact-track-first-side .today-section-contact-message input {
+        margin-bottom: 10px !important;
+        padding: 36px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-loaction {
+        margin-bottom: 50px !important;
+        padding-left: 26px !important;
+        gap: 21px !important;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-loaction .location-first img {
+        width: 40px !important;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start {
+        padding-top: 40px !important;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-address .address-first img {
+        width: 40px !important;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-loaction .location-second p {
+        font-size: 17px !important;
+        max-width: 100% !important;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-address {
+        margin-bottom: 50px !important;
+        padding-left: 26px !important;
+        gap: 21px !important;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-address .address-second p {
+        font-size: 17px !important;
+        max-width: 100% !important;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-message .message-first img {
+        width: 40px !important;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-message {
+        margin-bottom: 50px !important;
+        padding-left: 26px !important;
+        gap: 21px !important;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-call .call-first img {
+        width: 40px !important;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-call {
+        margin-bottom: 50px !important;
+        padding-left: 26px !important;
+        gap: 21px !important;
+    }
+
+    .today-section-map-create-map iframe {
+        height: 400px !important;
+    }
+
+    .today-section-contact-track-flex .today-section-contact-track-first {
+        margin-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width:380px) {
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-loaction .location-second p {
+        font-size: 15px !important;
+        max-width: 100% !important;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-loaction {
+        margin-bottom: 30px !important;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-call {
+        margin-bottom: 30px !important;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-message {
+        margin-bottom: 30px !important;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-address {
+        margin-bottom: 30px !important;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-address .address-second p {
+        font-size: 15px !important;
+        max-width: 100% !important;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-message .message-second p {
+        font-size: 15px;
+    }
+
+    .today-section-map-create-flex .today-section-map-create-flex-start .today-section-map-create-call .call-second p {
+        font-size: 15px;
+    }
+
+    .today-section-contact-track-flex .today-section-contact-track-first h2 {
+        font-size: 34px;
+    }
+}

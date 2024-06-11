@@ -1,0 +1,3304 @@
+.build--section-perform {
+    width: 100%;
+    display: inline-block;
+    background-image: url(../images/bb.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.build--section-perform .build--section-perform-site {
+    background-image: url(../images/flo.png);
+    background-repeat: no-repeat;
+    background-position: -1% 5%;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view {
+    height: 40px;
+    width: 210px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    background-color: #fc5569;
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover .rotate-text:nth-child(10) {
+    animation: rotateLetter 0.8s ease 1s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover .rotate-text:nth-child(11) {
+    animation: rotateLetter 0.8s ease 1.2s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover .rotate-text:nth-child(12) {
+    animation: rotateLetter 0.8s ease 1.3s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover .rotate-text:nth-child(13) {
+    animation: rotateLetter 0.8s ease 1.4s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover .rotate-text:nth-child(14) {
+    animation: rotateLetter 0.8s ease 1.5s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover .rotate-text:nth-child(15) {
+    animation: rotateLetter 0.8s ease 1.6s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover .rotate-text:nth-child(16) {
+    animation: rotateLetter 0.8s ease 1.7s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover .rotate-text:nth-child(17) {
+    animation: rotateLetter 0.8s ease 1.8s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:before,
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    background-color: #77af1e;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:before {
+    left: 0;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:after {
+    right: 0;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover {
+    color: #f8f8f8;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover:before {
+    width: 50%;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover:after {
+    width: 50%;
+}
+
+/* 
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view {
+    height: 40px;
+    width: 210px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view {
+    background-image: linear-gradient(to right, #fc5569, #fc5569, #4f7513, #ade94e);
+
+} */
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side {
+    height: 40px;
+    width: 210px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #ffebed;
+
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover .rotate-text:nth-child(10) {
+    animation: rotateLetter 0.8s ease 1s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover .rotate-text:nth-child(11) {
+    animation: rotateLetter 0.8s ease 1.2s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover .rotate-text:nth-child(12) {
+    animation: rotateLetter 0.8s ease 1.3s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover .rotate-text:nth-child(13) {
+    animation: rotateLetter 0.8s ease 1.4s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover .rotate-text:nth-child(14) {
+    animation: rotateLetter 0.8s ease 1.5s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover .rotate-text:nth-child(15) {
+    animation: rotateLetter 0.8s ease 1.6s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover .rotate-text:nth-child(16) {
+    animation: rotateLetter 0.8s ease 1.7s forwards;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover .rotate-text:nth-child(17) {
+    animation: rotateLetter 0.8s ease 1.8s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:before,
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    background-color: #77af1e;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:before {
+    left: 0;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:after {
+    right: 0;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover {
+    color: #f8f8f8;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover:before {
+    width: 50%;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover:after {
+    width: 50%;
+}
+
+
+
+
+/* .build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side {
+    height: 40px;
+    width: 210px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+    color: white;
+}
+
+.build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side {
+    background-image: linear-gradient(to right, #ffebed, #ffebed, #4f7513, #ade94e);
+} */
+
+.laye-first {
+    display: flex;
+    gap: 5px;
+
+}
+
+.build--section-perform .laye-first .laye2-right h5 {
+    margin-top: -7px;
+    font-size: 16px;
+    font-family: Work Sans;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.build--section-perform .build--section-perform-site-flex {
+    display: flex;
+    font-size: 0;
+}
+
+.build--section-perform .build--section-perform-site-flex .build--section-perform-site-first {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.build--section-perform .build--section-perform-site-flex .build--section-right-image {
+    width: 50%;
+}
+
+.build--section-perform .build--section-perform-site-flex .build--section-right-image img {
+    width: 100%;
+}
+
+.build--section-perform .build--section-perform-site-flex .build--section-perform-site-first h1 {
+    margin: 0;
+    max-width: 56%;
+}
+
+.build--section-perform .build--section-perform-site-flex .build--section-perform-site-first p {
+    font-weight: 600;
+}
+
+.build--section-perform .build--section-perform-site-flex .build--section-perform-site-first .met_img {
+    position: absolute;
+    z-index: 0;
+    left: 64%;
+    top: 30%;
+}
+
+.build--section-perform .build--section-perform-site-flex .build--section-perform-site-first .met_img img {
+    width: 200px;
+}
+
+.meet--section-team .meet--btn {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.meet--section-team .meet--btn:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.meet--section-team .meet--btn:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.meet--section-team .meet--btn:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.meet--section-team .meet--btn:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.meet--section-team .meet--btn:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.meet--section-team .meet--btn:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.meet--section-team .meet--btn:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.meet--section-team .meet--btn:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.meet--section-team .meet--btn:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+.meet--section-team .meet--btn:hover .rotate-text:nth-child(10) {
+    animation: rotateLetter 0.8s ease 1s forwards;
+}
+
+.meet--section-team .meet--btn:hover .rotate-text:nth-child(11) {
+    animation: rotateLetter 0.8s ease 1.2s forwards;
+}
+
+.meet--section-team .meet--btn:hover .rotate-text:nth-child(12) {
+    animation: rotateLetter 0.8s ease 1.3s forwards;
+}
+
+.meet--section-team .meet--btn:hover .rotate-text:nth-child(13) {
+    animation: rotateLetter 0.8s ease 1.4s forwards;
+}
+
+.meet--section-team .meet--btn:hover .rotate-text:nth-child(14) {
+    animation: rotateLetter 0.8s ease 1.5s forwards;
+}
+
+.meet--section-team .meet--btn:hover .rotate-text:nth-child(15) {
+    animation: rotateLetter 0.8s ease 1.6s forwards;
+}
+
+.meet--section-team .meet--btn:hover .rotate-text:nth-child(16) {
+    animation: rotateLetter 0.8s ease 1.7s forwards;
+}
+
+.meet--section-team .meet--btn:hover .rotate-text:nth-child(17) {
+    animation: rotateLetter 0.8s ease 1.8s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.meet--section-team .meet--btn:before,
+.meet--section-team .meet--btn:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    background-color: #77af1e;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.meet--section-team .meet--btn:before {
+    left: 0;
+}
+
+.meet--section-team .meet--btn:after {
+    right: 0;
+}
+
+.meet--section-team .meet--btn:hover {
+    color: #f8f8f8;
+}
+
+.meet--section-team .meet--btn:hover:before {
+    width: 50%;
+}
+
+.meet--section-team .meet--btn:hover:after {
+    width: 50%;
+}
+
+
+/* .meet--section-team .meet--btn {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 10px;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+.meet--section-team .meet--btn:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+}
+
+.meet--section-team .meet--btn {
+    background-image: linear-gradient(to right, #fc5569, #fc5569, #4f7513, #ade94e);
+
+} */
+
+.meet--section-team .meet--section-team-flex {
+    display: flex;
+}
+
+.meet--section-team .meet--section-team-flex {
+    display: flex;
+    gap: 30px;
+}
+
+.meet--section-team .meet--section-team-flex .meet--section-team-image {
+    width: 50%;
+    position: relative;
+}
+
+.meet--section-team .meet--section-team-flex .meet--section-team-image img {
+    width: 100%;
+}
+
+.meet--section-team .meet--section-team-flex .meet--section-team-image .firt {
+    position: absolute;
+    top: 22px;
+    left: 185px;
+}
+
+.meet--section-team .meet--section-team-flex .meet--section-team-image .ps {
+    position: absolute;
+    top: 15px;
+    left: 275px;
+}
+
+.meet--section-team .meet--section-team-flex .meet--section-team-image .ps img {
+    width: 64px;
+}
+
+.meet--section-team .meet--section-team-flex .meet--section-team-image .id {
+    position: absolute;
+    top: 13px;
+    left: 381px;
+}
+
+
+.meet--section-team .meet--section-team-flex .meet--section-team-image .id img {
+    width: 64px;
+}
+
+.meet--section-team .meet--section-team-flex .meet--section-team-image .ai {
+    position: absolute;
+    top: 12px;
+    left: 488px;
+}
+
+.meet--section-team .meet--section-team-flex .meet--section-team-image .ai img {
+    width: 64px;
+}
+
+.meet--section-team .meet--section-team-flex .meet--section-team-element {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meet--section-team .meet--section-team-flex .meet--section-team-element h2 {
+    margin: 0;
+}
+
+.meet--section-team .meet--section-team-flex .meet--section-team-element p {
+    max-width: 76%;
+}
+
+.meet--section-team {
+    padding: 70px 0;
+}
+
+.tech--section-elements button.slick-arrow.slick-prev {
+    display: none !important;
+}
+
+.tech--section-elements .tech--section-btn {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 8px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.tech--section-elements .tech--section-btn:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.tech--section-elements .tech--section-btn:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.tech--section-elements .tech--section-btn:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.tech--section-elements .tech--section-btn:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.tech--section-elements .tech--section-btn:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.tech--section-elements .tech--section-btn:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.tech--section-elements .tech--section-btn:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.tech--section-elements .tech--section-btn:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.tech--section-elements .tech--section-btn:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+.tech--section-elements .tech--section-btn:hover .rotate-text:nth-child(10) {
+    animation: rotateLetter 0.8s ease 1s forwards;
+}
+
+.tech--section-elements .tech--section-btn:hover .rotate-text:nth-child(11) {
+    animation: rotateLetter 0.8s ease 1.2s forwards;
+}
+
+.tech--section-elements .tech--section-btn:hover .rotate-text:nth-child(12) {
+    animation: rotateLetter 0.8s ease 1.3s forwards;
+}
+
+.tech--section-elements .tech--section-btn:hover .rotate-text:nth-child(13) {
+    animation: rotateLetter 0.8s ease 1.4s forwards;
+}
+
+.tech--section-elements .tech--section-btn:hover .rotate-text:nth-child(14) {
+    animation: rotateLetter 0.8s ease 1.5s forwards;
+}
+
+.tech--section-elements .tech--section-btn:hover .rotate-text:nth-child(15) {
+    animation: rotateLetter 0.8s ease 1.6s forwards;
+}
+
+.tech--section-elements .tech--section-btn:hover .rotate-text:nth-child(16) {
+    animation: rotateLetter 0.8s ease 1.7s forwards;
+}
+
+.tech--section-elements .tech--section-btn:hover .rotate-text:nth-child(17) {
+    animation: rotateLetter 0.8s ease 1.8s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.tech--section-elements .tech--section-btn:before,
+.tech--section-elements .tech--section-btn:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    background-color: #77af1e;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.tech--section-elements .tech--section-btn:before {
+    left: 0;
+}
+
+.tech--section-elements .tech--section-btn:after {
+    right: 0;
+}
+
+.tech--section-elements .tech--section-btn:hover {
+    color: #f8f8f8;
+}
+
+.tech--section-elements .tech--section-btn:hover:before {
+    width: 50%;
+}
+
+.tech--section-elements .tech--section-btn:hover:after {
+    width: 50%;
+}
+
+
+/* .tech--section-elements .tech--section-btn {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 8px;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+.tech--section-elements .tech--section-btn:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+}
+
+.tech--section-elements .tech--section-btn {
+    background-image: linear-gradient(to right, #fc5569, #fc5569, #4f7513, #ade94e);
+
+} */
+
+.tech--section-elements .group-para {
+    border: 1px solid rgb(245, 245, 245);
+    padding: 30px;
+    width: 100%;
+    max-width: 87%;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 5px 0px #e9e9e9;
+    padding-right: 0;
+}
+
+.tech--section-elements .grup-3 p {
+    margin: 0;
+    max-width: 100%;
+}
+
+.tech--section-elements .group-para .grup-1 {
+    display: flex;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.tech--section-elements.group-para .grup-1 h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.tech--section-elements-firsted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 0 0 auto;
+}
+
+.tech--section-elements .tech--section-elements-flex .tech--section-elements-first {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100%;
+    max-width: 700px;
+    margin: 0 0 0 auto;
+}
+
+.tech--section-elements .group-para .tech-group-elements .grup-1 p {
+    max-width: 100% !important;
+}
+
+.tech--section-elements .group-para .tech-group-elements p {
+    max-width: 580px !important;
+}
+
+.tech--section-elements {
+    background-image: url(../images/bk.png);
+    padding: 20px 0;
+}
+
+.tech--section-elements .tech--section-elements-flex {
+    display: flex;
+
+}
+
+.tech--section-elements .tech--section-elements-flex .tech--section-elements-second {
+    width: 50%;
+    font-size: 0;
+
+}
+
+.tech--section-elements .tech--section-elements-flex .tech--section-elements-second img {
+    width: 100%;
+}
+
+.tech--section-elements .tech--section-elements-flex .tech--section-elements-first h2 {
+    margin: 0;
+    max-width: 73%;
+}
+
+.tech--section-elements .tech--section-elements-flex .tech--section-elements-first p {
+    max-width: 78%;
+}
+
+.power--section-element-right-side .play-to {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+
+.power--section-element-right-side .play-to p {
+    margin-top: -4px;
+    max-width: 67%;
+}
+
+.power--section-element-right-side .power--section-element-moon {
+    border: 0px solid black;
+    box-shadow: 1px 1px 5px 0px #e9e9e9;
+    border-radius: 10px;
+    padding: 30px;
+    padding-left: 40px;
+    background-color: white;
+    width: 100%;
+    max-width: 75%;
+    margin-bottom: 25px;
+}
+
+.power--section-element-right-side .power--section-element-moon h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.power--section-element-right-side .power--section-element-moon .sche-to {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+.power--section-element-right-side .sche-to .sche-1 {
+    border: 0px solid rgb(255, 255, 255);
+    width: 100%;
+    max-width: 45%;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 8px;
+    background-color: #F3F5F8;
+}
+
+.power--section-element-right-side .sche-to .sche-1 h4 {
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 650;
+}
+
+.power--section-element-right-side .sche-to .sche-1 p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.power--section-element-right-side .sche-to .sche-2 {
+    border: 0px solid black;
+    width: 100%;
+    max-width: 50%;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background-color: #F3F5F8;
+}
+
+.power--section-element-right-side .sche-to .sche-2 h4 {
+    margin: 0;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 650;
+}
+
+.power--section-element-right-side .sche-to .sche-2 p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.power--section-element-right-side .sche-to-1 {
+    display: flex;
+    gap: 10px;
+
+}
+
+.power--section-element-right-side .sche-to-1 .sche-3 {
+    display: flex;
+    gap: 10px;
+    border: 0px solid rgb(255, 255, 255);
+    width: 100%;
+    max-width: 45%;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 8px;
+    background-color: #F3F5F8;
+    text-align: center;
+}
+
+.power--section-element-right-side .sche-to-1 .sche-3 p {
+    margin-top: -3px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.power--section-element-right-side .sche-4 p {
+    margin: 0;
+    font-size: 18px;
+}
+
+.power--section-element-right-side .sche-4 {
+    border: 0px solid black;
+    width: 100%;
+    max-width: 50%;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background-color: #F3F5F8;
+}
+
+.power--section-element-right-side .power--section-btn {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 8px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.power--section-element-right-side .power--section-btn:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.power--section-element-right-side .power--section-btn:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.power--section-element-right-side .power--section-btn:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.power--section-element-right-side .power--section-btn:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.power--section-element-right-side .power--section-btn:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.power--section-element-right-side .power--section-btn:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.power--section-element-right-side .power--section-btn:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.power--section-element-right-side .power--section-btn:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.power--section-element-right-side .power--section-btn:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+.power--section-element-right-side .power--section-btn:hover .rotate-text:nth-child(10) {
+    animation: rotateLetter 0.8s ease 1s forwards;
+}
+
+.power--section-element-right-side .power--section-btn:hover .rotate-text:nth-child(11) {
+    animation: rotateLetter 0.8s ease 1.2s forwards;
+}
+
+.power--section-element-right-side .power--section-btn:hover .rotate-text:nth-child(12) {
+    animation: rotateLetter 0.8s ease 1.3s forwards;
+}
+
+.power--section-element-right-side .power--section-btn:hover .rotate-text:nth-child(13) {
+    animation: rotateLetter 0.8s ease 1.4s forwards;
+}
+
+.power--section-element-right-side .power--section-btn:hover .rotate-text:nth-child(14) {
+    animation: rotateLetter 0.8s ease 1.5s forwards;
+}
+
+.power--section-element-right-side .power--section-btn:hover .rotate-text:nth-child(15) {
+    animation: rotateLetter 0.8s ease 1.6s forwards;
+}
+
+.power--section-element-right-side .power--section-btn:hover .rotate-text:nth-child(16) {
+    animation: rotateLetter 0.8s ease 1.7s forwards;
+}
+
+.power--section-element-right-side .power--section-btn:hover .rotate-text:nth-child(17) {
+    animation: rotateLetter 0.8s ease 1.8s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+
+.power--section-element-right-side .power--section-btn:before,
+.power--section-element-right-side .power--section-btn:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    background-color: #77af1e;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.power--section-element-right-side .power--section-btn:before {
+    left: 0;
+}
+
+.power--section-element-right-side .power--section-btn:after {
+    right: 0;
+}
+
+.power--section-element-right-side .power--section-btn:hover {
+    color: #f8f8f8;
+}
+
+.power--section-element-right-side .power--section-btn:hover:before {
+    width: 50%;
+}
+
+.power--section-element-right-side .power--section-btn:hover:after {
+    width: 50%;
+}
+
+
+/* .power--section-element-right-side .power--section-btn {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 8px;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+.power--section-element-right-side .power--section-btn:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+}
+
+.power--section-element-right-side .power--section-btn {
+    background-image: linear-gradient(to right, #fc5569, #fc5569, #4f7513, #ade94e);
+} */
+
+.power--section-selling {
+    background-image: url(../images/bg4.png);
+    padding: 70px 0;
+}
+
+.power--section-selling .power--section-element-flex .power--section-element-right-side {
+    width: 50%;
+}
+
+.power--section-selling .power--section-element-flex .power--section-element-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0;
+    position: relative;
+}
+
+.power--section-selling .power--section-element-flex .power--section-element-image img {
+    width: 100%;
+}
+
+.power--section-selling .power--section-element-flex .power--section-element-image .html img {
+    width: 43px;
+}
+
+.power--section-selling .power--section-element-flex .power--section-element-image .html {
+    position: absolute;
+    top: 22%;
+    left: 33%;
+}
+
+.power--section-selling .power--section-element-flex .power--section-element-image .js img {
+    width: 50px;
+}
+
+.power--section-selling .power--section-element-flex .power--section-element-image .js {
+    position: absolute;
+    top: 21%;
+    left: 47%;
+}
+
+.power--section-selling .power--section-element-flex .power--section-element-image .css img {
+    width: 42px;
+}
+
+.power--section-selling .power--section-element-flex .power--section-element-image .css {
+    position: absolute;
+    top: 22%;
+    left: 63%;
+}
+
+.power--section-selling .power--section-element-flex {
+    display: flex;
+    gap: 20px;
+}
+
+.power--section-selling .power--section-element-flex .power--section-element-right-side h2 {
+    margin: 6px 0 15px 0;
+    max-width: 70%;
+}
+
+.power--section-element-right-side .play-to p {
+    margin-top: -4px;
+    max-width: 75%;
+}
+
+
+
+
+
+
+.research--section-brand .research--section-btn {
+    height: 40px;
+    width: 160px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.rotate-text {
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.research--section-brand .research--section-btn:hover .rotate-text:nth-child(1) {
+    animation: rotateLetter 0.8s ease 0.1s forwards;
+}
+
+.research--section-brand .research--section-btn:hover .rotate-text:nth-child(2) {
+    animation: rotateLetter 0.8s ease 0.2s forwards;
+}
+
+.research--section-brand .research--section-btn:hover .rotate-text:nth-child(3) {
+    animation: rotateLetter 0.8s ease 0.3s forwards;
+}
+
+.research--section-brand .research--section-btn:hover .rotate-text:nth-child(4) {
+    animation: rotateLetter 0.8s ease 0.4s forwards;
+}
+
+.research--section-brand .research--section-btn:hover .rotate-text:nth-child(5) {
+    animation: rotateLetter 0.8s ease 0.5s forwards;
+}
+
+.research--section-brand .research--section-btn:hover .rotate-text:nth-child(6) {
+    animation: rotateLetter 0.8s ease 0.6s forwards;
+}
+
+.research--section-brand .research--section-btn:hover .rotate-text:nth-child(7) {
+    animation: rotateLetter 0.8s ease 0.7s forwards;
+}
+
+.research--section-brand .research--section-btn:hover .rotate-text:nth-child(8) {
+    animation: rotateLetter 0.8s ease 0.8s forwards;
+}
+
+.research--section-brand .research--section-btn:hover .rotate-text:nth-child(9) {
+    animation: rotateLetter 0.8s ease 0.9s forwards;
+}
+
+@keyframes rotateLetter {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.research--section-brand .research--section-btn:before,
+.research--section-brand .research--section-btn:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    background-color: #77af1e;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.research--section-brand .research--section-btn:before {
+    left: 0;
+}
+
+.research--section-brand .research--section-btn:after {
+    right: 0;
+}
+
+.research--section-brand .research--section-btn:hover {
+    color: #f8f8f8;
+}
+
+.research--section-brand .research--section-btn:hover:before {
+    width: 50%;
+}
+
+.research--section-brand .research--section-btn:hover:after {
+    width: 50%;
+}
+
+
+/* .research--section-brand .research--section-btn {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Work Sans;
+    color: white;
+    background-color: #fc5569;
+    cursor: pointer;
+    margin-top: 8px;
+    background-size: 300% 100%;
+    transition: all .5s ease-in-out;
+}
+
+.research--section-brand .research--section-btn:hover {
+    background-position: 100% 0;
+    transition: all .5s ease-in-out;
+}
+
+.research--section-brand .research--section-btn {
+    background-image: linear-gradient(to right, #fc5569, #fc5569, #4f7513, #ade94e);
+} */
+
+
+.research--section-brand .research--section-checkout {
+    display: flex;
+}
+
+.research--section-brand .research--section-checkout .research--section-second img {
+    width: 100%;
+}
+
+.research--section-brand .research--section-checkout .research--section-second {
+    width: 50%;
+    font-size: 0;
+    position: relative;
+}
+
+
+.research--section-brand .research--section-checkout .research--section-second .yellow {
+    position: absolute;
+    bottom: 12%;
+    left: 232px;
+}
+
+.research--section-brand .research--section-checkout .research--section-second .yellow img {
+    width: 42px;
+}
+
+.research--section-brand .research--section-checkout .research--section-second .stripe {
+    position: absolute;
+    bottom: 13%;
+    left: 34%;
+}
+
+.research--section-brand .research--section-checkout .research--section-second .stripe img {
+    width: 43px;
+}
+
+.research--section-brand .research--section-checkout .research--section-second .goggle {
+    position: absolute;
+    bottom: 11%;
+    left: 43%;
+}
+
+.research--section-brand .research--section-checkout .research--section-second .goggle img {
+    width: 35px;
+}
+
+.research--section-brand .research--section-checkout .research--section-second .black {
+    position: absolute;
+    bottom: 11%;
+    left: 55%;
+}
+
+.research--section-brand .research--section-checkout .research--section-second .black img {
+    width: 36px;
+}
+
+.research--section-brand .research--section-checkout .research--section-second .visa {
+    position: absolute;
+    bottom: 13%;
+    left: 63%;
+}
+
+.research--section-brand .research--section-checkout .research--section-second .visa img {
+    width: 46px;
+}
+
+.research--section-brand .research--section-checkout .research--section-second .pa {
+    position: absolute;
+    bottom: 11%;
+    left: 73%;
+}
+
+.research--section-brand .research--section-checkout .research--section-second .pa img {
+    width: 28px;
+}
+
+.research--section-brand .research--section-checkout .research--section-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 0 0 auto;
+}
+
+.research--section-brand .research--section-checkout {
+    display: flex;
+}
+
+.research--section-brand .research--section-checkout .research--section-flex h2 {
+    margin: 0;
+}
+
+.research--section-brand {
+    padding: 30px 0;
+}
+
+.online_buy .slick-prev,
+.slick-next {
+    display: none !important;
+}
+
+.online-buy--section {
+    background-image: url(../images/bg4.png);
+    padding: 20px 0;
+    margin: 0 0 150px 0;
+}
+
+.online-buy--section-business .online-buy--section-group {
+    border: 1px solid rgb(245, 245, 245);
+    padding: 30px;
+    width: 100%;
+    max-width: 75%;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 5px 0px #e9e9e9;
+    padding-right: 0;
+}
+
+.online-buy--section-business .online-buy--section-group p {
+    margin: 0;
+    max-width: 99%;
+}
+
+.online-buy--section-business .grup-3 p {
+    margin: 0;
+    max-width: 100%;
+}
+
+.online-buy--section-business .online-buy--section-group .grup-1 {
+    display: flex;
+    gap: 10px;
+    padding-top: 30px;
+}
+
+.online-buy--section-business .online-buy--section-group .grup-1 h4 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: Work Sans;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.online-buy--section .online-buy--section-flex .online-buy--section-business {
+    width: 50%;
+
+}
+
+.online-buy--section-group .online-buy--section-group-slides p {
+    width: 635px !important;
+}
+
+.online-buy--section .online-buy--section-flex .online-buy--section-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.online-buy--section .online-buy--section-flex .online-buy--section-image img {
+    width: 100%;
+}
+
+.online-buy--section .online-buy--section-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.online-buy--section .online-buy--section-flex .online-buy--section-business h2 {
+    margin: 6px 0 0 0;
+    max-width: 60%;
+}
+
+.online-buy--section-business p {
+    width: 100%;
+    max-width: 70%;
+}
+
+/* 
+@media screen and (min-width:2000px) {
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first {
+        width: 40%;
+    }
+    .build--section-perform .build--section-perform-site-flex .build--section-right-image {
+        width: 60%;
+    }
+    .meet--section-team .meet--section-team-flex .meet--section-team-element {
+        width: 40%;
+    }
+    .meet--section-team .meet--section-team-flex .meet--section-team-image {
+        width: 60%;
+    }
+    .meet--section-team .meet--section-team-flex .meet--section-team-element p {
+        max-width: 100%;
+    }
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-second {
+        width: 60%;
+    }
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-first {
+        width: 40%;
+        max-width: 40%;
+    }
+    .power--section-selling .power--section-element-flex .power--section-element-image {
+        width: 60%;
+        justify-content: left;
+    }
+    .power--section-selling .power--section-element-flex .power--section-element-right-side {
+        width: 40%;
+    }
+    .power--section-selling .power--section-element-flex .power--section-element-right-side h2 {
+        max-width: 80%;
+    }
+    .power--section-element-right-side .play-to p {
+        max-width: 90%;
+    }    
+    .power--section-element-right-side .power--section-element-moon {
+        max-width: 100%;
+    }
+    .research--section-brand .research--section-checkout .research--section-second {
+        width: 60%;
+    }
+    .research--section-brand .research--section-checkout .research--section-flex {
+        width: 40%;
+        max-width: 40%;
+    }
+    .online-buy--section .online-buy--section-flex .online-buy--section-image {
+        width: 60%;
+        justify-content: left;
+    }
+    .online-buy--section .online-buy--section-flex .online-buy--section-business {
+        width: 40%;
+    }
+    .online-buy--section .online-buy--section-flex .online-buy--section-business h2 {
+
+        max-width: 79%;
+    }
+    .online-buy--section .online-buy--section-flex .online-buy--section-business p {
+        max-width: 88%;
+    }
+    .online-buy--section-business .online-buy--section-group {
+        max-width: 100%;
+    }
+} */
+
+@media screen and (max-width:1400px) {
+    .research--section-brand .research--section-checkout .research--section-second .yellow {
+        bottom: 12%;
+        left: 26%;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .stripe img {
+        width: 33px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .goggle img {
+        width: 25px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .black img {
+        width: 25px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .visa img {
+        width: 32px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .pa img {
+        width: 19px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .yellow img {
+        width: 30px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .html img {
+        width: 33px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .html {
+        top: 29%;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .js {
+        top: 28%;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .js img {
+        width: 38px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt img {
+        width: 26px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .css img {
+        width: 30px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .css {
+        top: 29%;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt {
+        position: absolute;
+        top: 13px;
+        left: 132px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps img {
+        width: 40px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps {
+        position: absolute;
+        top: 12px;
+        left: 202px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id img {
+        width: 40px;
+
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id {
+        position: absolute;
+        top: 13px;
+        left: 279px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai img {
+        width: 40px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai {
+        position: absolute;
+        top: 12px;
+        left: 357px;
+    }
+
+    .build--section-perform {
+        overflow: hidden;
+    }
+
+    .theme--section-layout {
+        overflow: hidden;
+    }
+
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first .met_img img {
+        width: 170px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-right-side h2 {
+        max-width: 89%;
+    }
+
+    .power--section-element-right-side .play-to p {
+        max-width: 81%;
+    }
+
+    .power--section-element-right-side .power--section-element-moon {
+        max-width: 100%;
+    }
+
+    .online-buy--section .online-buy--section-flex .online-buy--section-business h2 {
+        max-width: 75%;
+    }
+
+    .online-buy--section-business p {
+        max-width: 100%;
+    }
+
+    .online-buy--section-business .online-buy--section-group {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-first h2 {
+        max-width: 100%;
+    }
+
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-first p {
+        max-width: 100%;
+    }
+
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-first {
+        max-width: 650px;
+    }
+
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-second {
+        width: 100%;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-flex {
+        max-width: 650px;
+    }
+}
+
+@media screen and (max-width:1240px) {
+    .tech--section-elements .group-para .tech-group-elements p {
+        max-width: 542px !important;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .yellow img {
+        width: 23px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .stripe img {
+        width: 27px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .goggle img {
+        width: 19px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .black img {
+        width: 20px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .visa img {
+        width: 25px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .pa img {
+        width: 15px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .html {
+        top: 26%;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .js {
+        top: 25%;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .css {
+        top: 26%;
+        left: 64%;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt img {
+        width: 20px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt {
+        position: absolute;
+        top: 14px;
+        left: 117px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps img {
+        width: 32px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps {
+        position: absolute;
+        top: 14px;
+        left: 179px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id img {
+        width: 32px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id {
+        position: absolute;
+        top: 13px;
+        left: 247px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai img {
+        width: 32px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai {
+        position: absolute;
+        top: 12px;
+        left: 314px;
+    }
+
+    .online-buy--section-group .online-buy--section-group-slides p {
+        width: 516px !important;
+    }
+
+    .online-buy--section .online-buy--section-flex .online-buy--section-business h2 {
+        max-width: 100%;
+    }
+
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first h1 {
+        margin: 0;
+        max-width: 68%;
+    }
+
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first .met_img img {
+        width: 135px;
+    }
+
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first .met_img {
+        left: 70%;
+
+    }
+
+    .power--section-element-right-side .laye-first .laye2-right h4 {
+        font-size: 18px;
+        margin-top: 4px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-right-side h2 {
+        max-width: 100%;
+        font-size: 35px;
+        margin: 0 0 5px 0;
+    }
+
+    .power--section-element-right-side .play-to p {
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    .power--section-element-right-side .power--section-element-moon {
+        padding: 20px;
+    }
+
+    .power--section-element-right-side .power--section-element-moon h3 {
+        font-size: 18px;
+    }
+
+    .power--section-element-right-side .sche-to .sche-1 h4 {
+        font-size: 19px;
+    }
+
+    .power--section-element-right-side .sche-to .sche-2 h4 {
+        font-size: 19px;
+    }
+
+    .power--section-element-right-side .sche-to .sche-1 p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .power--section-element-right-side .sche-to .sche-2 p {
+        line-height: 19px;
+        font-size: 12px;
+    }
+
+    .power--section-element-right-side .power--section-element-moon .sche-to {
+        margin-bottom: 30px;
+    }
+
+    .power--section-element-right-side .sche-to-1 .sche-3 p {
+        font-size: 12px;
+    }
+
+    .power--section-element-right-side .sche-4 p {
+
+        font-size: 12px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-element p {
+        max-width: 100%;
+    }
+
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-first {
+        max-width: 600px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-flex {
+        max-width: 600px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second {
+        width: 100%;
+    }
+
+    .online-buy--section .online-buy--section-flex .online-buy--section-business h2 {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-first {
+        max-width: 550px;
+    }
+}
+
+@media screen and (max-width:1050px) {
+
+
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first h1 {
+        max-width: 83%;
+    }
+
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first .met_img {
+        display: none;
+    }
+
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-first {
+        max-width: 500px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-flex {
+        max-width: 500px;
+    }
+}
+
+
+@media screen and (max-width:1024px) {
+    .online-buy--section-group .online-buy--section-group-slides p {
+        width: 459px !important;
+    }
+
+    .tech--section-elements .group-para .tech-group-elements p {
+        max-width: 447px !important;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .yellow img {
+        width: 21px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .stripe img {
+        width: 23px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .html img {
+        width: 43px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .html {
+        top: 18%;
+        left: 34%;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .js img {
+        width: 53px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .js {
+        top: 16%;
+        left: 48%;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .css img {
+        width: 40px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .css {
+        top: 18%;
+        left: 63%;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt img {
+        width: 16px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt {
+        top: 13px;
+        left: 96px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps img {
+        width: 28px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps {
+        top: 11px;
+        left: 144px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id img {
+        width: 28px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id {
+        top: 11px;
+        left: 199px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai img {
+        width: 28px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai {
+        position: absolute;
+        top: 11px;
+        left: 254px;
+    }
+
+    .power--section-selling .power--section-element-flex {
+        display: grid;
+        gap: 0;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image {
+        width: 100%;
+        order: 2;
+    }
+
+    .power--section-selling {
+        padding-bottom: 10px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-right-side {
+        width: 100%;
+        text-align: center;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-right-side .laye-first {
+        justify-content: center;
+    }
+
+    .power--section-element-right-side .laye-first .laye2-right h4 {
+        font-size: 20px;
+
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-right-side h2 {
+        font-size: 45px;
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        max-width: 73%;
+    }
+
+    .power--section-element-right-side .play-to p {
+        max-width: 70%;
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .power--section-element-right-side .play-to {
+        margin-left: 196px;
+    }
+
+    .power--section-element-right-side .power--section-element-moon {
+        max-width: 70%;
+        margin: auto;
+        margin-bottom: 25px;
+        text-align: left;
+    }
+
+    .power--section-element-right-side .sche-to .sche-1 p {
+        font-size: 14px;
+    }
+
+    .power--section-element-right-side .sche-to .sche-2 p {
+        font-size: 14px;
+    }
+
+    .power--section-element-right-side .sche-to-1 .sche-3 p {
+        font-size: 14px;
+    }
+
+    .power--section-element-right-side .sche-4 p {
+        font-size: 14px;
+    }
+
+    .power--section-element-right-side .power--section-element-moon h3 {
+        font-size: 20px;
+    }
+
+    .power--section-element-right-side .power--section-btn {
+        margin-bottom: 50px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-element h2 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .research--section-brand .research--section-checkout .research--section-second .yellow img {
+        width: 40px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .stripe img {
+        width: 45px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .goggle img {
+        width: 35px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .visa img {
+        width: 46px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .pa img {
+        width: 29px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt img {
+        width: 33px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .black img {
+        width: 36px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt {
+        top: 26px;
+        left: 190px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps img {
+        width: 50px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps {
+        top: 25px;
+        left: 290px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id img {
+        width: 50px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id {
+        top: 25px;
+        left: 43%;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai img {
+        width: 50px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai {
+        top: 25px;
+        left: 55%;
+    }
+
+    .tech--section-elements .group-para .tech-group-elements p {
+        max-width: 621px !important;
+    }
+
+    .tech--section-elements-firsted {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .cro--section-seo .cro .cro--section-elements .laye-first {
+        justify-content: center;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-flex .laye-first {
+        justify-content: center;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-element .laye-first {
+        justify-content: center;
+    }
+
+    .build--section-perform .build--section-perform-site-flex {
+        display: block;
+        padding: 50px 0;
+    }
+
+    .build--section-perform .build--section-perform-site-flex .build--section-right-image {
+        width: 100%;
+    }
+
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first {
+        width: 100%;
+        max-width: 100%;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first .met_img {
+        display: none;
+    }
+
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first h1 {
+        max-width: 100%;
+    }
+
+    .meet--section-team .meet--section-team-flex {
+        display: grid;
+        gap: 0;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image {
+        width: 100%;
+        order: 2;
+        margin-top: 50px;
+    }
+
+    .build--section-right-image .laye-first {
+        justify-content: center;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-element {
+        width: 100%;
+        text-align: center;
+    }
+
+    .tech--section-elements .tech--section-elements-flex {
+        display: block;
+    }
+
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-first {
+        max-width: 100%;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    .research--section-brand .research--section-checkout {
+        display: block;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-flex {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .research--section-brand {
+        padding-bottom: 0;
+    }
+
+    .online-buy--section .online-buy--section-flex {
+        display: block;
+    }
+
+    .online-buy--section .online-buy--section-flex .online-buy--section-image {
+        width: 100%;
+        order: 2;
+    }
+
+    .online-buy--section-business .online-buy--section-group .grup-1 {
+        text-align: left;
+    }
+
+    .online-buy--section .online-buy--section-flex .online-buy--section-business {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+    .online-buy--section-group .online-buy--section-group-slides p {
+        width: 587px !important;
+    }
+
+    .online-buy--section {
+        padding: 40px 0 0 0;
+    }
+
+    .online-buy--section .online-buy--section-flex .online-buy--section-business h2 {
+        font-size: 45px;
+    }
+
+    .build--section-perform-site-first_meet .laye-first {
+        justify-content: center;
+        gap: 0;
+    }
+
+    .build--section-perform .laye-first .laye2-right h5 {
+        margin-top: -11px;
+        font-size: 19px;
+    }
+
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first p {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .build--section-perform .build--section-perform-site-first .build--section-btn {
+        justify-content: center;
+    }
+
+    .build--section-perform {
+        background-image: none;
+    }
+
+    .meet--section-team {
+        padding: 0;
+    }
+
+    .tech--section-elements {
+        padding: 40px 0;
+    }
+
+    .grow_flx .laye-first {
+        justify-content: center;
+    }
+
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-first h2 {
+        font-size: 45px;
+    }
+
+    .tech--section-elements .group-para {
+        max-width: 70%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .group-para .grup-1 h4 {
+        text-align: left;
+    }
+
+    .tech--section-elements .group-para p {
+        text-align: left;
+    }
+
+    .tech--section-elements {
+        padding-bottom: 0;
+    }
+
+    .research--section-first .laye-first {
+        justify-content: center;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-flex h2 {
+        font-size: 45px;
+    }
+
+    .online_secper .laye-first {
+        justify-content: center;
+    }
+
+    .online-buy--section-business .online-buy--section-group {
+        max-width: 70%;
+        margin: auto;
+        margin-top: 26px;
+    }
+
+    .online-buy--section-business .online-buy--section-group p {
+        text-align: left !important;
+    }
+
+    .power--section-element-right-side .power--section-element-moon {
+        max-width: 60%;
+
+    }
+
+}
+
+@media screen and (max-width:840px) {
+    .online-buy--section-group .online-buy--section-group-slides p {
+        width: 521px !important;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .html img {
+        width: 35px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .html {
+        top: 19%;
+        left: 33%;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .js img {
+        width: 45px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .js {
+        top: 17%;
+        left: 48%;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .css img {
+        width: 37px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .css {
+        left: 64%;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt {
+        top: 15px;
+        left: 156px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps {
+        top: 16px;
+        left: 240px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id {
+        top: 16px;
+        left: 331px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai {
+        top: 15px;
+        left: 423px;
+    }
+
+    .power--section-element-right-side .play-to {
+        margin-left: 88px;
+    }
+
+    .power--section-element-right-side .play-to p {
+        max-width: 82%;
+    }
+
+    .power--section-element-right-side .power--section-element-moon {
+        max-width: 75%;
+    }
+
+    .tech--section-elements .group-para {
+        max-width: 75%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .research--section-brand .research--section-checkout .research--section-second .yellow img {
+        width: 30px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .stripe img {
+        width: 34px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .goggle img {
+        width: 25px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .black img {
+        width: 29px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .visa img {
+        width: 34px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .pa img {
+        width: 20px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt img {
+        width: 25px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt {
+        top: 20px;
+        left: 150px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps img {
+        width: 40px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps {
+        top: 19px;
+        left: 227px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id img {
+        width: 40px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id {
+        top: 19px;
+        left: 313px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai img {
+        width: 40px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai {
+        top: 16px;
+        left: 398px;
+    }
+
+    .tech--section-elements .group-para .tech-group-elements p {
+        max-width: 555px !important;
+    }
+
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first h1 {
+        line-height: 67px;
+    }
+
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first {
+        padding-bottom: 45px;
+
+    }
+
+    .build--section-perform .build--section-perform-site-flex {
+        padding-bottom: 63px;
+    }
+
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-first h2 {
+        max-width: 74%;
+        margin: auto;
+    }
+
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-first p {
+        max-width: 79%;
+        margin: auto;
+        margin-top: 18px;
+    }
+
+    .tech--section-elements .group-para {
+        max-width: 80%;
+    }
+
+    .grup-3 p {
+        margin: 0 !important;
+    }
+
+    .tech--section-elements .group-para p {
+        margin: 0 !important;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-right-side h2 {
+        max-width: 67%;
+    }
+
+    .power--section-selling {
+        padding-top: 50px;
+    }
+
+    .online-buy--section .online-buy--section-flex .online-buy--section-business h2 {
+        max-width: 78%;
+        margin: auto;
+        margin-top: 7px;
+    }
+
+    .online-buy--section-business .online-buy--section-group {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width:640px) {
+    .research--section-brand .research--section-checkout .research--section-second .yellow img {
+        width: 22px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .stripe img {
+        width: 26px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .goggle img {
+        width: 19px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .black img {
+        width: 21px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .visa img {
+        width: 27px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .pa img {
+        width: 16px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .html img {
+        width: 25px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .html {
+
+        left: 34%;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .js img {
+        width: 33px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .css img {
+        width: 25px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .css {
+        top: 19%;
+
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt {
+        top: 12px;
+        left: 121px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps {
+        top: 11px;
+        left: 183px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id {
+        top: 11px;
+        left: 254px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai {
+        top: 11px;
+        left: 325px;
+    }
+
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .build--section-perform .build--section-perform-site {
+        background-image: none;
+    }
+
+    .build--section-perform .build--section-perform-site-flex {
+        padding-bottom: 45px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-element h2 {
+        font-size: 40px;
+    }
+
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-first h2 {
+        max-width: 100%;
+        margin: auto;
+        font-size: 40px;
+    }
+
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-first p {
+        max-width: 100%;
+
+    }
+
+    .group-para .grup-1 h4 {
+        margin-top: 5px;
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    .tech--section-elements .group-para {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .grup-2 img {
+        width: 45px;
+    }
+
+    .grup-3 p {
+        font-size: 13px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-right-side h2 {
+        max-width: 100%;
+    }
+
+    .power--section-element-right-side .play-to {
+        margin: 0;
+    }
+
+    .power--section-element-right-side .play-to p {
+        max-width: 100%;
+    }
+
+    .power--section-element-right-side .power--section-element-moon {
+        max-width: 100%;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-flex h2 {
+        font-size: 40px;
+    }
+
+    .online-buy--section .online-buy--section-flex .online-buy--section-business h2 {
+        max-width: 100%;
+        font-size: 40px;
+    }
+
+    .online-buy--section-business .online-buy--section-group {
+        max-width: 100%;
+    }
+
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first p {
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width:540px) {
+    .power--section-selling .power--section-element-flex .power--section-element-image .html img {
+        width: 21px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .js img {
+        width: 28px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .css img {
+        width: 21px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt img {
+        width: 18px;
+    }
+
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt {
+        top: 12px;
+        left: 104px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps img {
+        width: 30px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps {
+        top: 11px;
+        left: 158px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id img {
+        width: 30px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id {
+        top: 11px;
+        left: 218px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai img {
+        width: 30px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai {
+        top: 11px;
+        left: 278px;
+    }
+
+    .online-buy--section {
+        padding-bottom: 0px;
+    }
+
+    .online-buy--section {
+        padding: 20px 0 0 0;
+    }
+
+    .online-buy--section-group .online-buy--section-group-slides p {
+        width: 476px !important;
+    }
+
+    .online-buy--section .online-buy--section-flex .online-buy--section-business {
+        padding-bottom: 40px;
+    }
+
+    .tech--section-elements .group-para .tech-group-elements p {
+        max-width: 482px !important;
+    }
+
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first h1 {
+        font-size: 40px;
+    }
+
+    .build--section-perform .build--section-perform-site-flex {
+        padding: 40px 0 30px 0;
+    }
+
+    .meet--section-team {
+        padding: 30px 0;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-element h2 {
+        font-size: 35px;
+    }
+
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-first h2 {
+        font-size: 35px;
+    }
+
+    .research--section-brand {
+        padding-bottom: 10px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-flex h2 {
+        font-size: 35px;
+    }
+
+    .online-buy--section {
+        padding-bottom: 20px;
+    }
+
+    .online-buy--section .online-buy--section-flex .online-buy--section-business h2 {
+        font-size: 35px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-right-side h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .research--section-brand .research--section-checkout .research--section-second .yellow img {
+        width: 19px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .stripe img {
+        width: 22px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .goggle img {
+        width: 15px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .black img {
+        width: 17px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .visa img {
+        width: 22px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .pa img {
+        width: 12px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt img {
+        width: 13px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt {
+        left: 93px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps img {
+        width: 25px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps {
+
+        left: 141px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id img {
+        width: 25px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id {
+
+        left: 193px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai img {
+        width: 25px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai {
+        top: 11px;
+        left: 246px;
+    }
+
+    .online-buy--section-group .online-buy--section-group-slides p {
+        width: 400px !important;
+    }
+
+    .tech--section-elements .group-para .tech-group-elements p {
+        max-width: 418px !important;
+    }
+
+    .build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-view {
+        width: 180px;
+    }
+
+    .build--section-perform .build--section-perform-site-first .build--section-btn .build--section-btn-side {
+        width: 180px;
+    }
+
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first {
+        padding-bottom: 20px;
+    }
+
+    .build--section-perform .build--section-perform-site-flex {
+        padding-bottom: 10px !important;
+    }
+
+    .meet--section-team {
+        padding-bottom: 0;
+    }
+
+    .tech--section-elements .group-para p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-first {
+        padding-bottom: 20px;
+    }
+
+    .power--section-selling {
+        padding-top: 30px;
+    }
+
+    .power--section-element-right-side .play-to p {
+        max-width: 100%;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .online-buy--section {
+        padding-bottom: 5px;
+    }
+
+    .tech--section-elements .tech--section-elements-flex .tech--section-elements-first h2 {
+        font-size: 35px !important;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-flex h2 {
+        font-size: 35px !important;
+    }
+
+    .online-buy--section .online-buy--section-flex .online-buy--section-business h2 {
+        font-size: 35px !important;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-element h2 {
+        font-size: 35px !important;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .power--section-selling .power--section-element-flex .power--section-element-image .html img {
+        width: 15px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .js img {
+        width: 21px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .css img {
+        width: 17px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt {
+        left: 80px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps img {
+        width: 20px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps {
+        left: 123px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id img {
+        width: 20px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id {
+        left: 168px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai img {
+        width: 20px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai {
+        left: 215px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .research--section-brand .research--section-checkout .research--section-second .yellow img {
+        width: 13px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .stripe img {
+        width: 16px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .goggle img {
+        width: 11px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .black img {
+        width: 13px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .visa img {
+        width: 16px;
+    }
+
+    .research--section-brand .research--section-checkout .research--section-second .pa img {
+        width: 9px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt {
+        left: 72px;
+        top: 9px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt img {
+        width: 10px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps {
+        left: 109px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id {
+        left: 150px;
+        top: 10px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai {
+        left: 192px;
+        top: 8px;
+    }
+
+    .online-buy--section-group .online-buy--section-group-slides p {
+        width: 294px !important;
+    }
+
+    .tech--section-elements .group-para .tech-group-elements p {
+        max-width: 320px !important;
+    }
+
+    .build--section-perform .build--section-perform-site-first .build--section-btn {
+        display: grid;
+    }
+
+    .build--section-perform .build--section-perform-site-flex .build--section-perform-site-first {
+        padding-bottom: 25px;
+    }
+
+    .meet--section-team {
+        padding: 20px 0;
+    }
+
+    .tech--section-elements {
+        padding: 20px 0 !important;
+    }
+
+    .power--section-element-right-side .laye-first .laye2-right h4 {
+        font-size: 17px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-right-side h2 {
+        font-size: 35px;
+    }
+
+    .power--section-element-right-side .sche-to .sche-1 p {
+        font-size: 10px;
+    }
+
+    .power--section-element-right-side .sche-to .sche-2 p {
+        font-size: 10px;
+    }
+
+    .power--section-element-right-side .sche-to-1 .sche-3 p {
+        font-size: 10px;
+    }
+
+    .power--section-element-right-side .sche-4 p {
+        font-size: 10px;
+    }
+
+    .sh-1 svg {
+        font-size: 12px;
+    }
+
+    .power--section-element-right-side .sche-to-1 .sche-3 {
+        align-items: center;
+    }
+
+    .power--section-element-right-side .sche-to-1 .sche-3 {
+        padding: 6px;
+        padding-left: 11px;
+    }
+
+    .power--section-element-right-side .sche-4 {
+        padding: 6px;
+        padding-left: 11px;
+    }
+
+    .power--section-element-right-side .sche-to .sche-1 {
+        padding: 6px;
+        padding-left: 11px;
+    }
+
+    .power--section-element-right-side .sche-to .sche-2 {
+        padding: 6px;
+        padding-left: 11px;
+    }
+
+    .power--section-element-right-side .sche-to .sche-1 h4 {
+        font-size: 17px;
+    }
+
+    .power--section-element-right-side .sche-to .sche-2 h4 {
+        font-size: 17px;
+    }
+
+    .power--section-element-right-side .more-figma {
+        margin-bottom: 25px;
+    }
+
+    .power--section-selling {
+        padding-bottom: 0;
+    }
+
+    .power--section-element-right-side .power--section-element-moon h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .tech--section-elements .group-para {
+        padding: 20px;
+    }
+
+    .group-para p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .tech--section-elements .group-para p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .tech--section-elements .group-para .grup-1 {
+
+        padding-top: 14px;
+    }
+
+    .online-buy--section-business .online-buy--section-group .grup-1 {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .online-buy--section-group .online-buy--section-group-slides p {
+        width: 274px !important;
+    }
+
+    .tech--section-elements .group-para .tech-group-elements p {
+        max-width: 249px !important;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .html img {
+        width: 11px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .js img {
+        width: 16px;
+    }
+
+    .power--section-selling .power--section-element-flex .power--section-element-image .css img {
+        width: 11px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .firt {
+        left: 60px;
+        top: 7px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps {
+        left: 91px;
+        top: 6px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ps img {
+        width: 16px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id {
+        left: 125px;
+        top: 6px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .id img {
+        width: 16px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai img {
+        width: 16px;
+    }
+
+    .meet--section-team .meet--section-team-flex .meet--section-team-image .ai {
+        left: 159px;
+        top: 6px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.meet--section-team {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.meet--section-team.in-view {
+    opacity: 1;
+}
+
+.tech--section-elements {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.tech--section-elements.in-view {
+    opacity: 1;
+}
+
+.power--section-selling {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.power--section-selling.in-view {
+    opacity: 1;
+}
+
+.research--section-brand {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.research--section-brand.in-view {
+    opacity: 1;
+}
+
+.online-buy--section {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.online-buy--section.in-view {
+    opacity: 1;
+}
+
+.group-para .slick-next {
+    display: none !important;
+}
+
+.online-buy--section .online-buy--section-flex .slick-next {
+    display: none !important;
+}
