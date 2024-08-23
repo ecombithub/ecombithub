@@ -15,7 +15,7 @@ const PrevArrow = (props) => {
                 left: "77%",
                 top: "117%",
                 backgroundColor: "white",
-
+                
             }}
             onClick={onClick}
         >
@@ -24,7 +24,7 @@ const PrevArrow = (props) => {
                     position: "absolute",
                 }}
             ></div>
-            <img src={IMAGES.Layer577} />
+            <img src={IMAGES.Layer577}  alt='left arrow'/>
 
         </div>
     );
@@ -48,7 +48,7 @@ const NextArrow = (props) => {
                     position: "absolute",
                 }}
             ></div>
-            <img src={IMAGES.Layer2} />
+            <img src={IMAGES.Layer2} alt=' right arrow'/>
 
         </div>
     );

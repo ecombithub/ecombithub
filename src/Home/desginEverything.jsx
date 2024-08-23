@@ -10,19 +10,26 @@ import { Link } from "react-router-dom";
 // import desgin4 from '../images/Design4.png';
 // import desgin5 from '../images/Design5.png';
 // import desgin6 from '../images/Design6.png';
-import here1 from '../images/here1.png';
-import here2 from '../images/here2.png';
-import here3 from '../images/here3.png';
-import here4 from '../images/here4.png';
-import here5 from '../images/here5.png';
-import here6 from '../images/here6.png';
+// import here1 from '../images/here1.png';
+// import here2 from '../images/here2.png';
+// import here3 from '../images/here3.png';
+// import here4 from '../images/here4.png';
+// import here5 from '../images/here5.png';
+// import here6 from '../images/here6.png';
+
+ import mode100 from '../images/mode100.png';
+ import mode99 from '../images/mode99.png';
+ import mode98 from '../images/mode98.png';
+ import mode97 from '../images/mode97.png';
+ import mode96 from '../images/mode96.png';
+ import mode95 from '../images/mode95.png';
 
 const slides = [
     {
         title: 'Design is',
         subtitle: ' Solution',
         description: 'Transform your Shopify store with unique, visually stunning elements that reflect your brand identity. Provide a seamless and distinctive shopping experience for your customers.',
-        imgSrc: here1,
+        imgSrc: mode100,
         actions: {
             title: 'What are you waiting for?',
             linkText: 'Explore Features'
@@ -39,7 +46,7 @@ const slides = [
         title: 'Custom Made ',
         subtitle: 'Service ',
         description: 'Provide custom services to meet the unique needs and requirements of Shopify stores, deliver personalized designs, custom functionalities, and specialized integrations.',
-        imgSrc: here2,
+        imgSrc: mode99,
         actions: {
             title: 'Will you miss this chance?',
             linkText: 'Get Started'
@@ -56,7 +63,7 @@ const slides = [
         title: 'Design is',
         subtitle: 'Solution ',
         description: 'Transform your Shopify store with unique, visually stunning elements that reflect your brand identity. Provide a seamless and distinctive shopping experience for your customers.',
-        imgSrc: here3,
+        imgSrc: mode98,
         actions: {
             title: 'How can we help you?',
             linkText: 'Leave a Message'
@@ -73,7 +80,7 @@ const slides = [
         title: 'Explore Our',
         subtitle: ' Portfolio',
         description: 'Discover how EcombitHub enhanced Shopify experiences across various projects to achieve their goals. A comprehensive view of our capabilities and the positive impact our custom-made services have had on other Shopify store owners.',
-        imgSrc: here4,
+        imgSrc: mode97,
         actions: {
             title: 'How can we help you?',
             linkText: 'Leave a Message'
@@ -91,7 +98,7 @@ const slides = [
         title: 'Design is',
         subtitle: ' Solution',
         description: 'Transform your Shopify store with unique, visually stunning elements that reflect your brand identity. Provide a seamless and distinctive shopping experience for your customers.',
-        imgSrc: here5,
+        imgSrc: mode96,
         actions: {
             title: 'How can we help you?',
             linkText: 'Leave a Message'
@@ -108,7 +115,7 @@ const slides = [
         title: 'Custom Made',
         subtitle: ' Service',
         description: 'Provide custom services to meet the unique needs and requirements of Shopify stores, deliver personalized designs, custom functionalities, and specialized integrations.',
-        imgSrc: here6,
+        imgSrc: mode95,
         actions: {
             title: 'How can we help you?',
             linkText: 'Leave a Message'
@@ -239,7 +246,7 @@ function Desgineverything() {
         const handleResize = () => {
             let height;
             if (window.innerWidth >= 1280) {
-                height = showMore ? "94%" : "270px";
+                height = showMore ? "91%" : "270px";
             } else if (window.innerWidth > 1024) {
                 height = showMore ? "100%" : "200px";
             } else {
@@ -283,7 +290,7 @@ function Desgineverything() {
                                                     <span className="item"></span>
                                                 </span>
                                                 <span className="line"></span>
-                                                <span className="text"><img src={IMAGES.Layer2} alt="" /></span>
+                                                <span className="text"><img src={IMAGES.Layer2} alt="right arrow" /></span>
                                             </span>
                                         </div>
                                         <div className="slide-navigation-item-next" onClick={handleNext}>
@@ -293,7 +300,7 @@ function Desgineverything() {
                                                     <span className="item"></span>
                                                 </span>
                                                 <span className="line"></span>
-                                                <span className="text"><img src={IMAGES.Layer577} alt="" /></span>
+                                                <span className="text"><img src={IMAGES.Layer577} alt="left arrow" /></span>
                                             </span>
                                         </div>
                                     </nav>
@@ -416,7 +423,9 @@ function Desgineverything() {
                                             <div ref={infoItems} className='slide-more-info'>
                                                 {currentSlide.infoItems.slice(0, initialInfoItemCount).map((infoItem, index) => (
                                                     <div key={index} className="info-item">
-                                                        <h4>   {infoItem.title}</h4>
+                                                        <div className='info-item-title'>
+                                                        <p>   {infoItem.title}</p>
+                                                        </div>
                                                         <p>{infoItem.detail}</p>
                                                     </div>
                                                 ))}
@@ -426,7 +435,9 @@ function Desgineverything() {
                                             <div ref={infoItems} className='slide-more-info'>
                                                 {currentSlide.infoItems.map((infoItem, index) => (
                                                     <div key={index} className="info-item">
-                                                        <h4>{infoItem.title}</h4>
+                                                     <div className='info-item-title'>
+                                                        <p>   {infoItem.title}</p>
+                                                        </div>
                                                         <p>{infoItem.detail}</p>
                                                     </div>
                                                 ))}

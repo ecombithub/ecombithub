@@ -1,4 +1,4 @@
-import axios from 'axios';
+
 import { Link } from 'react-router-dom';
 import React, { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
@@ -8,11 +8,11 @@ import IMAGES from './Allfiles/image';
 function Footer() {
 
     const [hasPlayedAnimation, setHasPlayedAnimation] = useState(false);
-    const [isFbHovered, setIsFbHovered] = useState(false);
-    const [isInsHovered, setIsInsHovered] = useState(false);
-    const [isInsHove, setIsInsHove] = useState(false);
-    const [isIns, setIsIns] = useState(false);
-    const [plus, setPlus] = useState(false);
+    // const [isFbHovered, setIsFbHovered] = useState(false);
+    // const [isInsHovered, setIsInsHovered] = useState(false);
+    // const [isInsHove, setIsInsHove] = useState(false);
+    // const [isIns, setIsIns] = useState(false);
+    // const [plus, setPlus] = useState(false);
     // const [youq, setYouq] = useState(false);
     // const [whated, setWhated] = useState(false);
 
@@ -25,6 +25,7 @@ function Footer() {
     const [web, setWeb] = useState('');
     const [scheduleCall, setScheduleCall] = useState(false);
     const [message, setMessage] = useState('');
+    const [sendmessage, setSendmessage] = useState('');
     const [loading, setLoading] = useState(false);
 
     const upload = async (e) => {
@@ -47,24 +48,28 @@ function Footer() {
             setNumber('');
             setCompany('');
             setWeb('');
+            setSendmessage('');
         }, 2000);
 
         try {
-            const response = await axios.post('https://ecombithub.com/register', {
-                first,
-                last,
-                email,
-                number,
-                company,
-                web,
-
+            const response = await fetch('http://localhost:5000/register', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    first,
+                    last,
+                    email,
+                    number,
+                    company,
+                    web,
+                    sendmessage,
+                
+                }),
             });
 
-            console.log('Response:', response);
-
             if (response.status === 200) {
-
-
                 console.log("Thank you for your submission! We'll get back to you shortly.");
             } else {
                 throw new Error('Error sending email');
@@ -144,12 +149,12 @@ function Footer() {
                                                 <div className='build--section-new'>
                                                     <div className='build--section-first-to'>
                                                         <div className='build--section-first-image'>
-                                                            <img src={IMAGES.whitelogo} alt='Background' ref={brand} /></div>
+                                                            <img src={IMAGES.whitelogo} alt='Shopify' itemProp='icon' ref={brand} /></div>
                                                         <div className='build--section-first-elements'>
                                                             <h2 className='get-bg' ref={elementor}>Get a Quote to Build a New Shopify Store</h2></div>
                                                     </div>
                                                     <p className='use--hub' ref={technologyElement}>
-                                                        Are you ready to elevate your Shopify store to the next level?  Bithub Shopify experts are here to provide personalized solutions that meet your e-commerce needs. Whether you are looking to enhance store design, optimize performance, or integrate advanced features. Fill out the form to receive a detailed proposal customized to your specific requirements.
+                                                        Are you ready to elevate your Shopify store to the next level?  EcombitHub Shopify experts are here to provide personalized solutions that meet your e-commerce needs. Whether you are looking to enhance store design, optimize performance, or integrate advanced features. Fill out the form to receive a detailed proposal customized to your specific requirements.
                                                     </p>
                                                 </div>
                                             </div>
@@ -329,16 +334,16 @@ function Footer() {
                                 <div className="container">
                                     <div className="footer">
                                         <div className='footer--section-rever'>
-                                            <Link to="/">< img src={IMAGES.blank} alt="Shop" /></Link>
+                                            <Link to="/">< img src={IMAGES.blank} alt='EcombitHub' itemProp='logo'  /></Link>
                                             <p>1600D Dove St, Newport Beach, CA 92660, United States D133C, Phase 7, Mohali, Punjab, 160062</p>
                                         </div>
                                         <div className='footer--section-right'>
                                             <div className='footer-shopify-icon'>
                                                 <div className='footer-shopify-icon'>
-                                                    <img src={IMAGES.expert} alt="" />
+                                                    <img src={IMAGES.expert} alt="shopify expert" />
                                                 </div>
                                                 <div className='footer-shopify-icon'>
-                                                    <img src={IMAGES.shopifyf} alt="" />
+                                                    <img src={IMAGES.shopifyf} alt="shopify plus" />
                                                 </div>
                                             </div>
                                             <ul>

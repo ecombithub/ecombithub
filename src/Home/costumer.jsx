@@ -27,10 +27,10 @@ function Cost() {
         slidesToScroll: 2,
         // nextArrow: <Arrow />,
         // prevArrow: <Arrow />,
-        // adaptiveHeight: true,
-        // variableWidth: true,
-        // autoplay: true,
-        // speed: 3000,
+       adaptiveHeight: true,
+        variableWidth: true,
+        autoplay: true,
+        speed: 3000,
         autoplaySpeed: 3000,
         adaptiveHeight: true,
         variableWidth: true,
@@ -99,12 +99,12 @@ function Cost() {
                         <div className="wrappers">
                             <Slider {...settings}>
                                 <div className="customer-section-slider">
-                                    <img src={IMAGES.Ellipse1} />
+                                    <img src={IMAGES.Ellipse1} alt="Nested Natural" />
                                     <p>They transformed our basic Shopify theme into truly unique and tailored to our brand. The customization process is done properly and they were open to all our feedback and suggestions. The final theme is stunning and performs beautifully across all devices.</p>
                                     <div className="customer-section-slides">
                                         <div className="customer-section-all-sides">
                                             <div className="customer-section-slides-images">
-                                                <img src={IMAGES.Ellipse} />
+                                                <img src={IMAGES.Ellipse} itemprop ="name" />
                                             </div>
                                             <div className="customer-section-slides-test">
                                                 <h4>Joanne</h4>
@@ -117,12 +117,12 @@ function Cost() {
                                     </div>
                                 </div>
                                 <div className="customer-section-slider">
-                                    <img src={IMAGES.codester} />
+                                    <img src={IMAGES.codester} alt="Codistry" />
                                     <p>We were struggling with search engines visibility, but after their SEO optimization, our Shopify store is ranking much higher. Their knowledge of Shopify SEO is outstanding, and the results speak this.</p>
                                     <div className="customer-section-slides">
                                         <div className="customer-section-all-sides">
                                             <div className="customer-section-slides-images">
-                                                <img src={IMAGES.codester1} />
+                                                <img src={IMAGES.codester1} itemprop ="name" />
                                             </div>
                                             <div className="customer-section-slides-test">
                                                 <h4>Josue Mora</h4>
@@ -135,14 +135,14 @@ function Cost() {
                                     </div>
                                 </div>
                                 <div className="customer-section-slider">
-                                    <img src={IMAGES.psy3} />
+                                    <img src={IMAGES.psy3}  alt="All Star Digital"/>
                                     <p>Migrating the store from woocommerce to Shopify is a difficult task, but they handled everything with ease. The transition was smooth, with no data loss or disruptions to our business. Their professionalism and expertise made the entire process stress-free.
                                     </p>
 
                                     <div className="customer-section-slides">
                                         <div className="customer-section-all-sides">
                                             <div className="customer-section-slides-images">
-                                                <img src={IMAGES.psy2} />
+                                                <img src={IMAGES.psy2} itemprop ="name" />
                                             </div>
                                             <div className="customer-section-slides-test">
                                                 <h4>Bradley Keys</h4>
@@ -155,14 +155,14 @@ function Cost() {
                                     </div>
                                 </div>
                                 <div className="customer-section-slider">
-                                    <img src={IMAGES.fum2} />
+                                    <img src={IMAGES.fum2} alt="Fum" />
 
                                     <p> The design and implementation of a custom section for our Shopify store were handled in a skillful manner. The final product is responsive and user-friendly.
                                     </p>
                                     <div className="customer-section-slides">
                                         <div className="customer-section-all-sides">
                                             <div className="customer-section-slides-images">
-                                                <img src={IMAGES.fum102} />
+                                                <img src={IMAGES.fum102} itemprop ="name" />
                                             </div>
                                             <div className="customer-section-slides-test">
                                                 <h4>Jay</h4>
@@ -175,13 +175,13 @@ function Cost() {
                                     </div>
                                 </div>
                                 <div className="customer-section-slider">
-                                    <img src={IMAGES.psy} />
+                                    <img src={IMAGES.psy}  alt="PSY commerce"/>
                                     <p>Our store was outdated, and needed redesign. Ecombithub gave it a completely new modern, user-friendly design and has improved our overall customer experience. Their creativity and attention to detail are exceptional.
                                     </p>
                                     <div className="customer-section-slides">
                                         <div className="customer-section-all-sides">
                                             <div className="customer-section-slides-images">
-                                                <img src={IMAGES.psy1} />
+                                                <img src={IMAGES.psy1} itemprop ="name"/>
                                             </div>
                                             <div className="customer-section-slides-test">
                                                 <h4>Josef Kara</h4>
@@ -195,12 +195,12 @@ function Cost() {
                                 </div>
 
                                 <div className="customer-section-slider">
-                                    <img src={IMAGES.tes2} />
+                                    <img src={IMAGES.tes2} alt="Strand Media"/>
                                     <p>I was impressed with the level of expertise and professionalism. The app they created is not only functional but also visually appealing. The team was always available to address any concerns and made sure we were happy with the final product.</p>
                                     <div className="customer-section-slides">
                                         <div className="customer-section-all-sides">
                                             <div className="customer-section-slides-images">
-                                                <img src={IMAGES.tes1} />
+                                                <img src={IMAGES.tes1} itemprop ="name" />
                                             </div>
                                             <div className="customer-section-slides-test">
                                                 <h4>Ole</h4>
@@ -214,12 +214,12 @@ function Cost() {
                                 </div>
 
                                 <div className="customer-section-slider">
-                                    <img src={IMAGES.neola} />
+                                    <img src={IMAGES.neola}  alt="Neola Design"/>
                                     <p>I was a bit hesitant to hire a development agency for my Shopify store, but Ecombithub completely exceeded my expectations. Their team is not only technically proficient but also very creative. They took the time to understand my brand and created a website that perfectly reflects my business.  </p>
                                     <div className="customer-section-slides">
                                         <div className="customer-section-all-sides">
                                             <div className="customer-section-slides-images">
-                                                <img src={IMAGES.neola1} />
+                                                <img src={IMAGES.neola1} itemprop ="name"/>
                                             </div>
                                             <div className="customer-section-slides-test">
                                                 <h4>Andrea Hauer</h4>
@@ -233,12 +233,12 @@ function Cost() {
                                 </div>
 
                                 <div className="customer-section-slider">
-                                    <img src={IMAGES.clientlogo} />
+                                    <img src={IMAGES.clientlogo} alt="Retrospec"/>
                                     <p>I just finished working with ecombithub on our Shopify store, and it was a fantastic experience. They really know their stuff when it comes to Shopify and delivered a website that's not only functional but also looks amazing. </p>
                                     <div className="customer-section-slides">
                                         <div className="customer-section-all-sides">
                                             <div className="customer-section-slides-images">
-                                                <img src={IMAGES.clientlogo1} />
+                                                <img src={IMAGES.clientlogo1} itemprop ="name"/>
                                             </div>
                                             <div className="customer-section-slides-test">
                                                 <h4>Ely KhaKshouri</h4>

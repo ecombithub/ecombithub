@@ -34,42 +34,42 @@ function SpeedUx() {
                                         <div className='resposive-desgin-speed-brandto'>
                                             <div className='resposive-desgin-speed'>
                                                 <div className='resposive-desgin-speed-image'>
-                                                    <img src={IMAGES.responsive} alt="" />
+                                                    <img src={IMAGES.responsive} alt="" itemprop="icon" />
                                                 </div>
                                                 <div className='resposive-desgin-speed-element'>
-                                                    <h4>Navigation and Usability.</h4>
+                                                    <p>Navigation and Usability.</p>
                                                 </div>
                                             </div>
                                             <div className='resposive-desgin-speed'>
                                                 <div className='resposive-desgin-speed-image'>
-                                                    <img src={IMAGES.graphic101} alt="" />
+                                                    <img src={IMAGES.graphic101} alt="" itemprop="icon" />
                                                 </div>
                                                 <div className='resposive-desgin-speed-element'>
-                                                    <h4>Mobile Responsiveness.</h4>
+                                                    <p>Mobile Responsiveness.</p>
                                                 </div>
                                             </div>
                                             <div className='resposive-desgin-speed'>
                                                 <div className='resposive-desgin-speed-image'>
-                                                    <img src={IMAGES.structure} alt="" />
+                                                    <img src={IMAGES.structure} alt="" itemprop="icon" />
                                                 </div>
                                                 <div className='resposive-desgin-speed-element'>
-                                                    <h4>Visual Design.</h4>
+                                                    <p>Visual Design.</p>
                                                 </div>
                                             </div>
                                             <div className='resposive-desgin-speed'>
                                                 <div className='resposive-desgin-speed-image'>
-                                                    <img src={IMAGES.prototyping} alt="" />
+                                                    <img src={IMAGES.prototyping} alt="" itemprop="icon" />
                                                 </div>
                                                 <div className='resposive-desgin-speed-element'>
-                                                    <h4>Page Load Speed. </h4>
+                                                    <p>Page Load Speed. </p>
                                                 </div>
                                             </div>
                                             <div className='resposive-desgin-speed'>
                                                 <div className='resposive-desgin-speed-image'>
-                                                    <img src={IMAGES.user1012} alt="" />
+                                                    <img src={IMAGES.user1012} alt="" itemprop="icon" />
                                                 </div>
                                                 <div className='resposive-desgin-speed-element'>
-                                                    <h4>Usability testing. </h4>
+                                                    <p>Usability testing. </p>
                                                 </div>
                                             </div>
                                         </div>

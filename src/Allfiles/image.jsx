@@ -300,22 +300,22 @@ import redcircle from '../images/redcircle.png';
 import icons from '../images/icons.png';
 import border from '../images/border.png';
 import redbox from '../images/redbox.png';
-import section1 from '../images/small1.png';
-import section2 from '../images/small2.png';
-import section3 from '../images/small3.png';
-import section4 from '../images/small4.png';
-import section5 from '../images/small5.png';
-import section6 from '../images/small6.png';
-import section7 from '../images/small7.png';
-import section8 from '../images/small8.png';
-import third101 from '../images/big1.png';
-import third102 from '../images/big2.png';
-import third103 from '../images/big3.png';
-import third104 from '../images/big4.png';
-import third106 from '../images/big5.png';
-import third107 from '../images/big6.png';
-import third108 from '../images/big7.png';
-import third109 from '../images/big8.png';
+import section1 from '../images/small11.png';
+import section2 from '../images/small12.png';
+import section3 from '../images/small13.png';
+import section4 from '../images/small14.png';
+import section5 from '../images/small15.png';
+import section6 from '../images/small16.png';
+import section7 from '../images/small17.png';
+import section8 from '../images/small18.png';
+import third101 from '../images/big11.png';
+import third102 from '../images/big12.png';
+import third103 from '../images/big13.png';
+import third104 from '../images/big14.png';
+import third106 from '../images/big15.png';
+import third107 from '../images/big16.png';
+import third108 from '../images/big17.png';
+import third109 from '../images/big18.png';
 import third105 from '../images/third105.png';
 import four101 from '../images/four101.png';
 import four102 from '../images/four102.png';
@@ -473,18 +473,18 @@ import power5 from '../images/power5.png'
 import power6 from '../images/power6.png'
 import power7 from '../images/power7.png'
 import power8 from '../images/power8.png'
-import Image1 from '../images/Image1.png'
-import Image2 from '../images/Image2.png'
-import Image3 from '../images/Image3.png'
-import Image4 from '../images/Image4.png'
-import Image5 from '../images/Image5.png'
-import Image6 from '../images/image6.png'
-import Image7 from '../images/image7.png'
-import Image8 from '../images/image8.png'
-import Image9 from '../images/Image9.png'
-import Image10 from '../images/Image10.png'
-import Image11 from '../images/Image11.png'
-import Image12 from '../images/Image12.png'
+import Image1 from '../images/Image21.png'
+import Image2 from '../images/Image22.png'
+import Image3 from '../images/Image23.png'
+import Image4 from '../images/Image24.png'
+import Image5 from '../images/Image25.png'
+import Image6 from '../images/image26.png'
+import Image7 from '../images/image27.png'
+import Image8 from '../images/image28.png'
+import Image9 from '../images/Image29.png'
+import Image10 from '../images/Image30.png'
+import Image11 from '../images/Image31.png'
+import Image12 from '../images/Image32.png'
 import add101 from '../images/add101.png'
 import starrr120 from '../images/starrr120.png'
 import Ellipse1 from '../images/Ellipse1.png'
@@ -565,7 +565,21 @@ import spd1 from '../images/spd1.png'
 import check1 from '../images/check1.png'
 import check2 from '../images/check2.png'
 import check3 from '../images/check3.png'
+import build50 from '../images/build50.png'
+import build49 from '../images/build49.png'
+import build48 from '../images/build48.png'
+import build47 from '../images/build47.png'
+import build46 from '../images/build46.png'
+import build45 from '../images/build45.png'
+
 const IMAGES = {
+
+  build45:build45,
+  build46:build46,
+  build47:build47,
+  build48:build48,
+  build49:build49,
+  build50:build50,
   check3:check3,
   check2:check2,
   check1:check1,

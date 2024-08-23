@@ -8597,6 +8597,12 @@ header ul.navigation {
 }
 
 
+.exclusive-elements-elements-variation-card p {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
 .about-flex-nav {
     display: flex;
     gap: 15px;
@@ -8643,7 +8649,7 @@ header ul.navigation {
 }
 
 .section-banner-bg {
-    background-image: url(../images/bgfirst.png);
+    background-image: url(../images/homebg.png);
     display: inline-block;
     width: 100%;
     background-repeat: no-repeat;
@@ -8903,13 +8909,16 @@ header .navigation li a {
 
 .powerfull-section {
     padding: 140px 0;
-    background-image: url(../images/bgp.png);
+    background-image: url(../images/EcombitHubEmowersBusinesses.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .exclusive-elements {
-    background-color: #f9f7f5;
+    /* background-color: #f9f7f5; */
+    background-image: url(../images/ExclusiveElements.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 80px 0;
 }
 
@@ -8976,7 +8985,10 @@ header .navigation li a {
 }
 
 .elementor-containers {
-    background-color: #f1f1f1;
+    /* background-color: #f1f1f1; */
+    background-image: url(../images/Designssolution.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .speed-plus-website-image img {
@@ -9221,8 +9233,15 @@ p.description {
     color: rgb(170, 170, 170);
 }
 
-.info-item h4 {
+.info-item-title {
     margin: 10px 0;
+
+}
+
+.info-item-title p {
+    font-size: 20px !important;
+    font-weight: 750;
+    color: black;
 }
 
 .arrow-button span.text {
@@ -9380,7 +9399,7 @@ p.description {
 }
 
 .speed-plus-shopify-section {
-    background-image: url(../images/store-o.png);
+    background-image: url(../images/SpeedPlushopify.png);
     background-size: cover;
     padding: 90px 0;
 }
@@ -9561,7 +9580,7 @@ p.description {
 }
 
 .speed-ux-section {
-    background-image: url(../images/ff202.png);
+    background-image: url(../images/Sppeduxuiudit.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -9764,7 +9783,7 @@ p.description {
 }
 
 .block__shopify-product-audit-section-block {
-    background-image: url(../images/Rectangle\ 578\ background.png);
+    background-image: url(../images/cartDrawer.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -9959,7 +9978,7 @@ p.description {
 
 
 
- .section-scroll-all {
+.section-scroll-all {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10260,6 +10279,34 @@ p.description {
     animation: rotateLetter 0.8s ease 1.1s forwards;
 }
 
+.resposive-desgin-speed-element p {
+    width: 100%;
+    max-width: 100% !important;
+}
+
+.resposive-desgin-speed-element p {
+    width: 100%;
+    max-width: 100% !important;
+    margin: 0 !important;
+    font-size: 20px;
+    font-weight: 750;
+}
+
+.speed-plus-website-paragraph p {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    font-size: 20px;
+    font-weight: 750;
+}
+
+.customise-prodcut-elements p {
+    max-width: 100% !important;
+    margin: 0 !important;
+    font-size: 20px;
+    font-weight: 750;
+}
+
 @keyframes rotateLetter {
     0% {
         transform: rotateY(0deg);
@@ -10371,7 +10418,10 @@ footer {
 }
 
 .footer-first-bg {
-    background-color: #faf4f2;
+    /* background-color: #faf4f2; */
+    background-image: url(../images/Footerhome.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cursor {
@@ -10851,6 +10901,27 @@ a.copy_link {
 }
 
 @media screen and (max-width:1024px) {
+    .customise-prodcut-elements p {
+        font-size: 17px;
+        font-weight: 700;
+        text-align: left;
+    }
+
+    .resposive-desgin-speed-element p {
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .speed-plus-website-paragraph p {
+        font-size: 17px;
+        font-weight: 700;
+    }
+
+    .exclusive-elements-elements-variation-card p {
+        font-size: 16px;
+        text-align: left;
+    }
+
     .banner-section-center {
         margin-top: 200px;
     }
@@ -11093,10 +11164,6 @@ a.copy_link {
 
     }
 
-    .info-item h4 {
-        margin-bottom: 4px;
-        font-size: 17px;
-    }
 
     #slide-info-toggle-text {
         font-size: 13px;
@@ -11803,6 +11870,11 @@ a.copy_link {
 }
 
 @media screen and (max-width:840px) {
+    .exclusive-elements-elements-variation-card p {
+        font-size: 12px;
+
+    }
+
     .build--section-first-to {
         gap: 15px;
     }
@@ -11951,6 +12023,12 @@ a.copy_link {
 }
 
 @media screen and (max-width:768px) {
+    .speed-plus-website-paragraph p {
+        font-size: 15px;
+        line-height: 19px;
+
+    }
+
     .customise-prodcut-elements h4 {
         text-align: left;
     }
@@ -12349,6 +12427,7 @@ a.copy_link {
         margin: auto;
         margin-top: 20px;
         margin-bottom: 5px;
+        text-align: left;
     }
 
     .speed-plus-shopify-section .speed-plus-optimization .speed-plus-optimization-elements .speed-plus-website {
@@ -12387,7 +12466,7 @@ a.copy_link {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        max-width: 70%;
+        max-width: 80%;
         justify-content: center;
         align-items: center;
         gap: 20px;
@@ -12471,7 +12550,7 @@ a.copy_link {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        max-width: 50%;
+        max-width: 100%;
         gap: 20px;
         margin: auto;
         align-items: center;
@@ -12596,8 +12675,12 @@ a.copy_link {
         margin-bottom: 10px;
     }
 
+    .exclusive-elements-elements-variation-card p {
+        font-size: 14px;
+    }
+
     .exclusive-elements-elements-variation {
-        width: 222px !important;
+        width: 340px !important;
         text-align: left;
     }
 
@@ -12741,7 +12824,7 @@ a.copy_link {
     }
 
     .resposive-desgin-speed-brandto {
-        max-width: 81%;
+        max-width: 100%;
     }
 
     .last-slide-images {
@@ -12782,9 +12865,7 @@ a.copy_link {
         width: 40px;
     }
 
-    .customise-prodcut-to-custom {
-        max-width: 56%;
-    }
+
 
     .customise-slide-navigation-item-next {
 
@@ -12820,6 +12901,19 @@ a.copy_link {
 }
 
 @media screen and (max-width:540px) {
+    .resposive-desgin-speed-element p {
+        font-size: 15px;
+        text-align: left;
+    }
+
+    .speed-plus-shopify-section .speed-plus-optimization .speed-plus-optimization-elements .speed-plus-website {
+        max-width: 60%;
+    }
+
+    .info-item-title p {
+        font-size: 17px !important;
+    }
+
     h2 {
         line-height: 40px;
     }
@@ -12903,8 +12997,11 @@ a.copy_link {
 
     }
 
-    .customise-prodcut-to-custom {
-        max-width: 70%;
+    .customise-prodcut-elements p {
+        font-size: 15px;
+        font-weight: 700;
+        text-align: left;
+        line-height: 19px;
     }
 
     .slide-action {
@@ -12968,6 +13065,10 @@ a.copy_link {
 }
 
 @media screen and (max-width:480px) {
+    .speed-plus-shopify-section .speed-plus-optimization .speed-plus-optimization-elements .speed-plus-website {
+        max-width: 70%;
+    }
+
     p {
         line-height: 20px;
     }
@@ -13298,9 +13399,7 @@ a.copy_link {
         max-width: 100%;
     }
 
-    .customise-prodcut-to-custom {
-        max-width: 80%;
-    }
+
 
     .speed-plus-optim-site {
         max-width: 100%;
@@ -13451,9 +13550,7 @@ a.copy_link {
         height: 430px;
     }
 
-    .speed-plus-shopify-section .speed-plus-optimization .speed-plus-optimization-elements .speed-plus-website {
-        max-width: 54%;
-    }
+
 
     .customise-prodcut-image img {
         width: 25px;
@@ -13606,9 +13703,7 @@ a.copy_link {
         max-width: 100%;
     }
 
-    .customise-prodcut-to-custom {
-        max-width: 78%;
-    }
+
 
     .customise-slide-navigation-item-next {
         top: 45%;
@@ -13696,7 +13791,7 @@ a.copy_link {
     }
 
     .speed-plus-shopify-section .speed-plus-optimization .speed-plus-optimization-elements .speed-plus-website {
-        max-width: 61%;
+        max-width: 90%;
     }
 
     .powerfull-tool-image .slick-slide {
@@ -13845,7 +13940,7 @@ a.copy_link {
     }
 
     .block__shopify-product-audit-content .customise-prodcut {
-        width: 50.3%;
+        width: 90.3%;
     }
 
     .customise-slide-navigation-item-prev {
@@ -13941,4 +14036,149 @@ a.copy_link {
     }
 
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login-form-section {
+    background-color: #6fcca8;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.form-input input {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: unset;
+    border-radius: 4px;
+    outline: none;
+}
+
+.form-section button.btnn {
+    width: 120px;
+    padding: 7px;
+    font-size: 15px;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.admin-section-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.admin-section-wrap-inputs {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.admin-input-right {
+    width: 40%;
+}
+
+.admin-input-left {
+    width: 60%;
+}
+
+.admin-input-left {
+    width: 60%;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.admin-lable {
+    margin-bottom: 10px;
+}
+
+.admin-lable label {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.admin-input input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+
+.admin-input .ql-toolbar.ql-snow {
+    border-radius: 6px 6px 0 0;
+}
+
+.admin-input .ql-container.ql-snow {
+    height: 200px;
+    border-radius: 0px 0px 6px 6px;
+}
+
+.admin-input-image {
+    border-radius: 10px;
+    border: 1px solid rgb(220, 220, 220);
+    margin-bottom: 20px;
+}
+
+.admin-input-image .admin-lable {
+    padding: 20px;
+    border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.admin-input-image .admin-image {
+    width: 100%;
+    border: 1px solid rgb(220, 220, 220);
+    max-width: 60%;
+    margin: 20px 40px;
+    margin-left: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background: white;
+}
+
+.admin-input-right-wrp {
+    border: 1px solid rgb(220, 220, 220);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.admin-input select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.admin-section button.bttn {
+    padding: 10px;
+    width: 120px;
+    font-size: 15px;
+    background: white;
+    outline: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.admin-posts img {
+    width: 100%;
 }

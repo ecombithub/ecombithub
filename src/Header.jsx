@@ -171,7 +171,7 @@ function Head() {
                     <div className='logo'>
                         <div className="brand-logo ">
                             <Link to="/">
-                                <img src={IMAGES.bithub} alt="logo" exact to="/" onClick={handleOtherLinkClick} />
+                                <img src={IMAGES.bithub} alt="EcombitHub" exact to="/" onClick={handleOtherLinkClick}  itemprop="logo"/>
                             </Link>
                         </div>
 
@@ -185,7 +185,7 @@ function Head() {
                         <nav>
                             <ul className="navigation" >
                                 <div className="brand-logo1">
-                                    <Link to="/"> <img src={IMAGES.bithub} alt="logo" onClick={handleOtherLinkClick} /></Link>
+                                    <Link to="/"> <img src={IMAGES.bithub} alt="EcombitHub" itemprop="logo" onClick={handleOtherLinkClick} /></Link>
                                 </div>
                                 <li style={{ color: navbarColor ? 'white' : 'white' }}>
                                     <div className='home-image-nav'>

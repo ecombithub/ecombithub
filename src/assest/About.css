@@ -5,7 +5,7 @@
 .higher-section-rank {
     display: inline-block;
     width: 100%;
-    background-image: url(../images/aboutbanner.png);
+    background-image: url(../images/about111.png);
     background-repeat: no-repeat;
     height: 880px;
     color: white;
@@ -59,7 +59,10 @@
 }
 
 .expsion--section {
-    background-color: #faf2f3;
+    background-image: url(../images/DiscoverEcombitHubYourUltimateShopifySolutionPartner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #faf2f3; */
 }
 
 .expsion--section .expsion--section-main-side {

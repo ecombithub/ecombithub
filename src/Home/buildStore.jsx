@@ -35,19 +35,22 @@ function BuildStore() {
                             <div className="buildstore-section-slider-first">
                                 <Slider {...settings}>
                                     <div className="buildstore-section-slides">
-                                        <img src={IMAGES.hom1} alt="" />
+                                        <img src={IMAGES.build50} alt="" />
                                     </div>
                                     <div className="buildstore-section-slides">
-                                        <img src={IMAGES.hom2} alt="" />
+                                        <img src={IMAGES.build49} alt="" />
                                     </div>
                                     <div className="buildstore-section-slides">
-                                        <img src={IMAGES.hom3} alt="" />
+                                        <img src={IMAGES.build48} alt="" />
                                     </div>
                                     <div className="buildstore-section-slides">
-                                        <img src={IMAGES.add101} alt="" />
+                                        <img src={IMAGES.build47} alt="" />
                                     </div>
                                     <div className="buildstore-section-slides">
-                                        <img src={IMAGES.hom5} alt="" />
+                                        <img src={IMAGES.build46} alt="" />
+                                    </div>
+                                    <div className="buildstore-section-slides">
+                                        <img src={IMAGES.build45} alt="" />
                                     </div>
                                 </Slider>
                             </div>

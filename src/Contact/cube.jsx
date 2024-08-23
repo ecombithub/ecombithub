@@ -274,60 +274,59 @@ function Cube() {
                                         <div className="slide--cube-section" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
                                             {!isHovered && (
                                                 <>
-                                                    <img src={IMAGES.shopify1} ref={elementor1} style={{ display: showFirstImage ? 'block' : 'none' }} />
-                                                    <img src={IMAGES.shopify1} ref={elementor2} style={{ display: showFirstImage ? 'none' : 'block' }} />
+                                                    <img src={IMAGES.shopify1} ref={elementor1} style={{ display: showFirstImage ? 'block' : 'none' }}  alt='shopifyplus'/>
+                                                    <img src={IMAGES.shopify1} ref={elementor2} style={{ display: showFirstImage ? 'none' : 'block' }} alt='shopifyplus' />
                                                 </>
                                             )}
-                                            {isHovered && <img src={IMAGES.plus} alt="" />}
+                                            {isHovered && <img src={IMAGES.plus} alt='shopifyplus' />}
                                         </div>
                                         <div className="slide--cube-section" onMouseEnter={() => setFirstHovered(true)} onMouseLeave={() => setFirstHovered(false)}>
                                             {!firestHovered && (
                                                 <>
-                                                    <img src={IMAGES.page} ref={elementor3} style={{ display: showSecondImage ? 'block' : 'none' }} />
-                                                    <img src={IMAGES.page} ref={elementor4} style={{ display: showSecondImage ? 'none' : 'block' }} />
+                                                    <img src={IMAGES.page} ref={elementor3} style={{ display: showSecondImage ? 'block' : 'none' }} alt='PageFly'  />
+                                                    <img src={IMAGES.page} ref={elementor4} style={{ display: showSecondImage ? 'none' : 'block' }} alt='PageFly' />
                                                 </>
                                             )}
-                                            {firestHovered && <img src={IMAGES.fly} alt="" />}
+                                            {firestHovered && <img src={IMAGES.fly} alt='PageFly'  />}
                                         </div>
                                         <div className="slide--cube-section" onMouseEnter={() => setSecondHovered(true)} onMouseLeave={() => setSecondHovered(false)}>
                                             {!secondHovered && (
                                                 <>
-                                                    <img src={IMAGES.hub} ref={elementor5} style={{ display: showThirdImage ? 'block' : 'none' }} />
-                                                    <img src={IMAGES.hub} ref={elementor6} style={{ display: showThirdImage ? 'none' : 'block' }} />
+                                                    <img src={IMAGES.hub} ref={elementor5} style={{ display: showThirdImage ? 'block' : 'none' }} alt='HubSpot'  />
+                                                    <img src={IMAGES.hub} ref={elementor6} style={{ display: showThirdImage ? 'none' : 'block' }} alt='HubSpot' />
                                                 </>
                                             )}
-                                            {secondHovered && <img src={IMAGES.spot} alt="" />}
+                                            {secondHovered && <img src={IMAGES.spot} alt='HubSpot' />}
                                         </div>
                                         <div className="slide--cube-section" onMouseEnter={() => setThirdHovered(true)} onMouseLeave={() => setThirdHovered(false)}>
                                             {!thirdHovered && (
                                                 <>
-                                                    <img src={IMAGES.web} ref={elementor7} style={{ display: showFourImage ? 'block' : 'none' }} />
-                                                    <img src={IMAGES.web} ref={elementor8} style={{ display: showFourImage ? 'none' : 'block' }} />
+                                                    <img src={IMAGES.web} ref={elementor7} style={{ display: showFourImage ? 'block' : 'none' }} alt='Webflow'/>
+                                                    <img src={IMAGES.web} ref={elementor8} style={{ display: showFourImage ? 'none' : 'block' }}  alt='Webflow'/>
                                                 </>
                                             )}
-                                            {thirdHovered && <img src={IMAGES.flow} alt="" />}
+                                            {thirdHovered && <img src={IMAGES.flow} alt='Webflow' />}
                                         </div>
                                         <div className="slide--cube-section" onMouseEnter={() => setFourHovered(true)} onMouseLeave={() => setFourHovered(false)}>
                                             {!fourHovered && (
                                                 <>
-                                                    <img src={IMAGES.shopify10} ref={elementor9} style={{ display: showFiveImage ? 'block' : 'none' }} />
-                                                    <img src={IMAGES.shopify10} ref={elementor10} style={{ display: showFiveImage ? 'none' : 'block' }} />
+                                                    <img src={IMAGES.shopify10} ref={elementor9} style={{ display: showFiveImage ? 'block' : 'none' }} alt='Shopify' />
+                                                    <img src={IMAGES.shopify10} ref={elementor10} style={{ display: showFiveImage ? 'none' : 'block' }} alt='Shopify'/>
                                                 </>
                                             )}
-                                            {fourHovered && <img src={IMAGES.shopify12} alt="" />}
+                                            {fourHovered && <img src={IMAGES.shopify12} alt='Shopify' />}
                                         </div>
 
                                         <div className="slide--cube-section" onMouseEnter={() => setFiveHovered(true)} onMouseLeave={() => setFiveHovered(false)}>
                                             {!fiveHovered && (
                                                 <>
-                                                     <img src={IMAGES.figma} ref={elementor11} style={{ display: showSixImage ? 'block' : 'none' }} />
-                                                     <img src={IMAGES.figma} ref={elementor12} style={{ display: showSixImage ? 'none' : 'block' }} />
+                                                     <img src={IMAGES.figma} ref={elementor11} style={{ display: showSixImage ? 'block' : 'none' }} alt='Figma' />
+                                                     <img src={IMAGES.figma} ref={elementor12} style={{ display: showSixImage ? 'none' : 'block' }} alt='Figma'/>
                                                 </>
                                             )}
-                                            {fiveHovered && <img src={IMAGES.fig} alt="" />}
+                                            {fiveHovered && <img src={IMAGES.fig} alt='Figma'/>}
                                         </div>
                                     </div>
-
 
                                 </div>
                             </div>

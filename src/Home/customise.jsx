@@ -265,7 +265,7 @@ function Customise() {
                         <div className='block__shopify-product-audit-details'>
                             <div className="block__shopify-product-audit-header">
                                 <div className="slide-content">
-                                    <h2>Customise Your</h2>
+                                    <h2>Customize Your</h2>
                                     <h2 ref={h2Ref}> <span style={{ color: "rgb(252, 85, 105)" }}>   {currentSlide.title.split('').map((char, index) => (
                                         <span key={index} className={`char${index + 1}`}>{char}</span>
                                     ))}</span></h2>
@@ -275,34 +275,34 @@ function Customise() {
                                 <div className='customise-prodcut-to-custom'>
                                     <div className='customise-prodcut'>
                                         <div className='customise-prodcut-image'>
-                                            <img ref={el => imageRefs.current[0] = el} src={currentSlide.images[0]} alt="Recommendations" />
+                                            <img ref={el => imageRefs.current[0] = el} src={currentSlide.images[0]} alt="" itemprop="icon"/>
                                         </div>
                                         <div className='customise-prodcut-elements'>
-                                            <h4 ref={el => infoItems.current[0] = el}>{currentSlide.subtitle}</h4>
+                                            <p ref={el => infoItems.current[0] = el}>{currentSlide.subtitle}</p>
                                         </div>
                                     </div>
                                     <div className='customise-prodcut'>
                                         <div className='customise-prodcut-image'>
-                                            <img ref={el => imageRefs.current[1] = el} src={currentSlide.images[1]} alt="Recommendations" />
+                                            <img ref={el => imageRefs.current[1] = el} src={currentSlide.images[1]} alt="" itemprop="icon"/>
                                         </div>
                                         <div className='customise-prodcut-elements'>
-                                            <h4 ref={el => infoItems.current[1] = el}>{currentSlide.extraSubtitle1}</h4>
+                                            <p ref={el => infoItems.current[1] = el}>{currentSlide.extraSubtitle1}</p>
                                         </div>
                                     </div>
                                     <div className='customise-prodcut'>
                                         <div className='customise-prodcut-image'>
-                                            <img ref={el => imageRefs.current[2] = el} src={currentSlide.images[2]} alt="Recommendations" />
+                                            <img ref={el => imageRefs.current[2] = el} src={currentSlide.images[2]} alt="" itemprop="icon"/>
                                         </div>
                                         <div className='customise-prodcut-elements'>
-                                            <h4 ref={el => infoItems.current[2] = el}>{currentSlide.extraSubtitle2}</h4>
+                                            <p ref={el => infoItems.current[2] = el}>{currentSlide.extraSubtitle2}</p>
                                         </div>
                                     </div>
                                     <div className='customise-prodcut'>
                                         <div className='customise-prodcut-image'>
-                                            <img ref={el => imageRefs.current[3] = el} src={currentSlide.images[3]} alt="Recommendations" />
+                                            <img ref={el => imageRefs.current[3] = el} src={currentSlide.images[3]} alt="" itemprop="icon"/>
                                         </div>
                                         <div className='customise-prodcut-elements'>
-                                            <h4 ref={el => infoItems.current[3] = el}>{currentSlide.extraSubtitle3}</h4>
+                                            <p ref={el => infoItems.current[3] = el}>{currentSlide.extraSubtitle3}</p>
                                         </div>
                                     </div>
                                 </div>
@@ -330,7 +330,7 @@ function Customise() {
                                             <span className="item"></span>
                                         </span>
                                         <span className="line"></span>
-                                        <span className="text"><img src={IMAGES.Layer2} alt="" /></span>
+                                        <span className="text"><img src={IMAGES.Layer2} alt="right arrow" /></span>
                                     </span>
                                 </div>
                                 <div className="customise-slide-navigation-item-next" onClick={handleNext}>
@@ -340,7 +340,7 @@ function Customise() {
                                             <span className="item"></span>
                                         </span>
                                         <span className="line"></span>
-                                        <span className="text"><img src={IMAGES.Layer577} alt="" /></span>
+                                        <span className="text"><img src={IMAGES.Layer577} alt=" left arrow" /></span>
                                     </span>
                                 </div>
                             </nav>

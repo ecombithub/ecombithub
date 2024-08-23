@@ -6,7 +6,6 @@ import Cont from "../Blog/contant";
 import People from "../Blog/people";
 import Store from "../Blog/store";
 import Tech from "../Blog/tech";
-import Get from "../Blog/get";
 import Navbar from "../Header";
 import Bar from "../Blog/bar";
 import Mark from "../Blog/Mark";

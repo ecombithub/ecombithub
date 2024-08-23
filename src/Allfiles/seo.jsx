@@ -1,7 +1,6 @@
 import Search from "../seo/Search";
 import How from "../seo/How";
 import Galexy from "../seo/Galexy";
-import Get from "../seo/Get";
 import Cursor from "../Cursor";
 function Dominate() {
 

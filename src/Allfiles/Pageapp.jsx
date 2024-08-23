@@ -2,7 +2,6 @@ import Expand from "../Pageapp/expand";
 import Explore from "../Pageapp/explore";
 import Brand from "../Pageapp/brand";
 import Custum from "../Pageapp/custom";
-import Get from '../Pageapp/get'
 import Cursor from "../Cursor";
 import Blogpage from "../Pageapp/blogpage";
 function Connect(){

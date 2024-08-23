@@ -23,7 +23,7 @@ function New() {
                                 <div className="today-section-map-create-address-all">
                                     <div className='today-section-map-create-first-section'>
                                         <div className="today-section-map-image">
-                                            <img src={IMAGES.map2} alt="" />
+                                            <img src={IMAGES.map2} alt="location" />
                                         </div>
                                         <div className="today-section-map-elements">
                                             <h3>Headquater USA</h3>
@@ -32,7 +32,7 @@ function New() {
                                     </div>
                                     <div className='today-section-map-create-first-section'>
                                         <div className="today-section-map-image">
-                                        <img src={IMAGES.map2} alt="" />
+                                        <img src={IMAGES.map2} alt="location" />
                                         </div>
                                         <div className="today-section-map-elements">
                                             <h3>Headquater India</h3>
@@ -41,7 +41,7 @@ function New() {
                                     </div>
                                     <div className='today-section-map-create-first-section'>
                                         <div className="today-section-map-image">
-                                            <img src={IMAGES.cal} alt="" />
+                                            <img src={IMAGES.cal} alt="call" />
                                         </div>
                                         <div className="today-section-map-elements">
                                             <h3>Phone Number</h3>
@@ -50,7 +50,7 @@ function New() {
                                     </div>
                                     <div className='today-section-map-create-first-section'>
                                         <div className="today-section-map-image">
-                                            <img src={IMAGES.mail} alt="" />
+                                            <img src={IMAGES.mail} alt="email" />
                                         </div>
                                         <div className="today-section-map-elements">
                                             <h3>Email</h3>

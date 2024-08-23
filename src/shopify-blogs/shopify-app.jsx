@@ -1,11 +1,35 @@
-import React from 'react'
 import Cursor from '../Cursor';
 import Bar from '../Blog/bar';
 import Mark from '../Blog/Mark';
 import ScrollTo from '../Blog/scroll';
-import IMAGES from '../Allfiles/image';
+import React, { useState, useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+
 
 function Shopifyapp() {
+
+    const { handle } = useParams();
+    const [post, setPost] = useState(null);
+
+    useEffect(() => {
+        const fetchPost = async () => {
+            try {
+                const response = await fetch(`http://localhost:5000/posts?handle=${handle}`);
+                if (response.ok) {
+                    const data = await response.json();
+                    setPost(data[0]);
+                } else {
+                    console.error('Error fetching post:', response.statusText);
+                }
+            } catch (error) {
+                console.error('Error fetching post:', error);
+            }
+        };
+
+        fetchPost();
+    }, [handle]);
+
+    if (!post) return;
 
     return (
         <>
@@ -15,6 +39,40 @@ function Shopifyapp() {
                 <div className="wrapper">
                     <div className="container">
                         <div className='blog-sectiondata'>
+                            <div className='blog-section-build'>
+                                    <div key={post.id}>
+                                        <div className='blog-section-h1'>
+                                            <h1>{post.title}</h1>
+                                        </div>
+                                        <div className='blog-image'>
+                                            <img src={`http://localhost:5000/image/${post.image}`} alt={post.title} />
+                                        </div>
+
+                                        <div className='blog-content' dangerouslySetInnerHTML={{ __html: post.content }}
+                                         />
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ScrollTo />
+            <Cursor />
+        </>
+    )
+}
+
+export default Shopifyapp;
+
+
+
+
+
+
+
+
+
+{/* <div className='blog-sectiondata'>
                             <div className='blog-section-build'>
                                 <div className='blog-section-h1'>
                                     <h1>How To Build Shopify App?</h1>
@@ -285,14 +343,4 @@ function Shopifyapp() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <ScrollTo />
-            <Cursor />
-        </>
-    )
-}
-
-export default Shopifyapp;
+                        </div> */}

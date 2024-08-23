@@ -3,7 +3,6 @@ import Client from '../About/client';
 import Expert from '../About/expert';
 import Offer from "../About/complete-shopify";
 import Tech from '../About/tech';
-import Get from '../About/get';
 import Cursor from '../Cursor';
 import Blogpage from "../Pageapp/blogpage";
 function About() {

@@ -27,16 +27,15 @@ function SpeedPlus() {
         <>
             <div className="speed-plus-shopify-section">
                 <div className="speed-plus-shopify-section-too">
-                <div className='elementor-wrapper'>
+                    <div className='elementor-wrapper'>
                         <div className="speed-plus-optimization">
                             <div className="speed-plus-optimization-slider">
                                 <div className="speed-plus-optimization-first-slider">
                                     <div className="speed-plus-first-slide">
                                         <Slider {...settgs}>
-                                        <div className='speed pluss-images-slides'>
+                                            <div className='speed pluss-images-slides'>
                                                 <img src={IMAGES.spd1} alt="" />
                                             </div>
-
                                             <div className='speed pluss-images-slides'>
                                                 <img src={IMAGES.third101} alt="" />
                                             </div>
@@ -69,7 +68,7 @@ function SpeedPlus() {
                                 <div className="speed-plus-optimization-second-slider">
                                     <div className="speed-plus-second-slide">
                                         <Slider {...settgs}>
-                                        <div className='speed pluss-images-slides'>
+                                            <div className='speed pluss-images-slides'>
                                                 <img src={IMAGES.spd} alt="" />
                                             </div>
                                             <div className='speed pluss-images-slides'>
@@ -117,7 +116,7 @@ function SpeedPlus() {
                                             <div className='speed pluss-image-slides'>
                                                 <img src={IMAGES.speed4} alt="" />
                                             </div>
-                                        
+
                                         </Slider>
                                     </div>
                                 </div>
@@ -143,7 +142,7 @@ function SpeedPlus() {
                                             <div className='speed pluss-image-slides'>
                                                 <img src={IMAGES.speed25} alt="" />
                                             </div>
-                                          
+
                                         </Slider>
                                     </div>
                                 </div>
@@ -275,55 +274,55 @@ function SpeedPlus() {
                                 </div>
                             </div>
                             <div className="speed-plus-optimization-elements">
-                            <div className="wrappersed">
-                                <div className="speed-plus-optimization-elements-start">
-                                    <h2>Shopify Speed <span style={{ color: "rgb(252, 85, 105)" }}> Optimizations.</span></h2>
-                                    <p>Boost your Shopify store performance with our speed optimization services. We provide a seamless shopping experience for your customers and improve search engine rankings.</p>
-                                  <div className='speed-plus-optim-site'>
-                                    <div className='speed-plus-website'>
-                                        <div className='speed-plus-website-image'>
-                                            <img src={IMAGES.speedometer100} alt="" />
+                                <div className="wrappersed">
+                                    <div className="speed-plus-optimization-elements-start">
+                                        <h2>Shopify Speed <span style={{ color: "rgb(252, 85, 105)" }}> Optimizations.</span></h2>
+                                        <p>Boost your Shopify store performance with our speed optimization services. We provide a seamless shopping experience for your customers and improve search engine rankings.</p>
+                                        <div className='speed-plus-optim-site'>
+                                            <div className='speed-plus-website'>
+                                                <div className='speed-plus-website-image'>
+                                                    <img src={IMAGES.speedometer100} alt="" itemProp='icon' />
+                                                </div>
+                                                <div className='speed-plus-website-paragraph'>
+                                                    <p>Improve Site Speed.</p>
+                                                </div>
+                                            </div>
+                                            <div className='speed-plus-website'>
+                                                <div className='speed-plus-website-image'>
+                                                    <img src={IMAGES.store102} alt="" itemProp='icon' />
+                                                </div>
+                                                <div className='speed-plus-website-paragraph'>
+                                                    <p>Reduce Loading Time.</p>
+                                                </div>
+                                            </div>
+                                            <div className='speed-plus-website'>
+                                                <div className='speed-plus-website-image'>
+                                                    <img src={IMAGES.rocket102} alt="" itemProp='icon' />
+                                                </div>
+                                                <div className='speed-plus-website-paragraph'>
+                                                    <p>Remove Additional Coding. </p>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className='speed-plus-website-paragraph'>
-                                            <h4>Improve Site Speed.</h4>
-                                        </div>
+                                        <Link to="https://calendly.com/ecom-support/shopify-expert">   <button class='button'> <span className="rotate-container">
+                                            <span className="rotate-text">L</span>
+                                            <span className="rotate-text">e</span>
+                                            <span className="rotate-text">t</span>
+                                            <span className="rotate-text">&nbsp;</span>
+                                            <span className="rotate-text">'s</span>
+                                            <span className="rotate-text">&nbsp;</span>
+                                            <span className="rotate-text">G</span>
+                                            <span className="rotate-text">o</span>
+                                            <span className="rotate-text">!</span>
+
+                                        </span></button></Link>
                                     </div>
-                                    <div className='speed-plus-website'>
-                                        <div className='speed-plus-website-image'>
-                                            <img src={IMAGES.store102} alt="" />
-                                        </div>
-                                        <div className='speed-plus-website-paragraph'>
-                                            <h4>Reduce Loading Time.</h4>
-                                        </div>
-                                    </div>
-                                    <div className='speed-plus-website'>
-                                        <div className='speed-plus-website-image'>
-                                            <img src={IMAGES.rocket102} alt="" />
-                                        </div>
-                                        <div className='speed-plus-website-paragraph'>
-                                            <h4>Remove Additional Coding. </h4>
-                                        </div>
-                                    </div>
-                                    </div>
-                                    <Link to="https://calendly.com/ecom-support/shopify-expert">   <button class='button'> <span className="rotate-container">
-                                        <span className="rotate-text">L</span>
-                                        <span className="rotate-text">e</span>
-                                        <span className="rotate-text">t</span>
-                                        <span className="rotate-text">&nbsp;</span>
-                                        <span className="rotate-text">'s</span>
-                                        <span className="rotate-text">&nbsp;</span>
-                                        <span className="rotate-text">G</span>
-                                        <span className="rotate-text">o</span>
-                                        <span className="rotate-text">!</span>
-                                     
-                                    </span></button></Link>
-                                </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-           </div>
+            </div>
         </>
     )
 }

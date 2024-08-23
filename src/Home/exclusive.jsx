@@ -193,77 +193,77 @@ function Exclusive() {
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.filter10} alt="" />
+                                                <img src={IMAGES.filter10} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
                                                 <div className='excluseive-h4-elements'>
-                                                    <h4 >Custom  <span className='exclusive-bg-slides'>filters</span> </h4>
+                                                    <p >Custom  <span className='exclusive-bg-slides'>filters</span> </p>
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.dynamic10} alt="" />
+                                                <img src={IMAGES.dynamic10} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Dynamic sorting options</h4>
+                                                <p>Dynamic sorting options</p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.effort10} alt="" />
+                                                <img src={IMAGES.effort10} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Advanced product grid  <span className='exclusive-bg-slides'>layout</span></h4>
+                                                <p>Advanced product grid  <span className='exclusive-bg-slides'>layout</span></p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.webbrowser} alt="" />
+                                                <img src={IMAGES.webbrowser} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Interactive product elements </h4>
+                                                <p>Interactive product elements </p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.secure10} alt="" />
+                                                <img src={IMAGES.secure10} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Custom  <span className='exclusive-bg-slides'>checkout fields</span></h4>
+                                                <p>Custom  <span className='exclusive-bg-slides'>checkout fields</span></p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.paintswatch} alt="" />
+                                                <img src={IMAGES.paintswatch} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Custom color swatches</h4>
+                                                <p>Custom color swatches</p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.scale1000} alt="" />
+                                                <img src={IMAGES.scale1000} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Size guides for products</h4>
+                                                <p>Size guides for products</p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.gps10} alt="" />
+                                                <img src={IMAGES.gps10} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Location-based content display</h4>
+                                                <p>Location-based content display</p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.memorycard} alt="" />
+                                                <img src={IMAGES.memorycard} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Device-specific  <span className='exclusive-bg-slides'>content</span></h4>
+                                                <p>Device-specific  <span className='exclusive-bg-slides'>content</span></p>
                                             </div>
                                         </div>
                                     </div>
@@ -275,36 +275,36 @@ function Exclusive() {
 
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.personalization} alt="" />
+                                                <img src={IMAGES.personalization} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Personalized order summary</h4>
+                                                <p>Personalized order summary</p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.recomendation} alt="" />
+                                                <img src={IMAGES.recomendation} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Personalized recommendations</h4>
+                                                <p>Personalized recommendations</p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.dynamic2000} alt="" />
+                                                <img src={IMAGES.dynamic2000} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Dynamic  <span className='exclusive-bg-slides'>navigation menus</span></h4>
+                                                <p>Dynamic  <span className='exclusive-bg-slides'>navigation menus</span></p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.menu10000} alt="" />
+                                                <img src={IMAGES.menu10000} alt="" itemprop="icon" />
                                             </div>
 
                                             <div className='exclusive-elements-elements-variation-card'>
                                                 <div className='excluseive-h4-elements'>
-                                                    <h4 >Mega  <span className='exclusive-bg-slides'> menus</span></h4>
+                                                    <p >Mega  <span className='exclusive-bg-slides'> menus</span></p>
                                                 </div>
                                                 {/* <div className='exclusive-element-slider'>
                                             <Slider {...setting}>
@@ -336,42 +336,42 @@ function Exclusive() {
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.code11} alt="" />
+                                                <img src={IMAGES.code11} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Custom email templates </h4>
+                                                <p>Custom email templates </p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.upselling} alt="" />
+                                                <img src={IMAGES.upselling} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Custom upsell suggestions</h4>
+                                                <p>Custom upsell suggestions</p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.checkout00} alt="" />
+                                                <img src={IMAGES.checkout00} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Advanced  <span className='exclusive-bg-slides'> cart functionality</span></h4>
+                                                <p>Advanced  <span className='exclusive-bg-slides'> cart functionality</span></p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.notes1000} alt="" />
+                                                <img src={IMAGES.notes1000} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Custom order  <span className='exclusive-bg-slides'> notes</span></h4>
+                                                <p>Custom order  <span className='exclusive-bg-slides'> notes</span></p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.email159} alt="" />
+                                                <img src={IMAGES.email159} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Dynamic shipping messages</h4>
+                                                <p>Dynamic shipping messages</p>
                                             </div>
                                         </div>
                                     </div>
@@ -382,30 +382,30 @@ function Exclusive() {
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.mail22} alt="" />
+                                                <img src={IMAGES.mail22} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Personalized email content</h4>
+                                                <p>Personalized email content</p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.marketing22} alt="" />
+                                                <img src={IMAGES.marketing22} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Dynamic meta tags</h4>
+                                                <p>Dynamic meta tags</p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.chatbot22} alt="" />
+                                                <img src={IMAGES.chatbot22} alt="" itemprop="icon" />
                                             </div>
                                             {/* <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Line Progressbar -  <span style={{ color: '#fc5569' }}> Show Line </span></h4>
+                                        <p>Line Progressbar -  <span style={{ color: '#fc5569' }}> Show Line </span></p>
                                     </div> */}
                                             <div className='exclusive-elements-elements-variation-card'>
                                                 <div className='excluseive-h4-elements'>
-                                                    <h4 >Integration with chatbots</h4>
+                                                    <p >Integration with chatbots</p>
                                                 </div>
                                                 {/* <div className='exclusive-element-sliderrs'>
                                             <Slider {...sett}>
@@ -435,50 +435,50 @@ function Exclusive() {
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.marketing} alt="" />
+                                                <img src={IMAGES.marketing} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Marketing platform integration</h4>
+                                                <p>Marketing platform integration</p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.wishlist22} alt="" />
+                                                <img src={IMAGES.wishlist22} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Wishlist  <span className='exclusive-bg-slides'> features</span></h4>
+                                                <p>Wishlist  <span className='exclusive-bg-slides'> features</span></p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.recommendation22} alt="" />
+                                                <img src={IMAGES.recommendation22} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Custom product recommendations</h4>
+                                                <p>Custom product recommendations</p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.touch22} alt="" />
+                                                <img src={IMAGES.touch22} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Interactive  <span className='exclusive-bg-slides'>dropdowns</span></h4>
+                                                <p>Interactive  <span className='exclusive-bg-slides'>dropdowns</span></p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.buy22} alt="" />
+                                                <img src={IMAGES.buy22} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Custom  <span className='exclusive-bg-slides'> checkout upsells</span> </h4>
+                                                <p>Custom  <span className='exclusive-bg-slides'> checkout upsells</span> </p>
                                             </div>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
                                             <div className='exclusive-elements-elements-variation-image'>
-                                                <img src={IMAGES.ass1} alt="" />
+                                                <img src={IMAGES.ass1} alt="" itemprop="icon" />
                                             </div>
                                             <div className='exclusive-elements-elements-variation-card'>
-                                                <h4>Custom   <span className='exclusive-bg-slides'>Metafield/ Metaobjects</span> </h4>
+                                                <p>Custom   <span className='exclusive-bg-slides'>Metafield/ Metaobjects</span> </p>
                                             </div>
                                         </div>
                                     </div>
@@ -494,77 +494,77 @@ function Exclusive() {
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.filter10} alt="" />
+                                        <img src={IMAGES.filter10} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
                                         <div className='excluseive-h4-elements'>
-                                            <h4 >Custom  <span className='exclusive-bg-slides'>filters</span> </h4>
+                                            <p >Custom  <span className='exclusive-bg-slides'>filters</span> </p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.dynamic10} alt="" />
+                                        <img src={IMAGES.dynamic10} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Dynamic sorting options</h4>
+                                        <p>Dynamic sorting options</p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.effort10} alt="" />
+                                        <img src={IMAGES.effort10} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Advanced product grid  <span className='exclusive-bg-slides'>layout</span></h4>
+                                        <p>Advanced product grid  <span className='exclusive-bg-slides'>layout</span></p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.webbrowser} alt="" />
+                                        <img src={IMAGES.webbrowser} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Interactive product elements </h4>
+                                        <p>Interactive product elements </p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.secure10} alt="" />
+                                        <img src={IMAGES.secure10} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Custom  <span className='exclusive-bg-slides'>checkout fields</span></h4>
+                                        <p>Custom  <span className='exclusive-bg-slides'>checkout fields</span></p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.paintswatch} alt="" />
+                                        <img src={IMAGES.paintswatch} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Custom color swatches</h4>
+                                        <p>Custom color swatches</p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.scale1000} alt="" />
+                                        <img src={IMAGES.scale1000} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Size guides for products</h4>
+                                        <p>Size guides for products</p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.gps10} alt="" />
+                                        <img src={IMAGES.gps10} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Location-based content display</h4>
+                                        <p>Location-based content display</p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.memorycard} alt="" />
+                                        <img src={IMAGES.memorycard} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Device-specific  <span className='exclusive-bg-slides'>content</span></h4>
+                                        <p>Device-specific  <span className='exclusive-bg-slides'>content</span></p>
                                     </div>
                                 </div>
                             </div>
@@ -575,36 +575,36 @@ function Exclusive() {
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.personalization} alt="" />
+                                        <img src={IMAGES.personalization} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Personalized order summary</h4>
+                                        <p>Personalized order summary</p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.recomendation} alt="" />
+                                        <img src={IMAGES.recomendation} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Personalized recommendations</h4>
+                                        <p>Personalized recommendations</p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.dynamic2000} alt="" />
+                                        <img src={IMAGES.dynamic2000} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Dynamic  <span className='exclusive-bg-slides'>navigation menus</span></h4>
+                                        <p>Dynamic  <span className='exclusive-bg-slides'>navigation menus</span></p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.menu10000} alt="" />
+                                        <img src={IMAGES.menu10000} alt="" itemprop="icon" />
                                     </div>
 
                                     <div className='exclusive-elements-elements-variation-card'>
                                         <div className='excluseive-h4-elements'>
-                                            <h4 >Mega  <span className='exclusive-bg-slides'> menus</span></h4>
+                                            <p >Mega  <span className='exclusive-bg-slides'> menus</span></p>
                                         </div>
                                         {/* <div className='exclusive-element-slider'>
                                             <Slider {...setting}>
@@ -636,42 +636,42 @@ function Exclusive() {
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.code11} alt="" />
+                                        <img src={IMAGES.code11} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Custom email templates </h4>
+                                        <p>Custom email templates </p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.upselling} alt="" />
+                                        <img src={IMAGES.upselling} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Custom upsell suggestions</h4>
+                                        <p>Custom upsell suggestions</p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.checkout00} alt="" />
+                                        <img src={IMAGES.checkout00} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Advanced  <span className='exclusive-bg-slides'> cart functionality</span></h4>
+                                        <p>Advanced  <span className='exclusive-bg-slides'> cart functionality</span></p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.notes1000} alt="" />
+                                        <img src={IMAGES.notes1000} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Custom order  <span className='exclusive-bg-slides'> notes</span></h4>
+                                        <p>Custom order  <span className='exclusive-bg-slides'> notes</span></p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.email159} alt="" />
+                                        <img src={IMAGES.email159} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Dynamic shipping messages</h4>
+                                        <p>Dynamic shipping messages</p>
                                     </div>
                                 </div>
                             </div>
@@ -682,30 +682,30 @@ function Exclusive() {
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.mail22} alt="" />
+                                        <img src={IMAGES.mail22} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Personalized email content</h4>
+                                        <p>Personalized email content</p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.marketing22} alt="" />
+                                        <img src={IMAGES.marketing22} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Dynamic meta tags</h4>
+                                        <p>Dynamic meta tags</p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.chatbot22} alt="" />
+                                        <img src={IMAGES.chatbot22} alt="" itemprop="icon" />
                                     </div>
                                     {/* <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Line Progressbar -  <span style={{ color: '#fc5569' }}> Show Line </span></h4>
+                                        <p>Line Progressbar -  <span style={{ color: '#fc5569' }}> Show Line </span></p>
                                     </div> */}
                                     <div className='exclusive-elements-elements-variation-card'>
                                         <div className='excluseive-h4-elements'>
-                                            <h4 >Integration with chatbots</h4>
+                                            <p >Integration with chatbots</p>
                                         </div>
                                         {/* <div className='exclusive-element-sliderrs'>
                                             <Slider {...sett}>
@@ -735,50 +735,50 @@ function Exclusive() {
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.marketing} alt="" />
+                                        <img src={IMAGES.marketing} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Marketing platform integration</h4>
+                                        <p>Marketing platform integration</p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.wishlist22} alt="" />
+                                        <img src={IMAGES.wishlist22} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Wishlist  <span className='exclusive-bg-slides'> features</span></h4>
+                                        <p>Wishlist  <span className='exclusive-bg-slides'> features</span></p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.recommendation22} alt="" />
+                                        <img src={IMAGES.recommendation22} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Custom product recommendations</h4>
+                                        <p>Custom product recommendations</p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.touch22} alt="" />
+                                        <img src={IMAGES.touch22} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Interactive  <span className='exclusive-bg-slides'>dropdowns</span></h4>
+                                        <p>Interactive  <span className='exclusive-bg-slides'>dropdowns</span></p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.buy22} alt="" />
+                                        <img src={IMAGES.buy22} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Custom  <span className='exclusive-bg-slides'> checkout upsells</span> </h4>
+                                        <p>Custom  <span className='exclusive-bg-slides'> checkout upsells</span> </p>
                                     </div>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
                                     <div className='exclusive-elements-elements-variation-image'>
-                                        <img src={IMAGES.ass1} alt="" />
+                                        <img src={IMAGES.ass1} alt="" itemprop="icon" />
                                     </div>
                                     <div className='exclusive-elements-elements-variation-card'>
-                                        <h4>Custom   <span className='exclusive-bg-slides'>Metafield/ Metaobjects</span> </h4>
+                                        <p>Custom   <span className='exclusive-bg-slides'>Metafield/ Metaobjects</span> </p>
                                     </div>
                                 </div>
                             </div>
@@ -967,7 +967,7 @@ export default Exclusive;
 //                                 <div className='templates-section-sucess' ref={technology} >
 //                                     <div className='templates-section-selling'>
 //                                         <AiOutlineLine />
-//                                         <h4>Accomplish more than just selling.</h4>
+//                                         <p>Accomplish more than just selling.</p>
 //                                     </div>
 //                                     <h2> <span style={{ color: "#8db848" }}>Stunning Templates</span> to Empower Your Sucess</h2>
 //                                     <div className='templates-section-flex'>
