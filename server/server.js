@@ -20,7 +20,6 @@ mongoose.connect(mongoUri)
   });
 
 
-
 const userSchema = new mongoose.Schema({
   email: String,
   password: String
@@ -410,18 +409,20 @@ const sendEmail = async (first, last, email, number, company, web, sendmessage) 
     }
   };
 
-app.post('/register', async (req, res) => {
+  app.post('/register', async (req, res) => {
     const { first, last, email, number, company, web, sendmessage } = req.body;
     try {
-       const newData  = new Content({first, last, email, number, company, web, sendmessage});
-       await newData.save();
-       res.status(200).json({ message: " submitted successfully" });
+        const newData = new Content({ first, last, email, number, company, web, sendmessage });
+        await newData.save();
+        await sendEmail(first, last, email, number, company, web, sendmessage);
 
+        res.status(200).json({ message: 'Email sent and data saved successfully' });
     } catch (error) {
         console.error('Error during registration:', error);
         res.status(500).json({ message: 'Error occurred during registration' });
     }
 });
+
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
