@@ -1,6 +1,4 @@
-import address from '../images/location.png'
-import mess from '../images/message.png'
-import call from '../images/call.png'
+
 import IMAGES from '../Allfiles/image'
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207.5439289834334!2d-117.8660211256392!3d33.66486023269411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcdf63c6cba6a7%3A0x266cecb03e3cd4cc!2sHubSyntax!5e0!3m2!1sen!2sin!4v1723680010586!5m2!1sen!2sin"
     width="500"

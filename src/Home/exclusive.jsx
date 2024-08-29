@@ -188,7 +188,9 @@ function Exclusive() {
                                 <Slider {...sette}>
                                     <div className='exclusive-elements-elements-variation'>
                                         <div className='exclusive-elements-elements-variation-button'>
-                                            <h2 >30+</h2>
+                                            <div className='exclusive-elements-paragraph'>
+                                                <p >30+</p>
+                                            </div>
                                             <p>Cart Variations</p>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
@@ -269,7 +271,9 @@ function Exclusive() {
                                     </div>
                                     <div className='exclusive-elements-elements-variation'>
                                         <div className='exclusive-elements-elements-variation-button'>
-                                            <h2>72+</h2>
+                                            <div className='exclusive-elements-paragraph'>
+                                                <p>72+</p>
+                                            </div>
                                             <p>Product Page Variations</p>
                                         </div>
 
@@ -377,7 +381,9 @@ function Exclusive() {
                                     </div>
                                     <div className='exclusive-elements-elements-variation'>
                                         <div className='exclusive-elements-elements-variation-button'>
-                                            <h2>100+</h2>
+                                            <div className='exclusive-elements-paragraph'>
+                                                <p>100+</p>
+                                            </div>
                                             <p>Other Custom Variations</p>
                                         </div>
                                         <div className='exclusive-elements-elements-variation-use'>
@@ -489,7 +495,9 @@ function Exclusive() {
                         {isDesktop && (<div className='exclusive-elements-elements-flex'>
                             <div className='exclusive-elements-elements-variation'>
                                 <div className='exclusive-elements-elements-variation-button'>
-                                    <h2 ref={totalStoresRef} >0</h2>
+                                    <div className='exclusive-elements-paragraph'>
+                                        <p ref={totalStoresRef} >0</p>
+                                    </div>
                                     <p>Cart Variations</p>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
@@ -570,7 +578,9 @@ function Exclusive() {
                             </div>
                             <div className='exclusive-elements-elements-variation'>
                                 <div className='exclusive-elements-elements-variation-button'>
-                                    <h2 ref={totalStore}>0</h2>
+                                    <div className='exclusive-elements-paragraph'>
+                                        <p ref={totalStore}>0</p>
+                                    </div>
                                     <p>Product Page Variations</p>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>
@@ -677,7 +687,9 @@ function Exclusive() {
                             </div>
                             <div className='exclusive-elements-elements-variation'>
                                 <div className='exclusive-elements-elements-variation-button'>
-                                    <h2 ref={total}>0</h2>
+                                    <div className='exclusive-elements-paragraph'>
+                                        <p ref={total}>0</p>
+                                    </div>
                                     <p>Other Custom Variations</p>
                                 </div>
                                 <div className='exclusive-elements-elements-variation-use'>

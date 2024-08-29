@@ -396,14 +396,14 @@
 .theme--section-layout-meet .laye-first .laye2-right-1 h5 {
     margin: 0;
 }
-
+/* 
 .theme--section-layout {
     background-image: url(../images/im1.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 50px;
     padding-bottom: 50px;
-}
+} */
 
 .branding--section-elementor-start .group-para {
     border: 1px solid rgb(245, 245, 245);
@@ -542,11 +542,11 @@
    
 } */
 
-.branding--section-elementor {
+/* .branding--section-elementor {
     background-image: url(../images/bg1.png);
     background-repeat: no-repeat;
     background-position: -2% 14%;
-}
+} */
 
 .branding--section-elementor .branding--section-elementor-new-element {
     display: flex;
@@ -723,10 +723,10 @@
     background-color: #F3F5F8;
 }
 
-.display--section-product {
+/* .display--section-product {
     background-image: url(../images/g57.png);
     background-repeat: no-repeat;
-}
+} */
 
 .custum--section-features-letter .moveon h3 {
     margin-top: 0;
@@ -996,12 +996,12 @@
     width: 100%;
     margin: 0 0 0 auto;
 }
-
+/* 
 .custum--section-features {
     padding-top: 100px;
     padding-bottom: 50px;
     background-image: url(../images/bg4.png);
-}
+} */
 
 .cro--section-elements .more-figma {
     height: 40px;

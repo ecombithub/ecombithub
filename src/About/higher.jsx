@@ -28,7 +28,7 @@ function Higher() {
                             </button> */}
                             </div>
                             <div className="higher-section-flex-image">
-                                <img src={IMAGES.aboutbn} alt="" />
+                                <img src={IMAGES.aboutfirst} alt="" />
                                 <div className="higher-section-silde">
                                     <img src={IMAGES.n2} alt="" />
                                 </div>

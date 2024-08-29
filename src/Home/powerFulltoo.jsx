@@ -681,33 +681,39 @@ function Powerfull() {
                       <Slider {...setting}>
                       <div className="powerfull-tool-elements-slide">
                            <p> "Design is the intermediary between information and understanding".</p>
-
-                            <h3>- Jeffrey Zeldman</h3>
+                            <div className="power-tool-name">
+                            <p>- Jeffrey Zeldman</p>
+                            </div>
                         </div>
                         <div className="powerfull-tool-elements-slide">
                            <p> "Design is not just what it looks like and feels like. Design is how it works".</p>
-
-                            <h3>- Steve Jobs </h3>
+                           <div className="power-tool-name">
+                            <p>- Steve Jobs </p>
+                            </div>
                         </div>
                         <div className="powerfull-tool-elements-slide">
                            <p> "User experience is not just about usability; it’s about creating a relationship with the user".</p>
-
-                            <h3>- Ethan Marcotte</h3>
+                           <div className="power-tool-name">
+                            <p>- Ethan Marcotte</p>
+                            </div>
                         </div>
                         <div className="powerfull-tool-elements-slide">
                            <p> "User experience is not just about usability; it’s about creating a relationship with the user".</p>
-
-                            <h3>- Don Norman </h3>
+                           <div className="power-tool-name">
+                            <p>- Don Norman </p>
+                            </div>
                         </div>
                         <div className="powerfull-tool-elements-slide">
                            <p> "People may forget what you said, but they will never forget how you made them feel".</p>
-
-                            <h3>- Maya Angelou</h3>
+                           <div className="power-tool-name">
+                            <p>- Maya Angelou</p>
+                            </div>
                         </div>
                         <div className="powerfull-tool-elements-slide">
                            <p> "Design is the silent ambassador of your brand".</p>
-
-                            <h3>- Paul Rand</h3>
+                           <div className="power-tool-name">
+                            <p>- Paul Rand</p>
+                            </div>
                         </div>
                       </Slider>
                      

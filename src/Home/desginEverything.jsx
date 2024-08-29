@@ -17,12 +17,12 @@ import { Link } from "react-router-dom";
 // import here5 from '../images/here5.png';
 // import here6 from '../images/here6.png';
 
- import mode100 from '../images/mode100.png';
- import mode99 from '../images/mode99.png';
- import mode98 from '../images/mode98.png';
- import mode97 from '../images/mode97.png';
- import mode96 from '../images/mode96.png';
- import mode95 from '../images/mode95.png';
+ import mode100 from '../images/mode100.webp';
+ import mode99 from '../images/mode99.webp';
+ import mode98 from '../images/mode98.webp';
+ import mode97 from '../images/mode97.webp';
+ import mode96 from '../images/mode96.webp';
+ import mode95 from '../images/mode95.webp';
 
 const slides = [
     {
@@ -408,10 +408,10 @@ function Desgineverything() {
 
                                             <div ref={actionRef} className='slide-action '>
                                                 <div className="slide-action-inner">
-                                                    <h3 className="slide-action-title">{currentSlide.actions.title}</h3>
-                                                    <a href="#modal-action" id="elementor-button" className="elementor-button-link" role="button">
+                                                    <p className="slide-action-title">{currentSlide.actions.title}</p>
+                                                    <div id="elementor-button" className="elementor-button-link" role="button">
                                                         <span className="elementor-button-text" style={{ color: "#fc5569" }}>{currentSlide.actions.linkText}</span>
-                                                    </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

@@ -8,14 +8,14 @@ import { Link } from 'react-router-dom';
 import browsersettings from '../images/browsersettings.png'
 import bestproduct from '../images/bestproduct.png'
 import customize1011 from '../images/customize1011.png'
-import folder321 from '../images/folder321.png'
-import integration101 from '../images/integration101.png'
-import sandclock1111 from '../images/sandclock1111.png'
-import selling111 from '../images/selling111.png'
-import shoppingbag0 from '../images/shoppingbag0.png'
-import shoppingcart from '../images/shoppingcart.png'
-import slider999 from '../images/slider999.png'
-import upselling111 from '../images/upselling111.png'
+import folder321 from '../images/folder321.webp'
+import integration101 from '../images/integration101.webp'
+import sandclock1111 from '../images/sandclock1111.webp'
+import selling111 from '../images/selling111.webp'
+import shoppingbag0 from '../images/shoppingbag0.webp'
+import shoppingcart from '../images/shoppingcart.webp'
+import slider999 from '../images/slider999.webp'
+import upselling111 from '../images/upselling111.webp'
 
 
 const slides = [
@@ -123,40 +123,7 @@ function Customise() {
                 <div className='block__shopify-product-audit-images-listing'>
                     <div className='block__shopify-product-audit-images-list' style={{ transform: "translate3d(-37%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotate(-29deg) skew(0deg)" }}>
                         <div className='block__shopify-product-audit-images'>
-                            <div className='block__shopify-product-audit-images-slider-conttent'>
-                                <Slider {...setting}>
-                                    <div class="block__shopify-product-audit-images-slide-img">
-                                        <img src={IMAGES.cart101} alt="" />
-                                    </div>
-                                    <div class="block__shopify-product-audit-images-slide-img">
-                                        <img src={IMAGES.check1} alt="" />
-                                    </div>
-                                    <div class="block__shopify-product-audit-images-slide-img">
-                                        <img src={IMAGES.cart102} alt="" />
-                                    </div>
-                                    <div class="block__shopify-product-audit-images-slide-img">
-                                        <img src={IMAGES.cart101} alt="" />
-                                    </div>
-                                    <div class="block__shopify-product-audit-images-slide-img">
-                                        <img src={IMAGES.cart102} alt="" />
-                                    </div>
-                                    <div class="block__shopify-product-audit-images-slide-img">
-                                        <img src={IMAGES.cart101} alt="" />
-                                    </div>
-                                    <div class="block__shopify-product-audit-images-slide-img">
-                                        <img src={IMAGES.cart102} alt="" />
-                                    </div>
-                                    <div class="block__shopify-product-audit-images-slide-img">
-                                        <img src={IMAGES.cart101} alt="" />
-                                    </div>
-                                    <div class="block__shopify-product-audit-images-slide-img">
-                                        <img src={IMAGES.cart102} alt="" />
-                                    </div>
-                                    <div class="block__shopify-product-audit-images-slide-img">
-                                        <img src={IMAGES.check1} alt="" />
-                                    </div>
-                                </Slider>
-                            </div>
+                            
                             <div className='block__shopify-product-audit-images-slider-conttent'>
                                 <Slider {...setting}>
                                     <div class="block__shopify-product-audit-images-slide-img">
@@ -194,6 +161,7 @@ function Customise() {
                                     </div>
                                 </Slider>
                             </div>
+                          
                             <div className='block__shopify-product-audit-images-slider-conttent'>
                                 <Slider {...setting}>
                                 <div class="block__shopify-product-audit-images-slide-img">
@@ -228,6 +196,40 @@ function Customise() {
                                     </div>
                                     <div class="block__shopify-product-audit-images-slide-img">
                                         <img src={IMAGES.check3} alt="" />
+                                    </div>
+                                </Slider>
+                            </div>
+                            <div className='block__shopify-product-audit-images-slider-conttent'>
+                                <Slider {...setting}>
+                                    <div class="block__shopify-product-audit-images-slide-img">
+                                        <img src={IMAGES.cart101} alt="" />
+                                    </div>
+                                    <div class="block__shopify-product-audit-images-slide-img">
+                                        <img src={IMAGES.check1} alt="" />
+                                    </div>
+                                    <div class="block__shopify-product-audit-images-slide-img">
+                                        <img src={IMAGES.cart102} alt="" />
+                                    </div>
+                                    <div class="block__shopify-product-audit-images-slide-img">
+                                        <img src={IMAGES.cart101} alt="" />
+                                    </div>
+                                    <div class="block__shopify-product-audit-images-slide-img">
+                                        <img src={IMAGES.cart102} alt="" />
+                                    </div>
+                                    <div class="block__shopify-product-audit-images-slide-img">
+                                        <img src={IMAGES.cart101} alt="" />
+                                    </div>
+                                    <div class="block__shopify-product-audit-images-slide-img">
+                                        <img src={IMAGES.cart102} alt="" />
+                                    </div>
+                                    <div class="block__shopify-product-audit-images-slide-img">
+                                        <img src={IMAGES.cart101} alt="" />
+                                    </div>
+                                    <div class="block__shopify-product-audit-images-slide-img">
+                                        <img src={IMAGES.cart102} alt="" />
+                                    </div>
+                                    <div class="block__shopify-product-audit-images-slide-img">
+                                        <img src={IMAGES.check1} alt="" />
                                     </div>
                                 </Slider>
                             </div>

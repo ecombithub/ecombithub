@@ -1,4 +1,4 @@
-.need--section-perfrom {
+/* .need--section-perfrom {
     width: 100%;
     display: inline-block;
     background-image: url(../images/bk.png);
@@ -10,7 +10,7 @@
     background-image: url(../images/bkk.png);
     background-repeat: no-repeat;
     background-position: -1% 4%;
-}
+} */
 
 .need--section-perfrom .need--section-perfrom-flex-item {
     display: flex;
@@ -572,11 +572,11 @@
     max-width: 542px;
 }
 
-.fastan--section-perfrom {
+/* .fastan--section-perfrom {
     background-image: url(../images/bg1.png);
     background-repeat: no-repeat;
     background-position: -2% 14%;
-}
+} */
 
 .matter--section-perfrom-right .play-to {
     display: flex;
@@ -721,10 +721,10 @@
     margin-top: 10px;
 }
 
-.matter--section-perfrom {
+/* .matter--section-perfrom {
     background-image: url(../images/g57.png);
     background-repeat: no-repeat;
-}
+} */
 
 
 .effect--section-perfroms-left .play-to {
@@ -996,9 +996,9 @@
     margin-bottom: 20px;
 }
 
-.effect--section-perfroms {
+/* .effect--section-perfroms {
     background-image: url(../images/bg4.png);
-}
+} */
 
 
 .after--section-perfrom-right .more-figma {
@@ -1296,13 +1296,13 @@
     background-image: linear-gradient(to right, #fc5569, #fc5569, #4f7513, #ade94e);
 } */
 
-.boot--section-perfrom {
+/* .boot--section-perfrom {
     background-image: url(../images/nh.png);
     color: white;
     text-align: center;
     padding-top: 60px;
     padding-bottom: 190px;
-}
+} */
 
 .boot--section-perfrom .boot--section-perfrom-element p {
     max-width: 80%;

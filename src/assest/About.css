@@ -5,7 +5,7 @@
 .higher-section-rank {
     display: inline-block;
     width: 100%;
-    background-image: url(../images/about111.png);
+    background-image: url(../images/about111.webp);
     background-repeat: no-repeat;
     height: 880px;
     color: white;
@@ -59,7 +59,7 @@
 }
 
 .expsion--section {
-    background-image: url(../images/DiscoverEcombitHubYourUltimateShopifySolutionPartner.png);
+    background-image: url(../images/DiscoverEcombitHubYourUltimateShopifySolutionPartner.webp);
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: #faf2f3; */
@@ -93,7 +93,7 @@
 }
 
 .compelete-section-task {
-    background-image: url(../images/background.png);
+    background-image: url(../images/background.webp);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -493,7 +493,7 @@
     width: 40%;
 }
 
-.offer--sections--design {
+/* .offer--sections--design {
     background-repeat: no-repeat;
     border: 1px solid rgb(231, 231, 231);
     width: 100% !important;
@@ -505,7 +505,7 @@
     padding-bottom: 5px;
     background-image: url(../images/011.png);
     background-position: -12% -39%;
-}
+} */
 
 .offer--sections--design img {
     width: 90px;
@@ -779,7 +779,7 @@
 
 }
 
-.that-first {
+/* .that-first {
     background-image: url(../images/op4.png);
     background-position: center;
     background-size: contain;
@@ -788,7 +788,7 @@
     height: auto;
     margin-left: 100px;
     position: relative;
-}
+} */
 
 .that-bg img {
     width: 80%;
@@ -1427,11 +1427,11 @@
         width: 48px !important;
         padding: 4px 0 0 0 !important;
     }
-
+/* 
     .offer--sections--design {
         background-image: url(../images/1024.png);
         background-position: -9% -6%;
-    }
+    } */
 
     .technology--sections-first .technology--sections-first-paragraph h4 {
         margin-top: 6px;
@@ -1588,10 +1588,7 @@
     }
 
 
-
-    #toggle-btn:checked~nav .navigation {
-        top: -3px;
-    }
+  
 
     ul.navigation {
         padding: 26px 0 0 0;
@@ -1599,16 +1596,18 @@
         width: 100%;
         max-width: 50%;
         margin: 0;
+
+
     }
 
     .logo .navigation {
         padding-top: 22px;
     }
 
-
+/* 
     #toggle-btn:checked~nav .navigation {
         left: 0;
-    }
+    } */
 
     nav {
         margin: 0px 0 0 -30px !important;
@@ -1656,10 +1655,10 @@
         font-size: 14px;
     }
 
-    .high {
+    /* .high {
         background-image: url(../images/fk1.png);
         background-position: 0% 19% !important;
-    }
+    } */
 
     .higher--section {
         margin-top: -90px;
@@ -2216,11 +2215,11 @@
         max-width: 91%;
     }
 
-    .compelete-section {
+    /* .compelete-section {
         background-image: url(../images/bgab.png) !important;
         background-repeat: no-repeat;
         background-size: cover;
-    }
+    } */
 
     .compelete-section {
         margin: 0;

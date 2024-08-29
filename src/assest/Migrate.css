@@ -378,10 +378,10 @@
     width: 50%;
 }
 
-.big-start {
+/* .big-start {
     background-image: url(../images/flo.png);
     background-repeat: no-repeat;
-}
+} */
 
 
 .magento--section-perfrom-element .magento--section-perfrom-element-team .magento--section-perfrom-element-team-right .more-figma {
@@ -540,11 +540,11 @@
     margin-bottom: 40px;
 }
 
-.magento--section-perfrom-element .magento--section-perfrom-element-custom {
+/* .magento--section-perfrom-element .magento--section-perfrom-element-custom {
     background-image: url(../images/bg1.png);
     background-repeat: no-repeat;
     background-position: bottom 50px right 100px;
-}
+} */
 
 .woocommece--section-perfrom .woocommece--section-perfrom-left .more-figma {
     height: 40px;
@@ -731,12 +731,12 @@
     width: 100%;
 }
 
-.woocommece--section-perfrom {
+/* .woocommece--section-perfrom {
     background-image: url(../images/bg3.png);
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
-}
+} */
 
 .woocommece--section-perfrom .woocommece--section-perfrom-left h2 {
     margin-top: 5px;
@@ -744,11 +744,11 @@
     margin-bottom: 5px;
 }
 
-.prestashop--section-perfrom {
+/* .prestashop--section-perfrom {
     background-image: url(../images/bg4.png);
     padding-top: 100px;
     padding-bottom: 50px;
-}
+} */
 
 .prestashop--section-perfrom .prestashop--section-perfrom-image img {
     width: 100%;

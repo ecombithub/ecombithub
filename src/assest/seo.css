@@ -1,10 +1,10 @@
-.dominate--section-perfrom {
+/* .dominate--section-perfrom {
     width: 100%;
     display: inline-block;
     background-image: url(../images/flo.png);
     background-repeat: no-repeat;
     background-position: -1% 5%;
-}
+} */
 
 .dominate--section-perfrom .dominate--section-perfrom-rank-left .dominate--section-perfrom-rank-btn {
     display: flex;
@@ -525,7 +525,7 @@
     margin-top: -4px;
 }
 
-.how--section-perfroms {
+/* .how--section-perfroms {
     padding: 50px 0;
     background-image: url(../images/bg1.png);
     background-repeat: no-repeat;
@@ -535,7 +535,7 @@
 .galexy--section-perfroms {
     background-image: url(../images/bg4.png);
     padding: 70px 0;
-}
+} */
 
 .galexy--section-perfroms .galexy--section-perfroms-top h2 {
     margin: 0 auto;

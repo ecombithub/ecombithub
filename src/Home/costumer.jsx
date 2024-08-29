@@ -107,7 +107,10 @@ function Cost() {
                                                 <img src={IMAGES.Ellipse} itemprop ="name" />
                                             </div>
                                             <div className="customer-section-slides-test">
-                                                <h4>Joanne</h4>
+                                                <div className="customer-client-name">
+                                                <p>Joanne</p>
+                                                </div>
+                                             
                                                 <p>Nested Natural</p>
                                             </div>
                                         </div>
@@ -125,7 +128,9 @@ function Cost() {
                                                 <img src={IMAGES.codester1} itemprop ="name" />
                                             </div>
                                             <div className="customer-section-slides-test">
-                                                <h4>Josue Mora</h4>
+                                            <div className="customer-client-name">
+                                                <p>Josue Mora</p>
+                                                </div>
                                                 <p>Codistry</p>
                                             </div>
                                         </div>
@@ -145,7 +150,9 @@ function Cost() {
                                                 <img src={IMAGES.psy2} itemprop ="name" />
                                             </div>
                                             <div className="customer-section-slides-test">
-                                                <h4>Bradley Keys</h4>
+                                            <div className="customer-client-name">
+                                                <p>Bradley Keys</p>
+                                                </div>
                                                 <p>All Star Digital</p>
                                             </div>
                                         </div>
@@ -165,7 +172,9 @@ function Cost() {
                                                 <img src={IMAGES.fum102} itemprop ="name" />
                                             </div>
                                             <div className="customer-section-slides-test">
-                                                <h4>Jay</h4>
+                                            <div className="customer-client-name">
+                                                <p>Jay</p>
+                                                </div>
                                                 <p>Fum</p>
                                             </div>
                                         </div>
@@ -184,7 +193,9 @@ function Cost() {
                                                 <img src={IMAGES.psy1} itemprop ="name"/>
                                             </div>
                                             <div className="customer-section-slides-test">
-                                                <h4>Josef Kara</h4>
+                                            <div className="customer-client-name">
+                                                <p>Josef Kara</p>
+                                                </div>
                                                 <p>PSY commerce</p>
                                             </div>
                                         </div>
@@ -203,7 +214,9 @@ function Cost() {
                                                 <img src={IMAGES.tes1} itemprop ="name" />
                                             </div>
                                             <div className="customer-section-slides-test">
-                                                <h4>Ole</h4>
+                                            <div className="customer-client-name">
+                                                <p>Ole</p>
+                                                </div>
                                                 <p>Strand Media</p>
                                             </div>
                                         </div>
@@ -222,7 +235,9 @@ function Cost() {
                                                 <img src={IMAGES.neola1} itemprop ="name"/>
                                             </div>
                                             <div className="customer-section-slides-test">
-                                                <h4>Andrea Hauer</h4>
+                                            <div className="customer-client-name">
+                                                <p>Andrea Hauer</p>
+                                                </div>
                                                 <p>Neola Design</p>
                                             </div>
                                         </div>
@@ -241,7 +256,9 @@ function Cost() {
                                                 <img src={IMAGES.clientlogo1} itemprop ="name"/>
                                             </div>
                                             <div className="customer-section-slides-test">
-                                                <h4>Ely KhaKshouri</h4>
+                                            <div className="customer-client-name">
+                                                <p>Ely KhaKshouri</p>
+                                                </div>
                                                 <p>Retrospec</p>
                                             </div>
                                         </div>
@@ -259,7 +276,7 @@ function Cost() {
                                                 <img src={IMAGES.last} />
                                             </div>
                                             <div className="customer-section-slides-test">
-                                                <h4>Alex Fetanat</h4>
+                                                <p>Alex Fetanat</p>
                                                 <p>GemFind</p>
                                             </div>
                                         </div>

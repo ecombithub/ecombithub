@@ -1,16 +1,16 @@
-.build--section-perform {
+/* .build--section-perform {
     width: 100%;
     display: inline-block;
     background-image: url(../images/bb.png);
     background-position: center;
     background-size: cover;
-}
+} */
 
-.build--section-perform .build--section-perform-site {
+/* .build--section-perform .build--section-perform-site {
     background-image: url(../images/flo.png);
     background-repeat: no-repeat;
     background-position: -1% 5%;
-}
+} */
 
 .build--section-perform .build--section-perform-site-first .build--section-btn {
     display: flex;
@@ -840,10 +840,10 @@
     max-width: 580px !important;
 }
 
-.tech--section-elements {
+/* .tech--section-elements {
     background-image: url(../images/bk.png);
     padding: 20px 0;
-}
+} */
 
 .tech--section-elements .tech--section-elements-flex {
     display: flex;
@@ -1148,10 +1148,10 @@
     background-image: linear-gradient(to right, #fc5569, #fc5569, #4f7513, #ade94e);
 } */
 
-.power--section-selling {
+/* .power--section-selling {
     background-image: url(../images/bg4.png);
     padding: 70px 0;
-}
+} */
 
 .power--section-selling .power--section-element-flex .power--section-element-right-side {
     width: 50%;
@@ -1445,12 +1445,12 @@
 .slick-next {
     display: none !important;
 }
-
+/* 
 .online-buy--section {
     background-image: url(../images/bg4.png);
     padding: 20px 0;
     margin: 0 0 150px 0;
-}
+} */
 
 .online-buy--section-business .online-buy--section-group {
     border: 1px solid rgb(245, 245, 245);

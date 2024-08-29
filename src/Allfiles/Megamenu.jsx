@@ -1,12 +1,7 @@
-import shopi from '../images/sho-pi.png';
-import trowel from '../images/trowel.png';
-import setting from '../images/settings1.png';
-import store from '../images/store1.png';
-import shopify21 from '../images/shopify21.png';
-import connection from '../images/connection.png';
-import optimization from '../images/optimization.png';
+import shopi from '../images/sho-pi.webp';
+import connection from '../images/connection.webp';
 import { Link } from "react-router-dom";
-import seo from '../images/seo.png';
+
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';

@@ -23,11 +23,14 @@ function Login() {
             const data = await response.json();
     
             if (response.ok) {
-                alert("Login successful", data.user);
-          
+              
+                localStorage.setItem('isAuthenticated', 'true');
+                localStorage.setItem('loginTime', Date.now().toString());
+
                 setEmail('');
                 setPassword('');
                 setMessage('Login successful');
+                
                 navigate('/admin');
             } else {
                 console.error("Login failed:", data.message);
@@ -38,7 +41,6 @@ function Login() {
             setMessage("An error occurred during login");
         }
     };
-    
 
     return (
         <div className='login-form'>

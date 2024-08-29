@@ -5,12 +5,11 @@ function Animation() {
         // <div className="animation">
         //     <div className="cirle">
         //         <div className="cirle2">
-        //             {/* <div className="loader">
 
-        //             </div> */}
         //         </div>
         //     </div>
         // </div>
+
         <>
         </>
     );

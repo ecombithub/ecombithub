@@ -9,6 +9,13 @@
 
 }
 
+
+header.headerr {
+    background-image: url(../images/header.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 mrk li:hover {
     color: #fc5569 !important;
 }
@@ -150,7 +157,7 @@ bar .about li {
     margin-top: 0px;
 }
 
-.loacal--section-online {
+/* .loacal--section-online {
     background-image: url(../images/back1.png);
     background-position: center;
     background-size: contain;
@@ -158,7 +165,7 @@ bar .about li {
     display: inline-block;
     width: 100%;
     padding-top: 60px;
-}
+} */
 
 /* .loacal--section-conner-place img,
 .loacal--section-keyworld img,
@@ -285,7 +292,7 @@ bar .about li {
     width: 100%;
 }
 
-.loacal--section-online-global .loacal--section-conner {
+/* .loacal--section-online-global .loacal--section-conner {
     border: 0px solid;
     height: auto;
     width: 100%;
@@ -296,7 +303,7 @@ bar .about li {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 #to {
     height: 30px;
@@ -1096,14 +1103,14 @@ bar .about li {
 
 
 
-.store--section--shopify {
+/* .store--section--shopify {
     background-image: url(../images/bak.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     margin-top: -200px;
     padding-top: 200px;
-}
+} */
 
 .store--section--shopify-sell {
     display: flex;
@@ -1252,7 +1259,7 @@ bar .about li {
     margin: 0 auto;
 }
 
-.tag {
+/* .tag {
     background-image: url(../images/back.png);
     background-repeat: no-repeat;
     background-position: top center;
@@ -1261,7 +1268,7 @@ bar .about li {
     width: 100%;
     margin-top: -120px;
     margin-bottom: 40px;
-}
+} */
 
 .begin {
     display: flex;
@@ -2113,10 +2120,6 @@ bar .about li {
     }
 
 
-
-    #toggle-btn:checked~nav .navigation {
-        top: -18px;
-    }
 
     nav .brand-logo1 img {
         margin-left: 0px;
@@ -3451,6 +3454,10 @@ bar .about li {
 }
 
 .blog-content p {
+    margin-bottom: 10px;
+}
+
+.blog-content p.ql-align-justify {
     margin-bottom: 30px;
 }
 
@@ -3484,9 +3491,6 @@ bar .about li {
     margin-bottom: 20px;
 }
 
-.blog-content p {
-    margin-bottom: 30px;
-}
 
 .blogpage-built li {
     margin-bottom: 10px;
@@ -3622,8 +3626,15 @@ bar .about li {
     font-size: 17px;
 }
 
-
+@media screen and (max-width:1024px) {
+    .blogging-section-sides .blog-section-build {
+        gap: 50px !important;
+    }
+}
 @media screen and (max-width:768px) {
+    .blogging-section-sides .blog-section-build {
+        gap: 25px !important;
+    }
     .blogdata .blog-sectiondata {
         padding: 25px 40px 40px 40px;
     }
@@ -3638,6 +3649,9 @@ bar .about li {
 }
 
 @media screen and (max-width:540px) {
+    .blogging-section-sides .blog-section-build {
+        grid-template-columns: auto !important;
+    }
 
     .blog-sectiondata .blog-section-build h2 {
         font-size: 30px;

@@ -251,35 +251,53 @@ function Tech() {
                                             </div>
                                             <div className='technology--sections-slider-slides'>
                                                 <Slider {...settings}>
-                                                    <div className='technology--sections-slider-slides'>
-                                                        <img src={IMAGES.g9} />
+                                                <div className='technology--sections-slider-slides'>
+                                                        <img src={IMAGES.g1} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
-                                                        <img src={IMAGES.g10} />
+                                                        <img src={IMAGES.g2} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
-                                                        <img style={{ backgroundColor: "grey" }} src={IMAGES.g11} />
+                                                        <img src={IMAGES.g3} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
                                                         <img src={IMAGES.g4} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
-                                                        <img src={IMAGES.g13} />
+                                                        <img src={IMAGES.g5} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
-                                                        <img src={IMAGES.g14} />
+                                                        <img src={IMAGES.g6} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
-                                                        <img src={IMAGES.g15} />
+                                                        <img src={IMAGES.g7} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
-                                                        <img src={IMAGES.g13} />
+                                                        <img src={IMAGES.g5} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
-                                                        <img src={IMAGES.g14} />
+                                                        <img src={IMAGES.g6} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
-                                                        <img src={IMAGES.g15} />
+                                                        <img src={IMAGES.g7} />
+                                                    </div>
+                                                    <div className='technology--sections-slider-slides'>
+                                                        <img src={IMAGES.g5} />
+                                                    </div>
+                                                    <div className='technology--sections-slider-slides'>
+                                                        <img src={IMAGES.g6} />
+                                                    </div>
+                                                    <div className='technology--sections-slider-slides'>
+                                                        <img src={IMAGES.g7} />
+                                                    </div>
+                                                    <div className='technology--sections-slider-slides'>
+                                                        <img src={IMAGES.g5} />
+                                                    </div>
+                                                    <div className='technology--sections-slider-slides'>
+                                                        <img src={IMAGES.g6} />
+                                                    </div>
+                                                    <div className='technology--sections-slider-slides'>
+                                                        <img src={IMAGES.g7} />
                                                     </div>
                                                 </Slider>
                                             </div>
@@ -341,35 +359,53 @@ function Tech() {
                                             </div>
                                             <div className='technology--sections-slider-slides-about'>
                                                 <Slider {...settings}>
-                                                    <div className='technology--sections-slider-slides'>
-                                                        <img src={IMAGES.g9} />
+                                                <div className='technology--sections-slider-slides'>
+                                                        <img src={IMAGES.g1} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
-                                                        <img src={IMAGES.g10} />
+                                                        <img src={IMAGES.g2} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
-                                                        <img style={{ backgroundColor: "grey" }} src={IMAGES.g11} />
+                                                        <img src={IMAGES.g3} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
                                                         <img src={IMAGES.g4} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
-                                                        <img src={IMAGES.g13} />
+                                                        <img src={IMAGES.g5} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
-                                                        <img src={IMAGES.g14} />
+                                                        <img src={IMAGES.g6} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
-                                                        <img src={IMAGES.g15} />
+                                                        <img src={IMAGES.g7} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
-                                                        <img src={IMAGES.g13} />
+                                                        <img src={IMAGES.g5} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
-                                                        <img src={IMAGES.g14} />
+                                                        <img src={IMAGES.g6} />
                                                     </div>
                                                     <div className='technology--sections-slider-slides'>
-                                                        <img src={IMAGES.g15} />
+                                                        <img src={IMAGES.g7} />
+                                                    </div>
+                                                    <div className='technology--sections-slider-slides'>
+                                                        <img src={IMAGES.g5} />
+                                                    </div>
+                                                    <div className='technology--sections-slider-slides'>
+                                                        <img src={IMAGES.g6} />
+                                                    </div>
+                                                    <div className='technology--sections-slider-slides'>
+                                                        <img src={IMAGES.g7} />
+                                                    </div>
+                                                    <div className='technology--sections-slider-slides'>
+                                                        <img src={IMAGES.g5} />
+                                                    </div>
+                                                    <div className='technology--sections-slider-slides'>
+                                                        <img src={IMAGES.g6} />
+                                                    </div>
+                                                    <div className='technology--sections-slider-slides'>
+                                                        <img src={IMAGES.g7} />
                                                     </div>
                                                 </Slider>
                                             </div>
