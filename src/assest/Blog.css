@@ -3453,34 +3453,45 @@ bar .about li {
     margin-bottom: 20px;
 }
 
-.blog-content p {
+/* .blog-content p {
     margin-bottom: 10px;
-}
+} */
 
 .blog-content p.ql-align-justify {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+}
+
+.blog-content ul li.ql-align-justify {
+    line-height: 27px;
+    margin: 0;
 }
 
 .blog-content img {
     font-size: 0;
     width: 100%;
 }
+.blog-content img {
+    font-size: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
 
 .blog-content ul li {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .blog-content ul {
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .blog-content ol li {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 .blog-content h3 {
     font-size: 30px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .blog-content ol {

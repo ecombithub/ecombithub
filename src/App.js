@@ -171,6 +171,7 @@ const Termservices = lazy(() => import('./Allfiles/termservices'));
 const Privacy = lazy(() => import('./Allfiles/privacy'));
 const Login = lazy(() => import('./Allfiles/login'));
 const Admin = lazy(() => import('./Allfiles/admin'));
+const Shopifyapi = lazy(() => import('./shopify-blogs/shopify-apikey'));
 
 function App() {
 
@@ -216,6 +217,7 @@ function AppContent() {
                 navigate('/login');
             }
         }
+
     }, [navigate]);
 
     useEffect(() => {
@@ -225,7 +227,6 @@ function AppContent() {
             setIsLoading(false);  
         }, 50);
     }, [location.pathname]);
-
 
     const logout = () => {
         localStorage.removeItem('isAuthenticated');
@@ -260,6 +261,7 @@ function AppContent() {
                 <Route path="/seo" element={<Seo />} />
                 <Route path="/meg" element={<Mega />} />
                 <Route path="/shopify/app/:handle" element={<Shopifyapp />} />
+                <Route path="/shopify/:handle" element={<Shopifyapi />} />
                 <Route path="/terms-and-conditions" element={<Termservices />} />
                 <Route path="/privacy-policy" element={<Privacy />} />
                 <Route path="/login" element={<Login />} />

@@ -208,8 +208,21 @@ import about from '../images/about.webp'
 import blog from '../images/blog.webp'
 import content0 from '../images/content0.webp'
 import Build1 from '../images/Build1.png'
-
+import settings from '../images/settings1.png'
+import brand123 from '../images/brand123.webp'
+import storebk from '../images/storebk.webp'
+import sidebarstore from '../images/sidebarstore2.webp'
+import storecircle from '../images/storecircle.webp'
+import storeshopify from '../images/storeshopify.webp'
+import buildblog from '../images/buildblog.webp'
 const IMAGES = {
+  buildblog:buildblog,
+  storeshopify:storeshopify,
+  storecircle:storecircle,
+  sidebarstore:sidebarstore,
+  storebk:storebk,
+  brand123:brand123,
+  settings:settings,
   Build1:Build1,
   content0:content0,
   blog:blog,

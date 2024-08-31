@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { BiSolidXCircle } from "react-icons/bi";
+import IMAGES from './image';
 
 function Mega({ onLinkClick, onHideClick }) {
 
@@ -92,6 +93,19 @@ function Mega({ onLinkClick, onHideClick }) {
                                                     <p>Unlock new possibilities with a custom app. Explore and innovate.</p>
                                                 </div>
                                             </div></Link></div>
+
+                                        {/* <div className='product-items'>
+                                            <Link to='/store' onClick={handleClick} > <div className='product-shopify-start-flex-bg'>
+                                                <div className="product-shopify-project-image">
+                                                    <img src={IMAGES.settings} alt="" />
+                                                </div>
+                                                <div className="product-shopify-project-elements">
+                                                    <h5>Store <span className='life-shopify'>Customization</span></h5>
+                                                    <p>Our dedicated Shopify designers bring your vision to life on Shopify.</p>
+                                                </div>
+                                            </div></Link>
+                                        </div> */}
+
                                         {/* <div className='product-items'>
                                             <Link to='/speed' onClick={handleClick}>      <div className='product-shopify-start-flex-bg'>
                                                 <div className="product-shopify-project-image">

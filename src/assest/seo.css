@@ -823,7 +823,7 @@
     width: 77%;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 /* .product-shopify-mega .product-shopify-mega-flex .product-shopify-project:nth-child(1) {

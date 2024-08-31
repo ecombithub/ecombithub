@@ -63,7 +63,7 @@ function Admin() {
         formData.append('status', 'published');
 
         try {
-            const response = await fetch('http://localhost:5000/admin', {
+            const response = await fetch('https://ecombithub-database.onrender.com/admin', {
                 method: 'POST',
                 body: formData,
             });
@@ -82,7 +82,7 @@ function Admin() {
 
     const fetchPosts = async () => {
         try {
-            const response = await fetch('http://localhost:5000/posts?status=published');
+            const response = await fetch('https://ecombithub-database.onrender.com/posts?status=published');
             if (response.ok) {
                 const data = await response.json();
                 setPosts(data);
@@ -107,7 +107,7 @@ function Admin() {
         setDate(post.date);
         setHandle(post.handle);
         setCategory(post.category);
-        setImageUrl(`http://localhost:5000/image/${post.image}`);
+        setImageUrl(`https://ecombithub-database.onrender.com/image/${post.image}`);
         setShow(true);
         console.log(post.image)
     };
@@ -151,7 +151,7 @@ function Admin() {
         formData.append('status', 'published');
     
         try {
-            const response = await fetch(`http://localhost:5000/admin/${selectedPost._id}`, {
+            const response = await fetch(`https://ecombithub-database.onrender.com/admin/${selectedPost._id}`, {
                 method: 'PUT',
                 body: formData,
             });

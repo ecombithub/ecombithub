@@ -14,7 +14,7 @@ function Shopifyapi() {
     useEffect(() => {
         const fetchPost = async () => {
             try {
-                const response = await fetch(`http://localhost:5000/posts?handle=${handle}`);
+                const response = await fetch(`https://ecombithub-database.onrender.com/blog/posts/?handle=${handle}`);
                 if (response.ok) {
                     const data = await response.json();
                     setPost(data[0]);

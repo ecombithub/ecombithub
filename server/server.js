@@ -10,7 +10,6 @@ const port = 5000;
 
 const mongoUri = 'mongodb+srv://info:Ok0y2QmkyIHhWNLG@cluster0.nx8ob.mongodb.net/blog_data?retryWrites=true&w=majority&appName=Cluster0';
 
-
 mongoose.connect(mongoUri)
   .then(() => {
     console.log('Connected to MongoDB');
@@ -19,7 +18,6 @@ mongoose.connect(mongoUri)
     console.error('Error connecting to MongoDB:', err);
   });
 
-
 const userSchema = new mongoose.Schema({
   email: String,
   password: String
@@ -27,7 +25,7 @@ const userSchema = new mongoose.Schema({
 
 const User = mongoose.model('logins', userSchema);
 
-const blogPostSchema = new mongoose.Schema({
+const blogs = new mongoose.Schema({
     title: { type: String, required: true },
     description: { type: String },
     image: { type: String },
@@ -37,6 +35,20 @@ const blogPostSchema = new mongoose.Schema({
     category: { type: String },
     content: { type: String },
     status: { type: String, enum: ['published'] }
+});
+
+const Blogs = mongoose.model('blogs', blogs);
+
+const blogPostSchema = new mongoose.Schema({
+  title: { type: String, required: true },
+  description: { type: String },
+  image: { type: String },
+  author: { type: String },
+  date: { type: Date, default: Date.now },
+  handle: { type: String, required: true },
+  category: { type: String },
+  content: { type: String },
+  status: { type: String, enum: ['published'] }
 });
 
 const BlogPost = mongoose.model('BlogPosts', blogPostSchema);
@@ -53,10 +65,8 @@ const contentForm = new mongoose.Schema({
 
 const Content = mongoose.model('contentForms',contentForm)
 
-
 app.use(express.json());
 app.use(cors());
-
 
 app.use('/image', express.static(path.join(__dirname, 'public', 'image')));
 
@@ -92,6 +102,42 @@ app.post('/login', async (req, res) => {
   } catch (err) {
     console.error('Error during login:', err);
     res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+app.get('/blog/posts', async (req, res) => {
+  const { status, handle } = req.query;
+
+  let query = {};
+  if (status) query.status = status;
+  if (handle) query.handle = handle;
+
+  try {
+      const results = await Blogs.find(query);
+      if (results.length === 0) {
+          console.log("No posts found");
+          return res.status(404).json({ error: "No posts found" });
+      }
+      res.status(200).json(results);
+  } catch (err) {
+      console.error("Error fetching posts:", err);
+      res.status(500).json({ error: "Internal server error" });
+  }
+});
+
+app.post('/blog/admin', upload.single('image'), async (req, res) => {
+  const { title, description, author, date, handle, category, content, status } = req.body;
+  const image = req.file ? req.file.filename : null;
+
+  try {
+      const newPost = new Blogs({
+          title, description, image, author, date, handle, category, content, status
+      });
+      await newPost.save();
+      res.status(200).json({ message: "Article submitted successfully" });
+  } catch (err) {
+      console.error("Error inserting into database:", err);
+      res.status(500).json({ error: "Internal server error" });
   }
 });
 
@@ -131,7 +177,6 @@ app.post('/admin', upload.single('image'), async (req, res) => {
     }
 });
 
-
 app.put('/admin/:id', upload.single('image'), async (req, res) => {
   const { id } = req.params;
 
@@ -165,8 +210,6 @@ app.put('/admin/:id', upload.single('image'), async (req, res) => {
       res.status(500).json({ error: 'Internal server error' });
   }
 });
-
-
 
 const sendEmail = async (first, last, email, number, company, web, sendmessage) => {
     try {
@@ -422,7 +465,6 @@ const sendEmail = async (first, last, email, number, company, web, sendmessage) 
         res.status(500).json({ message: 'Error occurred during registration' });
     }
 });
-
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
