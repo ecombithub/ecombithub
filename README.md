@@ -1,75 +1,145 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+<a id="top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img src="./images/header.png" width="100%" alt="Ecombithub Banner"/>
+</p>
 
-## Available Scripts
+<h1 align="center">
+  👋 Hello, we are <strong>Ecombithub</strong>
+</h1>
 
-In the project directory, you can run:
+<p align="center">
+  🚀 Building scalable <b>E-commerce</b>, <b>Shopify</b>, and <b>Web Solutions</b><br/>
+  💡 Conversion-focused | Performance-driven | Growth-oriented
+</p>
 
-### `npm start`
+<p align="center">
+  <a href="https://github.com/ecombithub">
+    <img src="https://komarev.com/ghpvc/?username=ecombithub&style=for-the-badge&color=0b6ab3"/>
+  </a>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧠 About Ecombithub
 
-### `npm test`
+> [!NOTE]
+> - 🛒 We specialize in **E-commerce Development & Optimization**
+> - ⚡ Focused on **CRO, Speed Optimization & SEO**
+> - 🧩 Experts in **Shopify, Headless Commerce & Custom Web Apps**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> [!IMPORTANT]
+> - 📦 We build **high-converting storefronts**
+> - 📈 We help brands **scale revenue through tech**
 
-### `npm run build`
+> [!TIP]
+> - 🤝 Open for collaborations, audits & long-term partnerships
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🌐 Connect With Us
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<p align="center">
+  <a href="https://www.linkedin.com/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="mailto:contact@ecombithub.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white"/>
+  </a>
+  <a href="https://ecombithub.com">
+    <img src="https://img.shields.io/badge/Website-0b6ab3?style=flat-square&logo=google-chrome&logoColor=white"/>
+  </a>
+</p>
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 💻 E-commerce & Frontend
+- Shopify / Shopify Plus
+- Liquid
+- React / Next.js
+- HTML5 / CSS3 / Tailwind
+- JavaScript / TypeScript
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### ⚙️ Backend & APIs
+- Node.js
+- Express
+- Laravel
+- Spring Boot
+- REST & GraphQL APIs
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 📊 CRO, SEO & Analytics
+- PageSpeed Optimization
+- GA4 / GTM
+- Hotjar / Microsoft Clarity
+- Schema Markup
+- Technical SEO
 
-## Learn More
+### 🧰 Tools
+- Git & GitHub
+- Postman
+- Docker
+- Figma
+- VS Code
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📈 GitHub Stats
 
-### Code Splitting
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ecombithub&show_icons=true&theme=algolia&hide_border=true" width="48%"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ecombithub&theme=algolia&hide_border=true" width="48%"/>
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ecombithub&theme=react-dark&hide_border=true&area=true"/>
+</p>
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📦 Featured Repositories
 
-### Making a Progressive Web App
+<p align="center">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+[![Shopify CRO](https://github-readme-stats.vercel.app/api/pin?username=ecombithub&repo=shopify-cro&theme=algolia)](https://github.com/ecombithub)
+[![Speed Optimization](https://github-readme-stats.vercel.app/api/pin?username=ecombithub&repo=shopify-speed-optimization&theme=algolia)](https://github.com/ecombithub)
+[![SEO Toolkit](https://github-readme-stats.vercel.app/api/pin?username=ecombithub&repo=ecommerce-seo-toolkit&theme=algolia)](https://github.com/ecombithub)
 
-### Advanced Configuration
+</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🎯 What We Do Best
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- 🛍️ Shopify Store Setup & Customization  
+- 🚀 Speed & Core Web Vitals Optimization  
+- 📈 Conversion Rate Optimization (CRO)  
+- 🔍 Technical & On-Page SEO  
+- 🔗 Third-party App & API Integrations  
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# E-combithub
-EcombitHub is a Shopify development and optimization platform helping brands build, customize, and scale high-performing eCommerce stores. We specialize in custom themes, app integrations, performance optimization, and growth-focused solutions for modern online businesses.
->>>>>>> 680300527ddf582790f985043d2f7683fd74156f
+## 🐍 Contribution Graph
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ecombithub/ecombithub/output/github-snake.svg" alt="snake"/>
+</p>
+
+---
+
+## ⭐ Support Us
+
+<p align="center">
+  If you like our work, consider <strong>starring ⭐</strong> the repositories!
+</p>
+
+<p align="center">
+  <a href="#top">
+    <img src="https://img.shields.io/badge/Back_to_Top-0b6ab3?style=flat-square"/>
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Thanks+for+visiting+Ecombithub!;Let’s+build+high+converting+stores!;Happy+Coding+🚀&center=true&width=650&height=80&color=58a6ff&size=20">
+</p>
