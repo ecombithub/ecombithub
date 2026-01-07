@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# E-combithub
+EcombitHub is a Shopify development and optimization platform helping brands build, customize, and scale high-performing eCommerce stores. We specialize in custom themes, app integrations, performance optimization, and growth-focused solutions for modern online businesses.
+>>>>>>> 680300527ddf582790f985043d2f7683fd74156f
