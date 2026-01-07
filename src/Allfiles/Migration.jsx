@@ -5,10 +5,11 @@ import Prest from "../Migration/Prest";
 import Word from "../Migration/word";
 import Cursor from "../Cursor";
 
-function Migrate() {
-    return (
+function Migrate(){
+
+    return(
         <>
-            <Big />
+          <Big />
             <New />
             <Grow />
             <Prest />
@@ -17,4 +18,5 @@ function Migrate() {
         </>
     )
 }
-export default Migrate;
+
+export default  Migrate;

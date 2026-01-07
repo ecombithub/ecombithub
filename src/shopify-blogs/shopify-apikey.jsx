@@ -5,16 +5,18 @@ import ScrollTo from '../Blog/scroll';
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-
+import Footer from '../Footer';
+import Loader from '../Blog/Loader';
 function Shopifyapi() {
 
     const { handle } = useParams();
     const [post, setPost] = useState(null);
+    const [loading, setLoading] = useState(true); 
 
     useEffect(() => {
         const fetchPost = async () => {
             try {
-                const response = await fetch(`http://localhost:5000/blog/posts/?handle=${handle}`);
+                const response = await fetch(`https://ecombithub-server-1.onrender.com/blog/posts/?handle=${handle}`);
                 if (response.ok) {
                     const data = await response.json();
                     setPost(data[0]);
@@ -23,12 +25,17 @@ function Shopifyapi() {
                 }
             } catch (error) {
                 console.error('Error fetching post:', error);
+            } finally{
+                setLoading(false); 
             }
         };
         fetchPost();
     }, [handle]);
 
-    if (!post) return;
+   
+    if (loading) return <Loader />;
+
+    if (!post) return <p>No post found.</p>; 
 
     return (
         <>
@@ -50,7 +57,7 @@ function Shopifyapi() {
                                             <h1>{post.title}</h1>
                                         </div>
                                         <div className='blog-image'>
-                                            <img src={`http://localhost:5000/image/${post.image}`} alt={post.title} />
+                                            <img src={`https://ecombithub-server-1.onrender.com/image/${post.image}`} alt={post.title} />
                                         </div>
 
                                         <div className='blog-content' dangerouslySetInnerHTML={{ __html: post.content }}
@@ -64,6 +71,7 @@ function Shopifyapi() {
             </div>
             <ScrollTo />
             <Cursor />
+            <Footer/>
         </>
     )
 }

@@ -1,6 +1,7 @@
 import IMAGES from "../Allfiles/image";
 
 function Client() {
+   
    return (
       <>
          <div className="client--sections-our">

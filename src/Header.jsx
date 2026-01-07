@@ -1,6 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { BiSolidXCircle } from "react-icons/bi";
-import { TfiAlignJustify } from "react-icons/tfi";
 import { Link, NavLink } from "react-router-dom";
 import { FaChevronUp, FaChevronDown } from "react-icons/fa";
 import gsap from 'gsap';
@@ -98,7 +96,6 @@ function Head() {
     const handleMouseEnter = () => {
         setMegaVisible(true);
     };
-
 
     const handleOtherLinkClick = (link) => {
         setServicesClicked(false);
@@ -235,21 +232,7 @@ function Head() {
                                                 </li>
                                                 </Link>                                                  
                                             </ul>
-                                            {/* <ul>
-                                                    <Link to="/store" onClick={handleOtherLinkClick} >  <li>
-                                                        <div className="servics-page-flex-nav">
-                                                            <div className="servics-images-start">
-                                                                <img src={IMAGES.settings} alt="logo" />
-                                                            </div>
-                                                            <div className="servics-elements-start">
-                                                                <NavLink activeClassName="active" style={{ color: "black" }} className="nav-link" aria-current="page" exact to="/store">Store <span className='life-shopify'>Customization</span></NavLink>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    </Link>
-
-
-                                                </ul> */}
+                                         
                                         </div>
                                     )}
                                 </li>

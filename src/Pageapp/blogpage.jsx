@@ -7,7 +7,7 @@ function Blogpage() {
     const [posts, setPosts] = useState([]);
     const fetchPosts = async () => {
         try {
-            const response = await fetch('http://localhost:5000/posts?status=published');
+            const response = await fetch('https://ecombithub-server-1.onrender.com/posts?status=published');
             if (response.ok) {
                 const data = await response.json();
                 console.log('Posts:', data);
@@ -48,7 +48,7 @@ function Blogpage() {
                                 {posts.slice(0, 6).map((post) => (
                                     <Link key={post.id} to={`/shopify/app/${post.handle}`}> <div className='blog-section-all-data'>
                                         <div className='blog-section-all-images'>
-                                            <img src={`http://localhost:5000/image/${post.image}`} alt={post.title} />
+                                            <img src={`https://ecombithub-server-1.onrender.com/image/${post.image}`} alt={post.title} />
                                             <div className='blog-section-all-elements'>
                                                 <h2>{post.title}</h2>
                                                 <p>{truncateText(post.description, 25)}</p>

@@ -4,25 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faMinus } from '@fortawesome/free-solid-svg-icons';
 import { gsap } from 'gsap';
 import { Link } from "react-router-dom";
-// import desgin1 from '../images/Design1.png';
-// import desgin2 from '../images/Design2.png';
-// import desgin3 from '../images/Design3.png';
-// import desgin4 from '../images/Design4.png';
-// import desgin5 from '../images/Design5.png';
-// import desgin6 from '../images/Design6.png';
-// import here1 from '../images/here1.png';
-// import here2 from '../images/here2.png';
-// import here3 from '../images/here3.png';
-// import here4 from '../images/here4.png';
-// import here5 from '../images/here5.png';
-// import here6 from '../images/here6.png';
-
- import mode100 from '../images/mode100.webp';
- import mode99 from '../images/mode99.webp';
- import mode98 from '../images/mode98.webp';
- import mode97 from '../images/mode97.webp';
- import mode96 from '../images/mode96.webp';
- import mode95 from '../images/mode95.webp';
+import mode100 from '../images/mode100.webp';
+import mode99 from '../images/mode99.webp';
+import mode98 from '../images/mode98.webp';
+import mode97 from '../images/mode97.webp';
+import mode96 from '../images/mode96.webp';
+import mode95 from '../images/mode95.webp';
 
 const slides = [
     {
@@ -133,7 +120,6 @@ const slides = [
 function Desgineverything() {
     const moreInfoRef = useRef(null);
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [animationStage, setAnimationStage] = useState('enter');
     const imgRefs = useRef([React.createRef(), React.createRef(), React.createRef(), React.createRef(), React.createRef(), React.createRef()]);
     const [animating, setAnimating] = useState(false);
     const h2Ref = useRef(null);
@@ -327,7 +313,7 @@ function Desgineverything() {
                                                         {currentSlide.title.split('').map((char, index) => (
                                                             <span key={index} className={`char${index + 1}`}>{char}</span>
                                                         ))}
-                                                        
+
                                                     </h2>
                                                     <h2 className='slide-content-all' ref={subtitle}><span style={{ color: "#f14c60" }} >{currentSlide.subtitle}</span></h2>
                                                     <div className="slide-description">
@@ -336,7 +322,7 @@ function Desgineverything() {
                                                         
                                                        
                                                     </h2> */}
-                                                   
+
                                                         <p ref={descRef} className='description'>
                                                             {currentSlide.description}
                                                         </p>
@@ -424,7 +410,7 @@ function Desgineverything() {
                                                 {currentSlide.infoItems.slice(0, initialInfoItemCount).map((infoItem, index) => (
                                                     <div key={index} className="info-item">
                                                         <div className='info-item-title'>
-                                                        <p>   {infoItem.title}</p>
+                                                            <p>   {infoItem.title}</p>
                                                         </div>
                                                         <p>{infoItem.detail}</p>
                                                     </div>
@@ -435,8 +421,8 @@ function Desgineverything() {
                                             <div ref={infoItems} className='slide-more-info'>
                                                 {currentSlide.infoItems.map((infoItem, index) => (
                                                     <div key={index} className="info-item">
-                                                     <div className='info-item-title'>
-                                                        <p>   {infoItem.title}</p>
+                                                        <div className='info-item-title'>
+                                                            <p>   {infoItem.title}</p>
                                                         </div>
                                                         <p>{infoItem.detail}</p>
                                                     </div>
@@ -460,34 +446,4 @@ function Desgineverything() {
 }
 
 export default Desgineverything;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

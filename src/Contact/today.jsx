@@ -36,7 +36,7 @@ function Today() {
         }, 2000);
 
         try {
-            const response = await fetch('https://ecombithub-database.onrender.com/register', {
+            const response = await fetch('https://ecombithub-server-1.onrender.com/register', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

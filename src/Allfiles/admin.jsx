@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 import { format } from 'date-fns';
+import Quill from 'quill';
+import DOMPurify from 'dompurify';
+
+
 
 const toolbarOptions = [
     [{ 'header': '1' }, { 'header': '2' }, { 'header': '3' }, { 'header': '4' }, { 'header': '5' }, { 'header': '6' }],
@@ -19,6 +23,7 @@ const toolbarOptions = [
 ];
 
 function Admin() {
+
     const [editorValue, setEditorValue] = useState('');
     const [image, setImage] = useState('');
     const [title, setTitle] = useState('');
@@ -45,6 +50,19 @@ function Admin() {
         setImageUrl(URL.createObjectURL(file));
     };
 
+
+    const sanitizeHtml = (html) => {
+        const sanitizedHtml = DOMPurify.sanitize(html, {
+            ALLOWED_TAGS: ['a', 'b', 'i', 'u', 'strong', 'em', 'ul', 'ol', 'li', 'p', 'img', 'br', 'div', 'span', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
+            ALLOWED_ATTR: ['href', 'src', 'alt', 'title', 'class', 'id', 'style'],
+           
+            FORBID_TAGS: ['script', 'style'],
+            FORBID_ATTR: ['target', 'rel']
+        });
+        return sanitizedHtml;
+    };
+    
+
     const handleSubmit = async (status) => {
         if (!title || !description || !image || !author || !handle || !status) {
             setMessage('Please fill in all fields.');
@@ -54,7 +72,7 @@ function Admin() {
         const formData = new FormData();
         formData.append('title', title);
         formData.append('description', description);
-        formData.append('content', editorValue);
+        formData.append('content', sanitizeHtml(editorValue));
         if (image) {
             formData.append('image', image);
         }
@@ -67,7 +85,7 @@ function Admin() {
         formData.append('status', 'published');
 
         try {
-            const response = await fetch('http://localhost:5000/admin', {
+            const response = await fetch('https://ecombithub-server-1.onrender.com/admin', {
                 method: 'POST',
                 body: formData,
             });
@@ -86,7 +104,7 @@ function Admin() {
 
     const fetchPosts = async () => {
         try {
-            const response = await fetch('http://localhost:5000/posts?status=published');
+            const response = await fetch('https://ecombithub-server-1.onrender.com/posts?status=published');
             if (response.ok) {
                 const data = await response.json();
                 setPosts(data);
@@ -113,7 +131,7 @@ function Admin() {
         setDescription(post.pagedescription)
         setHandle(post.handle);
         setCategory(post.category);
-        setImageUrl(`http://localhost:5000/image/${post.image}`);
+        setImageUrl(`https://ecombithub-server-1.onrender.com/image/${post.image}`);
         setShow(true);
         console.log(post.image)
     };
@@ -146,7 +164,7 @@ function Admin() {
         const formData = new FormData();
         formData.append('title', title);
         formData.append('description', description);
-        formData.append('content', editorValue);
+        formData.append('content', sanitizeHtml(editorValue));
         if (image) {
             formData.append('image', image);
         } else {
@@ -161,7 +179,7 @@ function Admin() {
         formData.append('status', 'published');
     
         try {
-            const response = await fetch(`http://localhost:5000/admin/${selectedPost._id}`, {
+            const response = await fetch(`https://ecombithub-server-1.onrender.com/admin/${selectedPost._id}`, {
                 method: 'PUT',
                 body: formData,
             });
@@ -180,7 +198,7 @@ function Admin() {
         }
     };
     
-    
+ 
     
     
     return (
@@ -353,6 +371,7 @@ export default Admin;
 // import ReactQuill from 'react-quill';
 // import 'react-quill/dist/quill.snow.css';
 // import { format } from 'date-fns';
+// import DOMPurify from 'dompurify';
 
 // const toolbarOptions = [
 //     [{ 'header': '1' }, { 'header': '2' }, { 'header': '3' }, { 'header': '4' }, { 'header': '5' }, { 'header': '6' }],
@@ -396,6 +415,18 @@ export default Admin;
 //         setImageUrl(URL.createObjectURL(file));
 //     };
 
+//        const sanitizeHtml = (html) => {
+//          const sanitizedHtml = DOMPurify.sanitize(html, {
+//              ALLOWED_TAGS: ['a', 'b', 'i', 'u', 'strong', 'em', 'ul', 'ol', 'li', 'p', 'img', 'br', 'div', 'span', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
+//              ALLOWED_ATTR: ['href', 'src', 'alt', 'title', 'class', 'id', 'style'],
+           
+//              FORBID_TAGS: ['script', 'style'],
+//              FORBID_ATTR: ['target', 'rel']
+//          });
+//          return sanitizedHtml;
+//      };
+    
+
 //     const handleSubmit = async (status) => {
 //         if (!title || !description || !image || !author || !handle || !status) {
 //             setMessage('Please fill in all fields.');
@@ -405,7 +436,7 @@ export default Admin;
 //         const formData = new FormData();
 //         formData.append('title', title);
 //         formData.append('description', description);
-//         formData.append('content', editorValue);
+//        formData.append('content', sanitizeHtml(editorValue));
 //         if (image) {
 //             formData.append('image', image);
 //         }
@@ -418,7 +449,7 @@ export default Admin;
 //         formData.append('status', 'published');
 
 //         try {
-//             const response = await fetch('http://localhost:5000/blog/admin', {
+//             const response = await fetch('https://ecombithub-server-1.onrender.com/blog/admin', {
 //                 method: 'POST',
 //                 body: formData,
 //             });
@@ -437,7 +468,7 @@ export default Admin;
 
 //     const fetchPosts = async () => {
 //         try {
-//             const response = await fetch('http://localhost:5000/blog/posts?status=published');
+//             const response = await fetch('https://ecombithub-server-1.onrender.com/blog/posts?status=published');
 //             if (response.ok) {
 //                 const data = await response.json();
 //                 setPosts(data);
@@ -464,7 +495,7 @@ export default Admin;
 //         setPageTitle(post.pagetitle);
 //         setDescription(post.pagedescription)
 //         setCategory(post.category);
-//         setImageUrl(`http://localhost:5000/image/${post.image}`);
+//         setImageUrl(`https://ecombithub-server-1.onrender.com/image/${post.image}`);
 //         setShow(true);
 //         console.log(post.image)
 //     };
@@ -497,7 +528,7 @@ export default Admin;
 //         const formData = new FormData();
 //         formData.append('title', title);
 //         formData.append('description', description);
-//         formData.append('content', editorValue);
+//        formData.append('content', sanitizeHtml(editorValue));
 //         if (image) {
 //             formData.append('image', image);
 //         } else {
@@ -512,7 +543,7 @@ export default Admin;
 //         formData.append('status', 'published');
     
 //         try {
-//             const response = await fetch(`http://localhost:5000/blog/admin/${selectedPost._id}`, {
+//             const response = await fetch(`https://ecombithub-server-1.onrender.com/blog/admin/${selectedPost._id}`, {
 //                 method: 'PUT',
 //                 body: formData,
 //             });

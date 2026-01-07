@@ -158,76 +158,13 @@ function Powerfull() {
                                             {isHovered && <img src={IMAGES.two4} alt="" />} 
                                           
                                         </div>
-                                        {/* <div className="powerfull-tool-image-slides" >
-                                            {!isHovered && (
-                                                <>
-                                                        <img src={IMAGES.power1} alt="" />
-                                                </>
-                                            )}
-                                            {isHovered && <img src={IMAGES.power2} alt="" />} 
-                                          
-                                        </div>
-                                        <div className="powerfull-tool-image-slides" >
-                                            {!isHovered && (
-                                                <>
-                                                        <img src={IMAGES.power3} alt="" />
-                                                </>
-                                            )}
-                                            {isHovered && <img src={IMAGES.power4} alt="" />} 
-                                          
-                                        </div>
-                                        <div className="powerfull-tool-image-slides" >
-                                            {!isHovered && (
-                                                <>
-                                                        <img src={IMAGES.power5} alt="" />
-                                                </>
-                                            )}
-                                            {isHovered && <img src={IMAGES.power6} alt="" />} 
-                                          
-                                        </div>
-                                        <div className="powerfull-tool-image-slides" >
-                                            {!isHovered && (
-                                                <>
-                                                        <img src={IMAGES.power7} alt="" />
-                                                </>
-                                            )}
-                                            {isHovered && <img src={IMAGES.power8} alt="" />} 
-                                          
-                                        </div> */}
+                                       
 
                       </Slider>
                       </div>
 
                       <div className="powerfull-tool-image-slider" onMouseEnter={() => setFirstHovered(true)} onMouseLeave={() => setFirstHovered(false)}>
                      <Slider {...settings}>
-                     {/* <div className="powerfull-tool-image-slides" >
-                                            {!firestHovered && (
-                                                <>
-                                                        <img src={IMAGES.power7} alt="" />
-                                                </>
-                                            )}
-                                            {firestHovered && <img src={IMAGES.power8} alt="" />} 
-                                          
-                                        </div>
-                     <div className="powerfull-tool-image-slides" > */}
-                        
-                                            {/* {!firestHovered && (
-                                                <>
-                                                        <img src={IMAGES.power5} alt="" />
-                                                </>
-                                            )}
-                                            {firestHovered && <img src={IMAGES.power6} alt="" />} 
-                                          
-                                        </div> */}
-                                        {/* <div className="powerfull-tool-image-slides" >
-                                            {!firestHovered && (
-                                                <>
-                                                        <img src={IMAGES.power1} alt="" />
-                                                </>
-                                            )}
-                                            {firestHovered && <img src={IMAGES.power2} alt="" />} 
-                                          
-                                        </div> */}
 
                      <div className="powerfull-tool-image-slides" >
                         
@@ -283,15 +220,7 @@ function Powerfull() {
                                             )}
                                             {firestHovered && <img src={IMAGES.two0} alt="" />}
                                         </div>
-                                        {/* <div className="powerfull-tool-image-slides" >
-                                            {!firestHovered && (
-                                                <>
-                                                        <img src={IMAGES.power3} alt="" />
-                                                </>
-                                            )}
-                                            {firestHovered && <img src={IMAGES.power4} alt="" />} 
-                                          
-                                        </div> */}
+                                        
                                         
                       </Slider>
                       </div>
@@ -307,15 +236,7 @@ function Powerfull() {
                                             {secondHovered && <img src={IMAGES.oo1} alt="" />}
                                                
                                         </div>
-                                        {/* <div className="powerfull-tool-image-slides" >
-                                            {!secondHovered && (
-                                                <>
-                                                        <img src={IMAGES.power5} alt="" />
-                                                </>
-                                            )}
-                                            {secondHovered && <img src={IMAGES.power6} alt="" />} 
-                                          
-                                        </div> */}
+                                        
                       <div className="powerfull-tool-image-slides" >
                       {!secondHovered && (
                                                 <>
@@ -325,15 +246,7 @@ function Powerfull() {
                                             {secondHovered && <img src={IMAGES.nek} alt="" />}
                                                
                                         </div>
-                                        {/* <div className="powerfull-tool-image-slides" >
-                                            {!secondHovered && (
-                                                <>
-                                                        <img src={IMAGES.power7} alt="" />
-                                                </>
-                                            )}
-                                            {secondHovered && <img src={IMAGES.power8} alt="" />} 
-                                          
-                                        </div> */}
+                                       
                         <div className="powerfull-tool-image-slides" >
                         {!secondHovered && (
                                                 <>
@@ -344,15 +257,7 @@ function Powerfull() {
                                                
                                         </div>
 
-                                        {/* <div className="powerfull-tool-image-slides" >
-                                            {!secondHovered && (
-                                                <>
-                                                        <img src={IMAGES.power3} alt="" />
-                                                </>
-                                            )}
-                                            {secondHovered && <img src={IMAGES.power4} alt="" />} 
-                                          
-                                        </div> */}
+                                        
                         <div className="powerfull-tool-image-slides" >
                         {!secondHovered && (
                                                 <>
@@ -379,38 +284,13 @@ function Powerfull() {
                                             {secondHovered && <img src={IMAGES.two2} alt="" />}
                                         </div>
 
-                                        {/* <div className="powerfull-tool-image-slides" >
-                                            {!secondHovered && (
-                                                <>
-                                                        <img src={IMAGES.power1} alt="" />
-                                                </>
-                                            )}
-                                            {secondHovered && <img src={IMAGES.power2} alt="" />} 
-                                          
-                                        </div> */}
+                                        
                       </Slider>
                       </div>
 
                       <div className="powerfull-tool-image-slider" onMouseEnter={() => setThirdHovered(true)} onMouseLeave={() => setThirdHovered(false)}>
                      <Slider {...settings}>
-                     {/* <div className="powerfull-tool-image-slides" >
-                                            {!thirdHovered && (
-                                                <>
-                                                        <img src={IMAGES.power3} alt="" />
-                                                </>
-                                            )}
-                                            {thirdHovered && <img src={IMAGES.power4} alt="" />} 
-                                          
-                                        </div> */}
-                                        {/* <div className="powerfull-tool-image-slides" >
-                                            {!thirdHovered && (
-                                                <>
-                                                        <img src={IMAGES.power7} alt="" />
-                                                </>
-                                            )}
-                                            {thirdHovered && <img src={IMAGES.power8} alt="" />} 
-                                          
-                                        </div> */}
+                     
                      <div className="powerfull-tool-image-slides" >
                                           {!thirdHovered && (
                                                 <>
@@ -429,15 +309,7 @@ function Powerfull() {
                                             {thirdHovered && <img src={IMAGES.two3} alt="" />}
                                                
                                         </div>
-                                        {/* <div className="powerfull-tool-image-slides" >
-                                            {!thirdHovered && (
-                                                <>
-                                                        <img src={IMAGES.power5} alt="" />
-                                                </>
-                                            )}
-                                            {thirdHovered && <img src={IMAGES.power6} alt="" />} 
-                                          
-                                        </div> */}
+                                        
                         <div className="powerfull-tool-image-slides" >
                         {!thirdHovered && (
                                                 <>
@@ -447,15 +319,7 @@ function Powerfull() {
                                             {thirdHovered && <img src={IMAGES.two4} alt="" />} 
                                           
                                         </div>
-                                        {/* <div className="powerfull-tool-image-slides" >
-                                            {!thirdHovered && (
-                                                <>
-                                                        <img src={IMAGES.power1} alt="" />
-                                                </>
-                                            )}
-                                            {thirdHovered && <img src={IMAGES.power2} alt="" />} 
-                                          
-                                        </div> */}
+                                        
                         <div className="powerfull-tool-image-slides" >
                         {!thirdHovered && (
                                                 <>
@@ -487,15 +351,7 @@ function Powerfull() {
 
                       <div className="powerfull-tool-image-slider" onMouseEnter={() => setFourHovered(true)} onMouseLeave={() => setFourHovered(false)}>
                      <Slider {...settings}>
-                     {/* <div className="powerfull-tool-image-slides" >
-                                            {!fourHovered && (
-                                                <>
-                                                        <img src={IMAGES.power1} alt="" />
-                                                </>
-                                            )}
-                                            {fourHovered && <img src={IMAGES.power2} alt="" />} 
-                                          
-                                        </div> */}
+                    
                      <div className="powerfull-tool-image-slides" >
                                           {!fourHovered && (
                                                 <>
@@ -514,24 +370,7 @@ function Powerfull() {
                                             {fourHovered && <img src={IMAGES.two4} alt="" />} 
                                           
                                         </div> 
-                                        {/* <div className="powerfull-tool-image-slides" >
-                                            {!fourHovered && (
-                                                <>
-                                                        <img src={IMAGES.power5} alt="" />
-                                                </>
-                                            )}
-                                            {fourHovered && <img src={IMAGES.power6} alt="" />} 
-                                          
-                                        </div>
-                                        <div className="powerfull-tool-image-slides" >
-                                            {!fourHovered && (
-                                                <>
-                                                        <img src={IMAGES.power7} alt="" />
-                                                </>
-                                            )}
-                                            {fourHovered && <img src={IMAGES.power8} alt="" />} 
-                                          
-                                        </div> */}
+                                       
                           <div className="powerfull-tool-image-slides" >
                           {!fourHovered && (
                                                 <>
@@ -566,29 +405,13 @@ function Powerfull() {
                                             {fourHovered && <img src={IMAGES.nek} alt="" />}
                                                
                                         </div> 
-                                        {/* <div className="powerfull-tool-image-slides" >
-                                            {!fourHovered && (
-                                                <>
-                                                        <img src={IMAGES.power3} alt="" />
-                                                </>
-                                            )}
-                                            {fourHovered && <img src={IMAGES.power4} alt="" />} 
-                                          
-                                        </div> */}
+                                        
                       </Slider>
                       </div>
 
                       <div className="powerfull-tool-image-slider" onMouseEnter={() => setFiveHovered(true)} onMouseLeave={() => setFiveHovered(false)}>
                      <Slider {...settings}>
-                     {/* <div className="powerfull-tool-image-slides" >
-                                            {!fiveHovered && (
-                                                <>
-                                                        <img src={IMAGES.power5} alt="" />
-                                                </>
-                                            )}
-                                            {fiveHovered && <img src={IMAGES.power6} alt="" />} 
-                                          
-                                        </div> */}
+                     
                      <div className="powerfull-tool-image-slides" >
                         
                                             {!fiveHovered && (
@@ -615,15 +438,7 @@ function Powerfull() {
                                             )}
                                             {fiveHovered && <img src={IMAGES.two2} alt="" />}
                                         </div>
-                                        {/* <div className="powerfull-tool-image-slides" >
-                                            {!fiveHovered && (
-                                                <>
-                                                        <img src={IMAGES.power1} alt="" />
-                                                </>
-                                            )}
-                                            {fiveHovered && <img src={IMAGES.power2} alt="" />} 
-                                          
-                                        </div> */}
+                                        
                          <div className="powerfull-tool-image-slides" >
                          {!fiveHovered && (
                                                 <>
@@ -633,15 +448,7 @@ function Powerfull() {
                                             {fiveHovered && <img src={IMAGES.oo1} alt="" />}
                                                
                                         </div>
-                                        {/* <div className="powerfull-tool-image-slides" >
-                                            {!fiveHovered && (
-                                                <>
-                                                        <img src={IMAGES.power7} alt="" />
-                                                </>
-                                            )}
-                                            {fiveHovered && <img src={IMAGES.power8} alt="" />} 
-                                          
-                                        </div> */}
+                                        
                                         <div className="powerfull-tool-image-slides" >
                                         {!fiveHovered && (
                                                 <>
@@ -660,15 +467,7 @@ function Powerfull() {
                                             {fiveHovered && <img src={IMAGES.two3} alt="" />}
                                                
                                         </div>
-                                        {/* <div className="powerfull-tool-image-slides" >
-                                            {!fiveHovered && (
-                                                <>
-                                                        <img src={IMAGES.power3} alt="" />
-                                                </>
-                                            )}
-                                            {fiveHovered && <img src={IMAGES.power4} alt="" />} 
-                                          
-                                        </div> */}
+                                       
                       </Slider>
                       </div>
                       
@@ -998,5 +797,14 @@ export default Powerfull;
 // // // }
 
 // // // export default Discover;
+
+
+
+
+
+
+
+
+
 
 

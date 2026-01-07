@@ -267,26 +267,6 @@ function Cost() {
                                         </div>
                                     </div>
                                 </div>
-                                {/* <div className="customer-section-slider">
-                                    <img src={IMAGES.clientlooo} />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentes que so llicitudin, tellus eu  volutpat  vehicula, sapien neque maxim us nisi, non s celerisque ex trupis mattis nisi. Praesent pharenta nisl vel ante porta bibendum.Aenean quis accumsan nulla. </p>
-                                    <div className="customer-section-slides">
-                                        <div className="customer-section-all-sides">
-                                            <div className="customer-section-slides-images">
-                                                <img src={IMAGES.last} />
-                                            </div>
-                                            <div className="customer-section-slides-test">
-                                                <p>Alex Fetanat</p>
-                                                <p>GemFind</p>
-                                            </div>
-                                        </div>
-                                        <div className="customer-section-image-star">
-                                            <img src={IMAGES.starrr120} />
-                                        </div>
-                                    </div>
-                                </div>
-                                 */}
-
                             </Slider>
                         </div>
                     </div>

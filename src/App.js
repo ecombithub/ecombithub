@@ -25,8 +25,6 @@ import Shopifyapi from './shopify-blogs/shopify-apikey';
 import './assest/combined.css';
 
 function App() {
-
-
     return (
         <AuthProvider>
             <HelmetProvider>
@@ -43,7 +41,7 @@ function AppContent() {
     const navigate = useNavigate();
     
     const hideHeaderOnPaths = ['/store','/blog', '/shopify/app/', '/shopify/','/terms-and-conditions', '/privacy-policy','/login','/admin'];
-    const hideFooterOnPaths = ['/login','/admin'];
+    const hideFooterOnPaths = ['/login','/admin','/blog','/shopify/app/','/shopify/'];
 
     const [isLoading, setIsLoading] = useState(true);
 
@@ -103,7 +101,6 @@ function AppContent() {
                 <Route path="/design" element={<Design />} />
                 <Route path="/migration" element={<Migration />} />
                 <Route path="/app" element={<Apppage />} />
-                <Route path="/store" element={<Store />} />
                 <Route path="/shopify/app/:handle" element={<Shopifyapp />} />
                 <Route path="/shopify/:handle" element={<Shopifyapi />} />
                 <Route path="/terms-and-conditions" element={<Termservices />} />

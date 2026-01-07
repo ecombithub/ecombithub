@@ -12,8 +12,7 @@ function Complete() {
                             <div className="section--banner-elements">
                                 <h1 className="animate">Empower Your Business with Shopify Ultimate <span className='brand_for' style={{ color: "#fc5569" }}>Solutions</span></h1>
                                 <p>EcombitHub an innovative ecommerce solution to elevate your brand and boost sales. We provide comprehensive Shopify solution and expert service to enhance every aspect of Shopify experience. </p>
-                                
-                                <a href='/app'>  <button id="pxl-button"> <span className="rotate-container">
+                                <a href='/'>  <button id="pxl-button"> <span className="rotate-container">
                                     <span className="rotate-text">V</span>
                                     <span className="rotate-text">i</span>
                                     <span className="rotate-text">e</span>

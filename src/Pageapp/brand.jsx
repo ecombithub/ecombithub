@@ -7,7 +7,7 @@ function Brand() {
     const settings = {
         dots: false,
         infinite: true,
-        slidesToShow:7,
+        slidesToShow: 7,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 0,
@@ -50,13 +50,13 @@ function Brand() {
                     slidesToShow: 3,
                 }
             },
-            
+
         ]
     };
     const setting = {
         dots: false,
         infinite: true,
-        slidesToShow:7,
+        slidesToShow: 7,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 0,
@@ -100,129 +100,129 @@ function Brand() {
                     slidesToShow: 3,
                 }
             },
-            
+
         ]
     };
- 
+
     return (
         <div className='brand-section-slider'>
             <div className="brand-section-container">
-            <div className="brand-first-slide">
-                <Slider {...settings}>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand1} alt="" />
+                <div className="brand-first-slide">
+                    <Slider {...settings}>
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand1} alt="" />
+                            </div>
                         </div>
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand2} alt="" />
-                        </div>
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand2} alt="" />
+                            </div>
 
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand3} alt="" />
                         </div>
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand4} alt="" />
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand3} alt="" />
+                            </div>
                         </div>
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand5} alt="" />
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand4} alt="" />
+                            </div>
                         </div>
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand5} alt="" />
+                            </div>
 
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand1} alt="" />
                         </div>
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand2} alt="" />
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand1} alt="" />
+                            </div>
                         </div>
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand2} alt="" />
+                            </div>
 
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand3} alt="" />
                         </div>
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand4} alt="" />
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand3} alt="" />
+                            </div>
                         </div>
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand5} alt="" />
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand4} alt="" />
+                            </div>
                         </div>
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand5} alt="" />
+                            </div>
 
-                    </div>
-                </Slider>
-            </div>
-            <div className="brand-second-section">
-                <Slider {...setting}>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand6} alt="" />
                         </div>
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand7} alt="" />
+                    </Slider>
+                </div>
+                <div className="brand-second-section">
+                    <Slider {...setting}>
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand6} alt="" />
+                            </div>
                         </div>
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand7} alt="" />
+                            </div>
 
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand8} alt="" />
                         </div>
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand9} alt="" />
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand8} alt="" />
+                            </div>
                         </div>
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand10} alt="" />
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand9} alt="" />
+                            </div>
                         </div>
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand10} alt="" />
+                            </div>
 
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand6} alt="" />
                         </div>
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand7} alt="" />
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand6} alt="" />
+                            </div>
                         </div>
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand7} alt="" />
+                            </div>
 
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand8} alt="" />
                         </div>
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand9} alt="" />
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand8} alt="" />
+                            </div>
                         </div>
-                    </div>
-                    <div className="brand-slider-flex">
-                        <div className="brand-slides">
-                            <img src={IMAGES.brand10} alt="" />
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand9} alt="" />
+                            </div>
                         </div>
+                        <div className="brand-slider-flex">
+                            <div className="brand-slides">
+                                <img src={IMAGES.brand10} alt="" />
+                            </div>
 
-                    </div>
-                </Slider>
-            </div>
+                        </div>
+                    </Slider>
+                </div>
             </div>
         </div>
     )

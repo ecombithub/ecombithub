@@ -7928,7 +7928,6 @@ footer {
 h1 {
     font-size: 50px;
     line-height: 67px;
-
 }
 
 h2 {
@@ -8233,7 +8232,6 @@ button {
     border: none;
     border-radius: 4px;
     font-size: 18px;
-
     color: white;
     cursor: pointer;
     font-weight: 500;
@@ -8367,7 +8365,6 @@ button {
     max-width: 1400px;
     margin: 0 auto;
 }
-
 
 .wrappered {
     padding: 0 30px;
@@ -9666,6 +9663,7 @@ p.description {
     margin: auto;
     margin-top: 15px;
 }
+
 .drop-servie li .servics-page-flex-nav {
     margin-bottom: 20px;
 }
@@ -10442,7 +10440,7 @@ footer {
     border-radius: 50%;
     background-color: rgba(159, 233, 40, 0.839);
     pointer-events: none;
-    z-index: 9999;
+    z-index: 9999999999;
     box-shadow: 0 0 10px rgba(138, 218, 10, 0.5);
     transition: transform 0.5s ease;
 
@@ -11988,7 +11986,7 @@ a.copy_link {
         transform: translate3d(-64%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotate(-29deg) skew(0deg) !important;
     }
 
-  
+
 
     .build--section-first-elements h2.get-bg {
         font-size: 27px;
@@ -13084,8 +13082,9 @@ a.copy_link {
 
 @media screen and (max-width:480px) {
     .block__shopify-product-audit-images-listing::before {
-      width: 193px; 
+        width: 193px;
     }
+
     .speed-plus-shopify-section .speed-plus-optimization .speed-plus-optimization-elements .speed-plus-website {
         max-width: 70%;
     }
@@ -13292,10 +13291,11 @@ a.copy_link {
     .exclusive-elements-elements-variation-button h2 {
         font-size: 43px;
     }
+
     .exclusive-elements-paragraph p {
         font-size: 43px !important;
     }
-    
+
 
 
     .exclusive-elements-elements-variation-card h4 {
@@ -13564,7 +13564,6 @@ a.copy_link {
     }
 }
 
-
 @media screen and (max-width:450px) {
     .build--section-reoprt input {
         width: 160px;
@@ -13580,8 +13579,6 @@ a.copy_link {
     .speed-plus-shopify-section .speed-plus-optimization .speed-plus-optimization-slider {
         height: 430px;
     }
-
-
 
     .customise-prodcut-image img {
         width: 25px;
@@ -14073,18 +14070,6 @@ a.copy_link {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .login-form-section {
     background-color: #6fcca8;
     background-size: cover;
@@ -14450,8 +14435,3 @@ li.second-blog-section {
         width: 24px;
     }
 }
-
-
-
-
-

@@ -136,57 +136,6 @@ function SpeedUx() {
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="speed-ux--ui-display-slider">
-                                <div className="speed-ux--ui-display-slider-slides">
-                                    <Slider {...settings}>
-                                        <div className="speedux-ui-images-slides">
-                                            <img src={IMAGES.Image1} alt="" />
-                                        </div>
-                                        <div className="speedux-ui-images-slides">
-                                            <img src={IMAGES.Image2} alt="" />
-                                        </div>
-                                        <div className="speedux-ui-images-slides">
-                                            <img src={IMAGES.Image3} alt="" />
-                                        </div>
-                                        <div className="speedux-ui-images-slides">
-                                            <img src={IMAGES.Image4} alt="" />
-                                        </div>
-                                        <div className="speedux-ui-images-slides">
-                                            <img src={IMAGES.Image5} alt="" />
-                                        </div>
-                                        <div className="speedux-ui-images-slides">
-                                            <img src={IMAGES.Image6} alt="" />
-                                        </div>
-                                     
-
-                                    </Slider>
-                                </div>
-                                <div className="speed-ux--ui-display-slider-slides">
-                                    <Slider {...settings}>
-                                        <div className="speedux-ui-images-slides">
-                                            <img src={IMAGES.Image7} alt="" />
-                                        </div>
-                                        <div className="speedux-ui-images-slides">
-                                            <img src={IMAGES.Image8} alt="" />
-                                        </div>
-                                        <div className="speedux-ui-images-slides">
-                                            <img src={IMAGES.Image9} alt="" />
-                                        </div>
-                                        <div className="speedux-ui-images-slides">
-                                            <img src={IMAGES.Image10} alt="" />
-                                        </div>
-                                        <div className="speedux-ui-images-slides">
-                                            <img src={IMAGES.Image11} alt="" />
-                                        </div>
-                                        <div className="speedux-ui-images-slides">
-                                            <img src={IMAGES.Image12} alt="" />
-                                        </div>
-                                     
-                                        
-
-                                    </Slider>
-                                </div>
-                            </div> */}
 
                             <div className="speed-ux--ui-display-slider">
                                 <div className="speed-ux--ui-display-slider-slides">

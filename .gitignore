@@ -10,6 +10,8 @@
 
 # production
 /build
+# ignore backend folder
+/server
 
 # misc
 .DS_Store
